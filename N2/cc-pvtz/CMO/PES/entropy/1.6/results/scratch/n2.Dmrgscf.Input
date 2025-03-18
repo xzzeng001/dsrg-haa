@@ -1,0 +1,20 @@
+&DMRGSCF
+ActiveSpaceOptimizer
+QCMaquis
+DMRGSettings
+nsweeps
+5
+max_bond_dimension
+300
+EndDMRGSettings
+OOptimizationSettings
+SPIN
+1
+NACTEL
+10
+FILEORB
+/public/home/xzzeng/work/HQC/N2/cc-pvtz/NO/PES/entropy/1.6/results/work_dir/n2/dmrg/n2.scf.h5_sel
+TYPEINDEX
+CIONLY
+EndOOptimizationSettings
+End of input

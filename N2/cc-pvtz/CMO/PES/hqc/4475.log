@@ -1,0 +1,3711 @@
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmph2leavkp
+max_memory 4000 MB (current use 183 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -110.008695884676
+  HOMO = -0.605693678751623  LUMO = 0.290308681226313
+cycle= 1 E= -106.214287889048  delta_E= 3.79  |g|= 0.795  |ddm|= 2.02
+  HOMO = -0.514275155455333  LUMO = 0.426196643638809
+cycle= 2 E= -106.277044008397  delta_E= -0.0628  |g|= 0.248  |ddm|= 0.691
+  HOMO = -0.584034684527399  LUMO = 0.401689626550314
+cycle= 3 E= -106.285305218772  delta_E= -0.00826  |g|= 0.0328  |ddm|= 0.111
+  HOMO = -0.579321525603854  LUMO = 0.402627769831383
+cycle= 4 E= -106.285536440597  delta_E= -0.000231  |g|= 0.00343  |ddm|= 0.104
+  HOMO = -0.57944262722471  LUMO = 0.402199818058349
+cycle= 5 E= -106.285541329484  delta_E= -4.89e-06  |g|= 0.000401  |ddm|= 0.037
+  HOMO = -0.579495156067606  LUMO = 0.402184828248328
+cycle= 6 E= -106.285541388368  delta_E= -5.89e-08  |g|= 4.18e-05  |ddm|= 0.00496
+  HOMO = -0.579499487109218  LUMO = 0.402182646432407
+cycle= 7 E= -106.285541388958  delta_E= -5.9e-10  |g|= 4.23e-06  |ddm|= 0.000128
+  HOMO = -0.579499122260871  LUMO = 0.402183283250842
+Extra cycle  E= -106.285541388964  delta_E= -6.17e-12  |g|= 1.12e-06  |ddm|= 5.97e-05
+converged SCF energy = -106.285541388964
+
+******** CASCI flags ********
+CAS (3e+3e, 7o), ncore = 4, nvir = 49
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1.99372934 1.99372934 1.99024218 0.00477536 0.00477536 0.00637422
+ 0.00637422]
+CASCI converged
+CASCI E = -106.312597137205  E(CI) = -14.7392091953907  S^2 = 0.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (3e+3e, 7o), ncore = 4, nvir = 49
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmph2leavkp
+max_memory 4000 MB (current use 210 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -106.312597137205  S^2 = 0.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 21 JK    4 micro), CASSCF E = -106.328016311993  dE = -1.54191748e-02  S^2 = 0.0000000
+               |grad[o]|=0.0315  |grad[c]|=0.0275  |ddm|=0.00701  |maxRot[o]|=0.307
+macro iter   2 ( 21 JK    4 micro), CASSCF E = -106.331564078211  dE = -3.54776622e-03  S^2 = 0.0000000
+               |grad[o]|=0.0126  |grad[c]|=0.00616  |ddm|=0.00144  |maxRot[o]|=0.303
+macro iter   3 ( 14 JK    4 micro), CASSCF E = -106.331848363874  dE = -2.84285663e-04  S^2 = 0.0000000
+               |grad[o]|=0.0027  |grad[c]|=0.0016  |ddm|=0.000671  |maxRot[o]|=0.113
+macro iter   4 (  3 JK    1 micro), CASSCF E = -106.331848488208  dE = -1.24333980e-07  S^2 = 0.0000000
+               |grad[o]|=6.49e-05  |grad[c]|=0.000319  |ddm|=2.21e-05  |maxRot[o]|=0.0019
+macro iter   5 (  1 JK    1 micro), CASSCF E = -106.331848488217  dE = -8.91020591e-12  S^2 = 0.0000000
+               |grad[o]|=2.53e-05  |grad[c]|=6.77e-06  |ddm|=    0  |maxRot[o]|=    0
+1-step CASSCF converged in   5 macro ( 60 JK  14 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1.99007176 1.99007176 1.99030461 0.00540107 0.00540107 0.00937487
+ 0.00937487]
+CASSCF energy = -106.331848488217
+CASCI E = -106.331848488217  E(CI) = -14.7685872557995  S^2 = 0.0000000
+Natural occ [1.99030461e+00 1.99007176e+00 1.99007176e+00 1.38510664e-02
+ 1.38510664e-02 9.24871872e-04 9.24871872e-04]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4        #5       
+0 N 1s           0.01339   0.00000  -0.00000   0.00000   0.00000
+0 N 2s           0.31117   0.00000  -0.00000  -0.00000   0.00000
+0 N 3s          -0.01621  -0.00000   0.00000  -0.00000   0.00000
+0 N 4s          -0.01305  -0.00000   0.00000   0.00000  -0.00000
+0 N 2px          0.00000   0.33010   0.59840   0.21951   0.66846
+0 N 2py          0.00000  -0.59840   0.33010   0.66846  -0.21951
+0 N 2pz         -0.63320  -0.00000   0.00000   0.00000  -0.00000
+0 N 3px         -0.00000  -0.07655  -0.13877  -0.01752  -0.05335
+0 N 3py         -0.00000   0.13877  -0.07655  -0.05335   0.01752
+0 N 3pz         -0.03751  -0.00000   0.00000  -0.00000   0.00000
+0 N 4px          0.00000   0.01134   0.02055  -0.00190  -0.00579
+0 N 4py          0.00000  -0.02055   0.01134  -0.00579   0.00190
+0 N 4pz          0.01073   0.00000  -0.00000   0.00000   0.00000
+0 N 3dxy         0.00000  -0.00000   0.00000  -0.00000  -0.00000
+0 N 3dyz         0.00000  -0.05774   0.03185  -0.00472   0.00155
+0 N 3dz^2       -0.00122  -0.00000   0.00000  -0.00000   0.00000
+0 N 3dxz         0.00000   0.03185   0.05774  -0.00155  -0.00472
+0 N 3dx2-y2     -0.00000   0.00000   0.00000   0.00000  -0.00000
+0 N 4dxy         0.00000   0.00000  -0.00000  -0.00000   0.00000
+0 N 4dyz        -0.00000   0.04234  -0.02336   0.03835  -0.01259
+0 N 4dz^2        0.00472   0.00000  -0.00000  -0.00000   0.00000
+0 N 4dxz        -0.00000  -0.02336  -0.04234   0.01259   0.03835
+0 N 4dx2-y2     -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+0 N 4f-3         0.00000   0.00000  -0.00000  -0.00000   0.00000
+0 N 4f-2        -0.00000   0.00000   0.00000  -0.00000  -0.00000
+0 N 4f-1         0.00000  -0.02133   0.01177  -0.01124   0.00369
+0 N 4f+0         0.00848   0.00000  -0.00000  -0.00000   0.00000
+0 N 4f+1         0.00000   0.01177   0.02133  -0.00369  -0.01124
+0 N 4f+2         0.00000   0.00000  -0.00000   0.00000  -0.00000
+0 N 4f+3         0.00000   0.00000   0.00000   0.00000   0.00000
+1 N 1s          -0.01339  -0.00000   0.00000   0.00000   0.00000
+1 N 2s          -0.31117  -0.00000   0.00000   0.00000   0.00000
+1 N 3s           0.01621   0.00000  -0.00000  -0.00000   0.00000
+1 N 4s           0.01305   0.00000  -0.00000   0.00000  -0.00000
+1 N 2px          0.00000   0.33010   0.59840  -0.21951  -0.66846
+1 N 2py          0.00000  -0.59840   0.33010  -0.66846   0.21951
+1 N 2pz         -0.63320  -0.00000   0.00000  -0.00000   0.00000
+1 N 3px         -0.00000  -0.07655  -0.13877   0.01752   0.05335
+1 N 3py         -0.00000   0.13877  -0.07655   0.05335  -0.01752
+1 N 3pz         -0.03751  -0.00000   0.00000   0.00000  -0.00000
+1 N 4px          0.00000   0.01134   0.02055   0.00190   0.00579
+1 N 4py          0.00000  -0.02055   0.01134   0.00579  -0.00190
+1 N 4pz          0.01073   0.00000  -0.00000  -0.00000  -0.00000
+1 N 3dxy        -0.00000   0.00000  -0.00000  -0.00000  -0.00000
+1 N 3dyz        -0.00000   0.05774  -0.03185  -0.00472   0.00155
+1 N 3dz^2        0.00122   0.00000  -0.00000  -0.00000   0.00000
+1 N 3dxz        -0.00000  -0.03185  -0.05774  -0.00155  -0.00472
+1 N 3dx2-y2      0.00000  -0.00000  -0.00000   0.00000  -0.00000
+1 N 4dxy        -0.00000  -0.00000   0.00000  -0.00000   0.00000
+1 N 4dyz         0.00000  -0.04234   0.02336   0.03835  -0.01259
+1 N 4dz^2       -0.00472  -0.00000   0.00000  -0.00000   0.00000
+1 N 4dxz         0.00000   0.02336   0.04234   0.01259   0.03835
+1 N 4dx2-y2      0.00000   0.00000   0.00000  -0.00000  -0.00000
+1 N 4f-3         0.00000   0.00000  -0.00000   0.00000  -0.00000
+1 N 4f-2        -0.00000   0.00000   0.00000   0.00000   0.00000
+1 N 4f-1         0.00000  -0.02133   0.01177   0.01124  -0.00369
+1 N 4f+0         0.00848   0.00000  -0.00000   0.00000  -0.00000
+1 N 4f+1         0.00000   0.01177   0.02133   0.00369   0.01124
+1 N 4f+2         0.00000   0.00000  -0.00000  -0.00000   0.00000
+1 N 4f+3         0.00000   0.00000   0.00000  -0.00000  -0.00000
+               #6        #7       
+0 N 1s           0.00000  -0.00000
+0 N 2s          -0.00000  -0.00000
+0 N 3s          -0.00000   0.00000
+0 N 4s           0.00000   0.00000
+0 N 2px          0.01073   0.03439
+0 N 2py          0.03439  -0.01073
+0 N 2pz          0.00000  -0.00000
+0 N 3px          0.09342   0.29952
+0 N 3py          0.29952  -0.09342
+0 N 3pz         -0.00000   0.00000
+0 N 4px         -0.11815  -0.37876
+0 N 4py         -0.37876   0.11815
+0 N 4pz         -0.00000   0.00000
+0 N 3dxy        -0.00000  -0.00000
+0 N 3dyz        -0.32749   0.10215
+0 N 3dz^2       -0.00000   0.00000
+0 N 3dxz        -0.10215  -0.32749
+0 N 3dx2-y2      0.00000  -0.00000
+0 N 4dxy         0.00000   0.00000
+0 N 4dyz        -0.20062   0.06257
+0 N 4dz^2       -0.00000   0.00000
+0 N 4dxz        -0.06257  -0.20062
+0 N 4dx2-y2     -0.00000   0.00000
+0 N 4f-3         0.00000  -0.00000
+0 N 4f-2        -0.00000  -0.00000
+0 N 4f-1         0.27169  -0.08475
+0 N 4f+0        -0.00000   0.00000
+0 N 4f+1         0.08475   0.27169
+0 N 4f+2         0.00000  -0.00000
+0 N 4f+3        -0.00000  -0.00000
+1 N 1s           0.00000  -0.00000
+1 N 2s           0.00000   0.00000
+1 N 3s          -0.00000   0.00000
+1 N 4s           0.00000   0.00000
+1 N 2px         -0.01073  -0.03439
+1 N 2py         -0.03439   0.01073
+1 N 2pz         -0.00000   0.00000
+1 N 3px         -0.09342  -0.29952
+1 N 3py         -0.29952   0.09342
+1 N 3pz          0.00000  -0.00000
+1 N 4px          0.11815   0.37876
+1 N 4py          0.37876  -0.11815
+1 N 4pz          0.00000  -0.00000
+1 N 3dxy        -0.00000  -0.00000
+1 N 3dyz        -0.32748   0.10215
+1 N 3dz^2       -0.00000   0.00000
+1 N 3dxz        -0.10215  -0.32748
+1 N 3dx2-y2      0.00000  -0.00000
+1 N 4dxy         0.00000   0.00000
+1 N 4dyz        -0.20062   0.06257
+1 N 4dz^2       -0.00000   0.00000
+1 N 4dxz        -0.06257  -0.20062
+1 N 4dx2-y2     -0.00000   0.00000
+1 N 4f-3        -0.00000   0.00000
+1 N 4f-2         0.00000   0.00000
+1 N 4f-1        -0.27169   0.08475
+1 N 4f+0         0.00000  -0.00000
+1 N 4f+1        -0.08475  -0.27169
+1 N 4f+2        -0.00000   0.00000
+1 N 4f+3         0.00000   0.00000
+<CAS-nat-orb|mo-hf>  5      7        0.99984543
+<CAS-nat-orb|mo-hf>  6      4       -0.40483197
+<CAS-nat-orb|mo-hf>  6      5        0.91437849
+<CAS-nat-orb|mo-hf>  7      4        0.91437849
+<CAS-nat-orb|mo-hf>  7      5        0.40483197
+<CAS-nat-orb|mo-hf>  8      8        0.58176144
+<CAS-nat-orb|mo-hf>  8      15      -0.46082928
+<CAS-nat-orb|mo-hf>  8      16       0.58092793
+<CAS-nat-orb|mo-hf>  9      9        0.58176144
+<CAS-nat-orb|mo-hf>  9      15       0.58092793
+<CAS-nat-orb|mo-hf>  9      16       0.46082928
+<CAS-nat-orb|mo-hf>  10     8        0.47570941
+<CAS-nat-orb|mo-hf>  10     26      -0.59764472
+<CAS-nat-orb|mo-hf>  10     36      -0.49182617
+<CAS-nat-orb|mo-hf>  11     9        0.47570941
+<CAS-nat-orb|mo-hf>  11     27      -0.59764472
+<CAS-nat-orb|mo-hf>  11     37      -0.49182617
+Sr    (-1)',   E = -0.02764355006330
+Si    (+1)',   E = -0.00041069794252
+Sijrs (0)  ,   E = -0.05364267067387
+Sijr  (+1) ,   E = -0.00444877607077
+Srsi  (-1) ,   E = -0.08539459666049
+Srs   (-2) ,   E = -0.05750736438684
+Sij   (+2) ,   E = -0.00265113893402
+Sir   (0)' ,   E = -0.04923208586906
+Nevpt2 Energy = -0.280930880600875
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpxaepp2w0
+max_memory 4000 MB (current use 225 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -110.124682211419
+  HOMO = -0.494883464078096  LUMO = 0.193382192085514
+cycle= 1 E= -108.489114554094  delta_E= 1.64  |g|= 0.269  |ddm|= 1.57
+  HOMO = -0.638202854687879  LUMO = 0.326393081261735
+cycle= 2 E= -108.49839373264  delta_E= -0.00928  |g|= 0.0461  |ddm|= 0.129
+  HOMO = -0.659806085485508  LUMO = 0.31675992126228
+cycle= 3 E= -108.498820045257  delta_E= -0.000426  |g|= 0.014  |ddm|= 0.027
+  HOMO = -0.655814489093309  LUMO = 0.319293292901844
+cycle= 4 E= -108.498849098415  delta_E= -2.91e-05  |g|= 0.00093  |ddm|= 0.0123
+  HOMO = -0.656086147845461  LUMO = 0.319097322186052
+cycle= 5 E= -108.498849435997  delta_E= -3.38e-07  |g|= 0.000127  |ddm|= 0.00501
+  HOMO = -0.65607669719706  LUMO = 0.319090753467748
+cycle= 6 E= -108.498849442574  delta_E= -6.58e-09  |g|= 1.49e-05  |ddm|= 0.001
+  HOMO = -0.656071944522612  LUMO = 0.319091141757237
+cycle= 7 E= -108.498849442673  delta_E= -9.98e-11  |g|= 2e-06  |ddm|= 4.51e-05
+  HOMO = -0.656071997765345  LUMO = 0.319090976977818
+Extra cycle  E= -108.498849442675  delta_E= -1.25e-12  |g|= 6.08e-07  |ddm|= 2.8e-06
+converged SCF energy = -108.498849442675
+
+******** CASCI flags ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1.98263207 1.99161939 1.99679399 0.01193596 0.0093504  0.00766819]
+CASCI converged
+CASCI E = -108.526450453190  E(CI) = -13.2898547385632  S^2 = 0.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmpxaepp2w0
+max_memory 4000 MB (current use 216 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -108.526450453190  S^2 = 0.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 21 JK    4 micro), CASSCF E = -108.544373579862  dE = -1.79231267e-02  S^2 = 0.0000000
+               |grad[o]|=0.0382  |grad[c]|=0.0236  |ddm|=0.014  |maxRot[o]|=0.313
+macro iter   2 ( 21 JK    4 micro), CASSCF E = -108.554134692708  dE = -9.76111285e-03  S^2 = 0.0000000
+               |grad[o]|=0.0318  |grad[c]|=0.0134  |ddm|=0.00529  |maxRot[o]|= 0.28
+macro iter   3 ( 21 JK    4 micro), CASSCF E = -108.555628190364  dE = -1.49349766e-03  S^2 = 0.0000000
+               |grad[o]|=0.00873  |grad[c]|=0.00397  |ddm|=0.000767  |maxRot[o]|=0.296
+macro iter   4 ( 21 JK    4 micro), CASSCF E = -108.555785281789  dE = -1.57091425e-04  S^2 = 0.0000000
+               |grad[o]|=0.00316  |grad[c]|=0.00668  |ddm|=0.000413  |maxRot[o]|=0.132
+macro iter   5 (  7 JK    2 micro), CASSCF E = -108.555928258491  dE = -1.42976702e-04  S^2 = 0.0000000
+               |grad[o]|=0.00288  |grad[c]|=0.00488  |ddm|=0.000116  |maxRot[o]|=0.0699
+macro iter   6 (  6 JK    2 micro), CASSCF E = -108.555983858739  dE = -5.56002481e-05  S^2 = 0.0000000
+               |grad[o]|=0.00161  |grad[c]|=0.00268  |ddm|=0.000167  |maxRot[o]|= 0.05
+macro iter   7 ( 16 JK    4 micro), CASSCF E = -108.555973886195  dE =  9.97254394e-06  S^2 = 0.0000000
+               |grad[o]|=0.00068  |grad[c]|=0.00216  |ddm|=0.000193  |maxRot[o]|=0.0354
+macro iter   8 ( 20 JK    4 micro), CASSCF E = -108.555999795649  dE = -2.59094534e-05  S^2 = 0.0000000
+               |grad[o]|=0.00185  |grad[c]|=0.000854  |ddm|=3.73e-05  |maxRot[o]|=0.0363
+macro iter   9 ( 13 JK    4 micro), CASSCF E = -108.556000345254  dE = -5.49605573e-07  S^2 = 0.0000000
+               |grad[o]|=0.000589  |grad[c]|=0.00105  |ddm|=7.27e-05  |maxRot[o]|=0.00207
+macro iter  10 (  5 JK    1 micro), CASSCF E = -108.556004930133  dE = -4.58487871e-06  S^2 = 0.0000000
+               |grad[o]|=0.000782  |grad[c]|=0.001  |ddm|=6.03e-05  |maxRot[o]|=0.0224
+macro iter  11 (  8 JK    1 micro), CASSCF E = -108.556005026883  dE = -9.67501705e-08  S^2 = 0.0000000
+               |grad[o]|=5.51e-05  |grad[c]|=0.000284  |ddm|=1.31e-05  |maxRot[o]|=0.00208
+1-step CASSCF converged in  11 macro (159 JK  34 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1.97784416 1.97761666 1.9963125  0.01404517 0.02334172 0.01083978]
+CASSCF energy = -108.556005026883
+CASCI E = -108.556005026883  E(CI) = -13.1871689295235  S^2 = 0.0000000
+Natural occ [1.99631250e+00 1.97784424e+00 1.97761659e+00 2.41860666e-02
+ 2.35801334e-02 4.60475152e-04]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4        #5       
+0 N 1s           0.02298  -0.00000  -0.00000   0.00000   0.00000
+0 N 2s           0.60080  -0.00002  -0.00000  -0.00000  -0.00000
+0 N 3s          -0.06446   0.00000  -0.00000   0.00000  -0.00000
+0 N 4s          -0.00106   0.00000  -0.00000   0.00000   0.00000
+0 N 2px          0.00002   0.64040   0.27859  -0.64230   0.27869
+0 N 2py         -0.00001  -0.27858   0.64042   0.27933   0.64083
+0 N 2pz         -0.36282   0.00002  -0.00000  -0.00000  -0.00000
+0 N 3px         -0.00000  -0.08010  -0.03478   0.07626  -0.03563
+0 N 3py          0.00000   0.03484  -0.07996  -0.03316  -0.08192
+0 N 3pz          0.01836  -0.00000   0.00000   0.00001  -0.00000
+0 N 4px         -0.00000  -0.00206  -0.00092  -0.00957   0.00671
+0 N 4py          0.00000   0.00090  -0.00211   0.00416   0.01544
+0 N 4pz          0.00917  -0.00000   0.00000  -0.00000  -0.00000
+0 N 3dxy        -0.00018   0.00000  -0.00000   0.00000  -0.00000
+0 N 3dyz        -0.00000  -0.02451   0.05627   0.00882   0.02731
+0 N 3dz^2       -0.04149   0.00000  -0.00000   0.00000   0.00000
+0 N 3dxz         0.00000   0.05634   0.02448  -0.02028   0.01187
+0 N 3dx2-y2      0.00016  -0.00000  -0.00000   0.00000  -0.00000
+0 N 4dxy        -0.00004   0.00000  -0.00000   0.00000  -0.00000
+0 N 4dyz         0.00000   0.00904  -0.02072   0.01420   0.03417
+0 N 4dz^2       -0.00189   0.00000  -0.00000  -0.00000  -0.00000
+0 N 4dxz        -0.00000  -0.02077  -0.00901  -0.03266   0.01486
+0 N 4dx2-y2      0.00004  -0.00000  -0.00000  -0.00000  -0.00000
+0 N 4f-3        -0.00000   0.00000  -0.00000  -0.00017  -0.00003
+0 N 4f-2         0.00006  -0.00000   0.00000  -0.00000  -0.00000
+0 N 4f-1        -0.00000  -0.00757   0.01737  -0.01007  -0.03077
+0 N 4f+0        -0.01325   0.00000  -0.00000  -0.00000  -0.00000
+0 N 4f+1         0.00000   0.01740   0.00756   0.02314  -0.01338
+0 N 4f+2        -0.00006   0.00000   0.00000   0.00000  -0.00000
+0 N 4f+3         0.00000  -0.00000  -0.00001   0.00006  -0.00008
+1 N 1s           0.02301  -0.00000  -0.00000   0.00000  -0.00000
+1 N 2s           0.60116  -0.00001  -0.00000   0.00000   0.00000
+1 N 3s          -0.06447   0.00000  -0.00000  -0.00001  -0.00000
+1 N 4s          -0.00107   0.00000  -0.00000  -0.00000   0.00000
+1 N 2px          0.00002   0.64040   0.27859   0.64231  -0.27870
+1 N 2py         -0.00001  -0.27858   0.64042  -0.27934  -0.64084
+1 N 2pz          0.36331  -0.00001   0.00000  -0.00000  -0.00000
+1 N 3px         -0.00000  -0.08010  -0.03478  -0.07625   0.03563
+1 N 3py          0.00000   0.03484  -0.07996   0.03316   0.08190
+1 N 3pz         -0.01835   0.00000  -0.00000   0.00001   0.00000
+1 N 4px          0.00000  -0.00206  -0.00092   0.00957  -0.00671
+1 N 4py         -0.00000   0.00090  -0.00211  -0.00416  -0.01543
+1 N 4pz         -0.00917   0.00000  -0.00000  -0.00000   0.00000
+1 N 3dxy        -0.00018   0.00000  -0.00000   0.00000  -0.00000
+1 N 3dyz         0.00000   0.02451  -0.05627   0.00879   0.02724
+1 N 3dz^2       -0.04149   0.00000  -0.00000  -0.00000  -0.00000
+1 N 3dxz        -0.00000  -0.05634  -0.02448  -0.02021   0.01184
+1 N 3dx2-y2      0.00016  -0.00000   0.00000   0.00000  -0.00000
+1 N 4dxy        -0.00004   0.00000  -0.00000   0.00000   0.00000
+1 N 4dyz        -0.00000  -0.00904   0.02072   0.01421   0.03419
+1 N 4dz^2       -0.00189   0.00000  -0.00000   0.00000  -0.00000
+1 N 4dxz         0.00000   0.02077   0.00901  -0.03267   0.01487
+1 N 4dx2-y2      0.00004  -0.00000  -0.00000  -0.00000   0.00000
+1 N 4f-3        -0.00000   0.00000  -0.00000   0.00018   0.00003
+1 N 4f-2        -0.00006  -0.00000   0.00000   0.00000   0.00000
+1 N 4f-1        -0.00000  -0.00757   0.01737   0.01006   0.03077
+1 N 4f+0         0.01324  -0.00000   0.00000  -0.00000   0.00000
+1 N 4f+1         0.00000   0.01740   0.00756  -0.02313   0.01338
+1 N 4f+2         0.00006   0.00000   0.00000  -0.00000   0.00000
+1 N 4f+3         0.00000  -0.00000  -0.00001  -0.00006   0.00008
+               #6       
+0 N 1s           0.00000
+0 N 2s           0.00005
+0 N 3s          -0.00016
+0 N 4s          -0.00006
+0 N 2px          0.05916
+0 N 2py         -0.02572
+0 N 2pz          0.00006
+0 N 3px          0.26107
+0 N 3py         -0.11354
+0 N 3pz         -0.00027
+0 N 4px         -0.33552
+0 N 4py          0.14585
+0 N 4pz          0.00004
+0 N 3dxy        -0.00001
+0 N 3dyz         0.15349
+0 N 3dz^2       -0.00002
+0 N 3dxz        -0.35300
+0 N 3dx2-y2      0.00001
+0 N 4dxy         0.00000
+0 N 4dyz        -0.00035
+0 N 4dz^2        0.00004
+0 N 4dxz         0.00086
+0 N 4dx2-y2     -0.00000
+0 N 4f-3         0.00481
+0 N 4f-2         0.00001
+0 N 4f-1        -0.14547
+0 N 4f+0         0.00002
+0 N 4f+1         0.33475
+0 N 4f+2        -0.00000
+0 N 4f+3        -0.00171
+1 N 1s          -0.00000
+1 N 2s          -0.00006
+1 N 3s           0.00016
+1 N 4s           0.00006
+1 N 2px         -0.05905
+1 N 2py          0.02568
+1 N 2pz          0.00006
+1 N 3px         -0.26065
+1 N 3py          0.11337
+1 N 3pz         -0.00027
+1 N 4px          0.33523
+1 N 4py         -0.14572
+1 N 4pz          0.00004
+1 N 3dxy         0.00001
+1 N 3dyz         0.15324
+1 N 3dz^2        0.00002
+1 N 3dxz        -0.35241
+1 N 3dx2-y2     -0.00001
+1 N 4dxy        -0.00000
+1 N 4dyz        -0.00029
+1 N 4dz^2       -0.00004
+1 N 4dxz         0.00070
+1 N 4dx2-y2      0.00000
+1 N 4f-3        -0.00480
+1 N 4f-2         0.00000
+1 N 4f-1         0.14550
+1 N 4f+0         0.00002
+1 N 4f+1        -0.33482
+1 N 4f+2        -0.00000
+1 N 4f+3         0.00171
+<CAS-nat-orb|mo-hf>  5      7        0.94948541
+<CAS-nat-orb|mo-hf>  6      4        0.99979287
+<CAS-nat-orb|mo-hf>  7      5        0.99979422
+<CAS-nat-orb|mo-hf>  8      8        0.72997616
+<CAS-nat-orb|mo-hf>  8      15       0.63260893
+<CAS-nat-orb|mo-hf>  9      9        0.72131760
+<CAS-nat-orb|mo-hf>  9      16       0.63657898
+<CAS-nat-orb|mo-hf>  10     26      -0.62329471
+<CAS-nat-orb|mo-hf>  10     42      -0.40240640
+Sr    (-1)',   E = -0.01745252136002
+Si    (+1)',   E = -0.00044693657854
+Sijrs (0)  ,   E = -0.05041168205561
+Sijr  (+1) ,   E = -0.00649612671943
+Srsi  (-1) ,   E = -0.07875140557386
+Srs   (-2) ,   E = -0.05984994398796
+Sij   (+2) ,   E = -0.00389447240243
+Sir   (0)' ,   E = -0.06194979256042
+Nevpt2 Energy = -0.279252881238274
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpvxg9hu1c
+max_memory 4000 MB (current use 223 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -109.372344307318
+  HOMO = -0.410032418488985  LUMO = 0.101855560827041
+cycle= 1 E= -108.954513271837  delta_E= 0.418  |g|= 0.238  |ddm|= 1.38
+  HOMO = -0.660620785486178  LUMO = 0.187221122866957
+cycle= 2 E= -108.967135237935  delta_E= -0.0126  |g|= 0.0708  |ddm|= 0.154
+  HOMO = -0.635280318906876  LUMO = 0.213648237356188
+cycle= 3 E= -108.967961330243  delta_E= -0.000826  |g|= 0.0134  |ddm|= 0.0345
+  HOMO = -0.640415986330407  LUMO = 0.212233867780172
+cycle= 4 E= -108.968014446581  delta_E= -5.31e-05  |g|= 0.0014  |ddm|= 0.0124
+  HOMO = -0.640802131084615  LUMO = 0.212082421480335
+cycle= 5 E= -108.968015001326  delta_E= -5.55e-07  |g|= 0.000151  |ddm|= 0.00147
+  HOMO = -0.640848002388397  LUMO = 0.212078538652685
+cycle= 6 E= -108.968015011398  delta_E= -1.01e-08  |g|= 3.3e-05  |ddm|= 0.000237
+  HOMO = -0.640847012824942  LUMO = 0.212083751313157
+cycle= 7 E= -108.968015011916  delta_E= -5.18e-10  |g|= 3.37e-06  |ddm|= 9.33e-05
+  HOMO = -0.640847671678762  LUMO = 0.212083226554054
+Extra cycle  E= -108.96801501192  delta_E= -3.81e-12  |g|= 9.05e-07  |ddm|= 1.12e-05
+converged SCF energy = -108.96801501192
+
+******** CASCI flags ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1.96447449 1.96421639 1.99509769 0.0347511  0.03223702 0.00922332]
+CASCI converged
+CASCI E = -109.024053446500  E(CI) = -11.9713137500710  S^2 = 0.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmpvxg9hu1c
+max_memory 4000 MB (current use 228 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -109.024053446500  S^2 = 0.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 21 JK    4 micro), CASSCF E = -109.045937532507  dE = -2.18840860e-02  S^2 = 0.0000000
+               |grad[o]|=0.0632  |grad[c]|=0.0257  |ddm|=0.0264  |maxRot[o]|=0.312
+macro iter   2 ( 21 JK    4 micro), CASSCF E = -109.048136559617  dE = -2.19902711e-03  S^2 = 0.0000000
+               |grad[o]|=0.0245  |grad[c]|=0.00765  |ddm|=0.00114  |maxRot[o]|=0.266
+macro iter   3 ( 21 JK    4 micro), CASSCF E = -109.049018802348  dE = -8.82242732e-04  S^2 = 0.0000000
+               |grad[o]|=0.0109  |grad[c]|=0.0044  |ddm|=0.000807  |maxRot[o]|= 0.31
+macro iter   4 ( 21 JK    4 micro), CASSCF E = -109.049048475862  dE = -2.96735135e-05  S^2 = 0.0000000
+               |grad[o]|=0.00426  |grad[c]|=0.00646  |ddm|=0.000513  |maxRot[o]|=0.109
+macro iter   5 ( 21 JK    4 micro), CASSCF E = -109.049010582796  dE =  3.78930662e-05  S^2 = 0.0000000
+               |grad[o]|=0.00408  |grad[c]|=0.00398  |ddm|=0.000377  |maxRot[o]|=0.0793
+macro iter   6 ( 21 JK    4 micro), CASSCF E = -109.049279332728  dE = -2.68749932e-04  S^2 = 0.0000000
+               |grad[o]|=0.00415  |grad[c]|=0.00217  |ddm|=0.000134  |maxRot[o]|=0.0645
+macro iter   7 ( 15 JK    4 micro), CASSCF E = -109.049472842920  dE = -1.93510192e-04  S^2 = 0.0000000
+               |grad[o]|=0.00295  |grad[c]|=0.00555  |ddm|=0.000172  |maxRot[o]|=0.0714
+macro iter   8 ( 21 JK    4 micro), CASSCF E = -109.049472489242  dE =  3.53678402e-07  S^2 = 0.0000000
+               |grad[o]|=0.00194  |grad[c]|=0.00396  |ddm|=0.000251  |maxRot[o]|=0.00798
+macro iter   9 ( 22 JK    4 micro), CASSCF E = -109.049562393626  dE = -8.99043841e-05  S^2 = 0.0000000
+               |grad[o]|=0.00234  |grad[c]|=0.00473  |ddm|=0.000175  |maxRot[o]|=0.0398
+macro iter  10 ( 21 JK    4 micro), CASSCF E = -109.050249600744  dE = -6.87207118e-04  S^2 = 0.0000000
+               |grad[o]|=0.00191  |grad[c]|=0.0105  |ddm|=0.000293  |maxRot[o]|=0.149
+macro iter  11 ( 21 JK    4 micro), CASSCF E = -109.054044794156  dE = -3.79519341e-03  S^2 = 0.0000000
+               |grad[o]|=0.00588  |grad[c]|=0.024  |ddm|=0.0018  |maxRot[o]|=0.212
+macro iter  12 ( 21 JK    4 micro), CASSCF E = -109.062270999351  dE = -8.22620519e-03  S^2 = 0.0000000
+               |grad[o]|=0.0153  |grad[c]|=0.0449  |ddm|=0.00416  |maxRot[o]|=0.259
+macro iter  13 ( 21 JK    4 micro), CASSCF E = -109.073021314760  dE = -1.07503154e-02  S^2 = 0.0000000
+               |grad[o]|=0.025  |grad[c]|=0.0429  |ddm|=0.00375  |maxRot[o]|=0.287
+macro iter  14 ( 21 JK    4 micro), CASSCF E = -109.081452590996  dE = -8.43127624e-03  S^2 = 0.0000000
+               |grad[o]|=0.0267  |grad[c]|=0.0401  |ddm|=0.00308  |maxRot[o]|=0.301
+macro iter  15 ( 19 JK    4 micro), CASSCF E = -109.082925603044  dE = -1.47301205e-03  S^2 = 0.0000000
+               |grad[o]|=0.0181  |grad[c]|=0.0116  |ddm|=0.00245  |maxRot[o]|=0.109
+macro iter  16 ( 13 JK    4 micro), CASSCF E = -109.082964522127  dE = -3.89190834e-05  S^2 = 0.0000000
+               |grad[o]|=0.00798  |grad[c]|=0.00281  |ddm|=0.000807  |maxRot[o]|=0.00932
+macro iter  17 ( 11 JK    4 micro), CASSCF E = -109.083001533317  dE = -3.70111898e-05  S^2 = 0.0000000
+               |grad[o]|=0.00185  |grad[c]|=0.00173  |ddm|=0.000608  |maxRot[o]|=0.023
+macro iter  18 ( 11 JK    4 micro), CASSCF E = -109.083013290750  dE = -1.17574330e-05  S^2 = 0.0000000
+               |grad[o]|=0.00106  |grad[c]|=0.000359  |ddm|=0.00021  |maxRot[o]|=0.0122
+macro iter  19 (  3 JK    1 micro), CASSCF E = -109.083013998988  dE = -7.08237636e-07  S^2 = 0.0000000
+               |grad[o]|=0.000246  |grad[c]|=0.000204  |ddm|=4.51e-05  |maxRot[o]|=0.00498
+macro iter  20 (  1 JK    1 micro), CASSCF E = -109.083013999515  dE = -5.26938493e-10  S^2 = 0.0000000
+               |grad[o]|=2.74e-05  |grad[c]|=3.73e-05  |ddm|=6.25e-06  |maxRot[o]|=    0
+1-step CASSCF converged in  20 macro (347 JK  74 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1.95743215 1.9574323  1.98750502 0.037168   0.04053209 0.01993043]
+CASSCF energy = -109.083013999515
+CASCI E = -109.083013999515  E(CI) = -14.5803554090062  S^2 = 0.0000000
+Natural occ [1.98752394 1.95742317 1.95742238 0.04251137 0.0425106  0.01260855]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4        #5       
+0 N 1s           0.00854   0.00000  -0.00000  -0.00000  -0.00000
+0 N 2s          -0.16560   0.00002  -0.00001  -0.00000   0.00000
+0 N 3s          -0.10822  -0.00000   0.00000   0.00000  -0.00001
+0 N 4s           0.00383  -0.00000   0.00000   0.00000  -0.00000
+0 N 2px          0.00000  -0.16903   0.68298  -0.67710   0.17095
+0 N 2py         -0.00001   0.68298   0.16903  -0.17095  -0.67710
+0 N 2pz         -0.66878  -0.00003   0.00001  -0.00000   0.00001
+0 N 3px          0.00000   0.00921  -0.03720   0.09219  -0.02328
+0 N 3py         -0.00000  -0.03720  -0.00921   0.02328   0.09219
+0 N 3pz          0.06741   0.00000  -0.00000   0.00000  -0.00001
+0 N 4px          0.00000   0.00196  -0.00792  -0.02202   0.00556
+0 N 4py         -0.00000  -0.00792  -0.00196  -0.00556  -0.02202
+0 N 4pz         -0.01003  -0.00000   0.00000  -0.00000   0.00000
+0 N 3dxy         0.00000  -0.00000   0.00000  -0.00001   0.00000
+0 N 3dyz        -0.00000   0.05475   0.01355  -0.01074  -0.04254
+0 N 3dz^2       -0.08834  -0.00000   0.00000   0.00000  -0.00000
+0 N 3dxz         0.00000  -0.01355   0.05475  -0.04254   0.01074
+0 N 3dx2-y2     -0.00000  -0.00000  -0.00000   0.00001   0.00000
+0 N 4dxy         0.00000   0.00000  -0.00000   0.00000  -0.00000
+0 N 4dyz         0.00000  -0.00663  -0.00164  -0.00397  -0.01574
+0 N 4dz^2       -0.00598  -0.00000   0.00000   0.00000  -0.00000
+0 N 4dxz        -0.00000   0.00164  -0.00663  -0.01574   0.00398
+0 N 4dx2-y2      0.00000   0.00000   0.00000  -0.00000  -0.00000
+0 N 4f-3        -0.00000   0.00000   0.00000  -0.00000  -0.00000
+0 N 4f-2        -0.00000   0.00000  -0.00000  -0.00000   0.00000
+0 N 4f-1        -0.00000   0.01396   0.00345   0.00585   0.02315
+0 N 4f+0        -0.03200  -0.00000   0.00000  -0.00000   0.00000
+0 N 4f+1         0.00000  -0.00345   0.01396   0.02315  -0.00584
+0 N 4f+2        -0.00000   0.00000   0.00000   0.00000   0.00000
+0 N 4f+3         0.00000   0.00000  -0.00000  -0.00000   0.00000
+1 N 1s           0.00853  -0.00000   0.00000  -0.00000  -0.00000
+1 N 2s          -0.16560  -0.00001   0.00000   0.00000  -0.00001
+1 N 3s          -0.10822  -0.00000   0.00000   0.00000   0.00000
+1 N 4s           0.00383   0.00000  -0.00000  -0.00000   0.00000
+1 N 2px          0.00000  -0.16903   0.68298   0.67710  -0.17095
+1 N 2py         -0.00001   0.68298   0.16903   0.17095   0.67709
+1 N 2pz          0.66878  -0.00001   0.00000  -0.00000   0.00000
+1 N 3px         -0.00000   0.00921  -0.03720  -0.09220   0.02328
+1 N 3py          0.00000  -0.03720  -0.00921  -0.02328  -0.09220
+1 N 3pz         -0.06742  -0.00000   0.00000   0.00000  -0.00000
+1 N 4px         -0.00000   0.00196  -0.00792   0.02202  -0.00556
+1 N 4py          0.00000  -0.00792  -0.00196   0.00556   0.02203
+1 N 4pz          0.01004   0.00000  -0.00000   0.00000  -0.00000
+1 N 3dxy        -0.00000   0.00000  -0.00000  -0.00000   0.00000
+1 N 3dyz         0.00000  -0.05475  -0.01355  -0.01074  -0.04254
+1 N 3dz^2       -0.08834  -0.00000   0.00000  -0.00000   0.00000
+1 N 3dxz        -0.00000   0.01355  -0.05475  -0.04254   0.01074
+1 N 3dx2-y2     -0.00000   0.00000   0.00000   0.00000   0.00000
+1 N 4dxy        -0.00000  -0.00000   0.00000   0.00000  -0.00000
+1 N 4dyz        -0.00000   0.00663   0.00164  -0.00397  -0.01574
+1 N 4dz^2       -0.00598   0.00000  -0.00000   0.00000  -0.00000
+1 N 4dxz         0.00000  -0.00164   0.00663  -0.01574   0.00398
+1 N 4dx2-y2     -0.00000  -0.00000  -0.00000   0.00000  -0.00000
+1 N 4f-3         0.00000   0.00000   0.00000   0.00000   0.00000
+1 N 4f-2        -0.00000   0.00000  -0.00000   0.00000  -0.00000
+1 N 4f-1        -0.00000   0.01396   0.00345  -0.00585  -0.02315
+1 N 4f+0         0.03200   0.00000  -0.00000  -0.00000   0.00000
+1 N 4f+1         0.00000  -0.00345   0.01396  -0.02315   0.00584
+1 N 4f+2         0.00000   0.00000   0.00000  -0.00000  -0.00000
+1 N 4f+3        -0.00000   0.00000   0.00000   0.00000  -0.00000
+               #6       
+0 N 1s           0.00079
+0 N 2s          -0.47656
+0 N 3s           0.05699
+0 N 4s          -0.03809
+0 N 2px          0.00000
+0 N 2py         -0.00000
+0 N 2pz         -0.49763
+0 N 3px         -0.00000
+0 N 3py          0.00000
+0 N 3pz          0.12945
+0 N 4px         -0.00000
+0 N 4py          0.00000
+0 N 4pz         -0.00452
+0 N 3dxy         0.00000
+0 N 3dyz        -0.00001
+0 N 3dz^2       -0.04088
+0 N 3dxz         0.00000
+0 N 3dx2-y2     -0.00000
+0 N 4dxy         0.00000
+0 N 4dyz         0.00000
+0 N 4dz^2       -0.02765
+0 N 4dxz        -0.00000
+0 N 4dx2-y2      0.00000
+0 N 4f-3         0.00000
+0 N 4f-2         0.00000
+0 N 4f-1         0.00000
+0 N 4f+0         0.03672
+0 N 4f+1        -0.00000
+0 N 4f+2        -0.00000
+0 N 4f+3        -0.00000
+1 N 1s          -0.00079
+1 N 2s           0.47655
+1 N 3s          -0.05697
+1 N 4s           0.03809
+1 N 2px         -0.00000
+1 N 2py          0.00001
+1 N 2pz         -0.49763
+1 N 3px         -0.00000
+1 N 3py         -0.00000
+1 N 3pz          0.12943
+1 N 4px          0.00000
+1 N 4py         -0.00000
+1 N 4pz         -0.00451
+1 N 3dxy        -0.00000
+1 N 3dyz         0.00000
+1 N 3dz^2        0.04091
+1 N 3dxz        -0.00000
+1 N 3dx2-y2      0.00000
+1 N 4dxy        -0.00000
+1 N 4dyz        -0.00000
+1 N 4dz^2        0.02762
+1 N 4dxz         0.00000
+1 N 4dx2-y2     -0.00000
+1 N 4f-3        -0.00000
+1 N 4f-2        -0.00000
+1 N 4f-1        -0.00000
+1 N 4f+0         0.03672
+1 N 4f+1         0.00000
+1 N 4f+2        -0.00000
+1 N 4f+3         0.00000
+<CAS-nat-orb|mo-hf>  5      3       -0.75729578
+<CAS-nat-orb|mo-hf>  5      7        0.65297626
+<CAS-nat-orb|mo-hf>  6      5        0.82688909
+<CAS-nat-orb|mo-hf>  6      6       -0.56209311
+<CAS-nat-orb|mo-hf>  7      5        0.56209310
+<CAS-nat-orb|mo-hf>  7      6        0.82688908
+<CAS-nat-orb|mo-hf>  8      9        0.79781027
+<CAS-nat-orb|mo-hf>  8      16       0.48602607
+<CAS-nat-orb|mo-hf>  9      8        0.79780829
+<CAS-nat-orb|mo-hf>  9      15       0.48602944
+<CAS-nat-orb|mo-hf>  10     20      -0.76568880
+<CAS-nat-orb|mo-hf>  10     28      -0.55051016
+Sr    (-1)',   E = -0.00949993435949
+Si    (+1)',   E = -0.00179556401159
+Sijrs (0)  ,   E = -0.04018488774906
+Sijr  (+1) ,   E = -0.01044410620676
+Srsi  (-1) ,   E = -0.04926225872687
+Srs   (-2) ,   E = -0.06647322717400
+Sij   (+2) ,   E = -0.00489975391618
+Sir   (0)' ,   E = -0.05844845315629
+Nevpt2 Energy = -0.241008185300238
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpji0xwrht
+max_memory 4000 MB (current use 228 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -109.037326320052
+  HOMO = -0.386437052544792  LUMO = 0.0660796370899583
+cycle= 1 E= -108.965157480946  delta_E= 0.0722  |g|= 0.288  |ddm|= 1.33
+  HOMO = -0.661509858351395  LUMO = 0.128271342514426
+cycle= 2 E= -108.983395533597  delta_E= -0.0182  |g|= 0.0866  |ddm|= 0.19
+  HOMO = -0.614508090610821  LUMO = 0.165786469954271
+cycle= 3 E= -108.984714603775  delta_E= -0.00132  |g|= 0.0153  |ddm|= 0.0418
+  HOMO = -0.614964336526593  LUMO = 0.165987068614877
+cycle= 4 E= -108.984798536032  delta_E= -8.39e-05  |g|= 0.00181  |ddm|= 0.0156
+  HOMO = -0.61535536280082  LUMO = 0.165736054230639
+cycle= 5 E= -108.984799377953  delta_E= -8.42e-07  |g|= 0.000164  |ddm|= 0.00172
+  HOMO = -0.615352259401132  LUMO = 0.165726672963786
+cycle= 6 E= -108.984799389102  delta_E= -1.11e-08  |g|= 3.57e-05  |ddm|= 0.000223
+  HOMO = -0.615342310392853  LUMO = 0.16573338918647
+cycle= 7 E= -108.984799389694  delta_E= -5.92e-10  |g|= 3.81e-06  |ddm|= 7.96e-05
+  HOMO = -0.615342704278352  LUMO = 0.165732750349521
+Extra cycle  E= -108.984799389699  delta_E= -4.89e-12  |g|= 1.05e-06  |ddm|= 8.96e-06
+converged SCF energy = -108.984799389699
+
+******** CASCI flags ********
+CAS (2e+2e, 4o), ncore = 5, nvir = 51
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1.95634284 1.95634284 0.04365716 0.04365716]
+CASCI converged
+CASCI E = -109.038902956205  E(CI) = -5.75522010690258  S^2 = 0.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (2e+2e, 4o), ncore = 5, nvir = 51
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmpji0xwrht
+max_memory 4000 MB (current use 228 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -109.038902956205  S^2 = 0.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 21 JK    4 micro), CASSCF E = -109.073165754550  dE = -3.42627983e-02  S^2 = 0.0000000
+               |grad[o]|=0.0667  |grad[c]|=0.0323  |ddm|=0.0415  |maxRot[o]|=0.314
+macro iter   2 ( 12 JK    4 micro), CASSCF E = -109.075249066913  dE = -2.08331236e-03  S^2 = 0.0000000
+               |grad[o]|=0.026  |grad[c]|=0.00207  |ddm|=0.00444  |maxRot[o]|=0.097
+macro iter   3 (  3 JK    1 micro), CASSCF E = -109.075249093431  dE = -2.65177107e-08  S^2 = 0.0000000
+               |grad[o]|=0.000126  |grad[c]|=4.33e-05  |ddm|=2.84e-05  |maxRot[o]|=0.000133
+1-step CASSCF converged in   3 macro ( 36 JK   9 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1.93753377 1.93753377 0.06246623 0.06246623]
+CASSCF energy = -109.075249093431
+CASCI E = -109.075249093431  E(CI) = -5.80836498119467  S^2 = 0.0000000
+Natural occ [1.93753377 1.93753377 0.06246623 0.06246623]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4       
+0 N 1s           0.00000   0.00000   0.00000   0.00000
+0 N 2s           0.00000   0.00000  -0.00000  -0.00000
+0 N 3s          -0.00000   0.00000   0.00000   0.00000
+0 N 4s          -0.00000   0.00000   0.00000   0.00000
+0 N 2px          0.12864   0.69283   0.66031  -0.24321
+0 N 2py          0.69283  -0.12864  -0.24321  -0.66031
+0 N 2pz         -0.00000   0.00000  -0.00000  -0.00000
+0 N 3px          0.00349   0.01877   0.05780  -0.02129
+0 N 3py          0.01877  -0.00349  -0.02129  -0.05780
+0 N 3pz          0.00000  -0.00000   0.00000   0.00000
+0 N 4px         -0.00149  -0.00805   0.00300  -0.00111
+0 N 4py         -0.00805   0.00149  -0.00111  -0.00300
+0 N 4pz         -0.00000   0.00000   0.00000   0.00000
+0 N 3dxy        -0.00000   0.00000  -0.00000   0.00000
+0 N 3dyz         0.05243  -0.00974  -0.00861  -0.02338
+0 N 3dz^2       -0.00000  -0.00000  -0.00000   0.00000
+0 N 3dxz         0.00974   0.05243   0.02338  -0.00861
+0 N 3dx2-y2     -0.00000  -0.00000  -0.00000  -0.00000
+0 N 4dxy        -0.00000  -0.00000  -0.00000   0.00000
+0 N 4dyz        -0.00167   0.00031  -0.00421  -0.01143
+0 N 4dz^2       -0.00000  -0.00000  -0.00000   0.00000
+0 N 4dxz        -0.00031  -0.00167   0.01143  -0.00421
+0 N 4dx2-y2     -0.00000  -0.00000   0.00000  -0.00000
+0 N 4f-3        -0.00000  -0.00000   0.00000  -0.00000
+0 N 4f-2        -0.00000   0.00000   0.00000   0.00000
+0 N 4f-1         0.01221  -0.00227   0.00568   0.01541
+0 N 4f+0        -0.00000  -0.00000  -0.00000   0.00000
+0 N 4f+1         0.00227   0.01221  -0.01541   0.00568
+0 N 4f+2        -0.00000  -0.00000  -0.00000   0.00000
+0 N 4f+3        -0.00000   0.00000  -0.00000  -0.00000
+1 N 1s          -0.00000  -0.00000  -0.00000  -0.00000
+1 N 2s          -0.00000  -0.00000   0.00000   0.00000
+1 N 3s          -0.00000  -0.00000  -0.00000   0.00000
+1 N 4s           0.00000  -0.00000  -0.00000  -0.00000
+1 N 2px          0.12864   0.69283  -0.66031   0.24321
+1 N 2py          0.69283  -0.12864   0.24321   0.66031
+1 N 2pz          0.00000  -0.00000  -0.00000  -0.00000
+1 N 3px          0.00349   0.01877  -0.05780   0.02129
+1 N 3py          0.01877  -0.00349   0.02129   0.05780
+1 N 3pz         -0.00000  -0.00000   0.00000   0.00000
+1 N 4px         -0.00149  -0.00805  -0.00300   0.00111
+1 N 4py         -0.00805   0.00149   0.00111   0.00300
+1 N 4pz          0.00000   0.00000   0.00000   0.00000
+1 N 3dxy        -0.00000   0.00000  -0.00000   0.00000
+1 N 3dyz        -0.05243   0.00974  -0.00861  -0.02338
+1 N 3dz^2       -0.00000   0.00000   0.00000  -0.00000
+1 N 3dxz        -0.00974  -0.05243   0.02338  -0.00861
+1 N 3dx2-y2     -0.00000  -0.00000  -0.00000  -0.00000
+1 N 4dxy        -0.00000   0.00000   0.00000   0.00000
+1 N 4dyz         0.00167  -0.00031  -0.00421  -0.01143
+1 N 4dz^2       -0.00000   0.00000   0.00000   0.00000
+1 N 4dxz         0.00031   0.00167   0.01143  -0.00421
+1 N 4dx2-y2     -0.00000  -0.00000  -0.00000   0.00000
+1 N 4f-3        -0.00000  -0.00000  -0.00000   0.00000
+1 N 4f-2         0.00000  -0.00000   0.00000  -0.00000
+1 N 4f-1         0.01221  -0.00227  -0.00568  -0.01541
+1 N 4f+0         0.00000  -0.00000   0.00000  -0.00000
+1 N 4f+1         0.00227   0.01221   0.01541  -0.00568
+1 N 4f+2         0.00000   0.00000   0.00000   0.00000
+1 N 4f+3        -0.00000   0.00000   0.00000   0.00000
+<CAS-nat-orb|mo-hf>  6      6        0.99981452
+<CAS-nat-orb|mo-hf>  7      7        0.99981452
+<CAS-nat-orb|mo-hf>  8      9        0.90713206
+<CAS-nat-orb|mo-hf>  8      16       0.40466994
+<CAS-nat-orb|mo-hf>  9      8        0.90713206
+<CAS-nat-orb|mo-hf>  9      15      -0.40466994
+Sr    (-1)',   E = -0.00328001300221
+Si    (+1)',   E = -0.00000000000000
+Sijrs (0)  ,   E = -0.08742691428239
+Sijr  (+1) ,   E = -0.01533613344683
+Srsi  (-1) ,   E = -0.07928593418175
+Srs   (-2) ,   E = -0.02795085656697
+Sij   (+2) ,   E = -0.00511758601467
+Sir   (0)' ,   E = -0.07546590812776
+Nevpt2 Energy = -0.293863345622581
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp6dtunaz4
+max_memory 4000 MB (current use 228 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -108.683283530877
+  HOMO = -0.364976187675585  LUMO = 0.0275629497819018
+cycle= 1 E= -108.913684909058  delta_E= -0.23  |g|= 0.332  |ddm|= 1.28
+  HOMO = -0.625777709989825  LUMO = 0.0655254375608601
+cycle= 2 E= -108.937698380264  delta_E= -0.024  |g|= 0.0974  |ddm|= 0.228
+  HOMO = -0.57192850995278  LUMO = 0.113282312984665
+cycle= 3 E= -108.939515917151  delta_E= -0.00182  |g|= 0.0175  |ddm|= 0.049
+  HOMO = -0.571349363807395  LUMO = 0.114646027847675
+cycle= 4 E= -108.939641581098  delta_E= -0.000126  |g|= 0.0022  |ddm|= 0.0189
+  HOMO = -0.571903736614697  LUMO = 0.114239535136575
+cycle= 5 E= -108.939642725412  delta_E= -1.14e-06  |g|= 0.000143  |ddm|= 0.00181
+  HOMO = -0.571909229616739  LUMO = 0.114224069443706
+cycle= 6 E= -108.939642732437  delta_E= -7.02e-09  |g|= 3.07e-05  |ddm|= 0.000146
+  HOMO = -0.571901368044448  LUMO = 0.114230982086689
+cycle= 7 E= -108.939642732822  delta_E= -3.85e-10  |g|= 3.88e-06  |ddm|= 4.78e-05
+  HOMO = -0.571901558097435  LUMO = 0.114230519293309
+Extra cycle  E= -108.939642732828  delta_E= -5.91e-12  |g|= 1.11e-06  |ddm|= 6.52e-06
+converged SCF energy = -108.939642732828
+
+******** CASCI flags ********
+CAS (2e+2e, 4o), ncore = 5, nvir = 51
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1.92997089 1.92997089 0.07002911 0.07002911]
+CASCI converged
+CASCI E = -109.014839435941  E(CI) = -5.44260203181678  S^2 = 0.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (2e+2e, 4o), ncore = 5, nvir = 51
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmp6dtunaz4
+max_memory 4000 MB (current use 228 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -109.014839435941  S^2 = 0.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 21 JK    4 micro), CASSCF E = -109.048484951235  dE = -3.36455153e-02  S^2 = 0.0000000
+               |grad[o]|=0.0824  |grad[c]|=0.0328  |ddm|=0.0411  |maxRot[o]|=0.314
+macro iter   2 (  9 JK    4 micro), CASSCF E = -109.048646829515  dE = -1.61878280e-04  S^2 = 0.0000000
+               |grad[o]|=0.0126  |grad[c]|=0.000163  |ddm|=0.00146  |maxRot[o]|=0.0212
+macro iter   3 (  1 JK    1 micro), CASSCF E = -109.048646829911  dE = -3.95687039e-10  S^2 = 0.0000000
+               |grad[o]|=1.37e-05  |grad[c]|=1.67e-05  |ddm|=1.65e-05  |maxRot[o]|=    0
+1-step CASSCF converged in   3 macro ( 31 JK   9 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1.91021144 1.91021144 0.08978856 0.08978856]
+CASSCF energy = -109.048646829911
+CASCI E = -109.048646829911  E(CI) = -5.49618254392057  S^2 = 0.0000000
+Natural occ [1.91021144 1.91021144 0.08978856 0.08978856]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4       
+0 N 1s          -0.00000   0.00000  -0.00000  -0.00000
+0 N 2s          -0.00000  -0.00000   0.00000   0.00000
+0 N 3s           0.00000  -0.00000  -0.00000  -0.00000
+0 N 4s          -0.00000   0.00000   0.00000   0.00000
+0 N 2px          0.37446   0.59764   0.47620  -0.51982
+0 N 2py          0.59764  -0.37446  -0.51982  -0.47620
+0 N 2pz          0.00000  -0.00000   0.00000   0.00000
+0 N 3px          0.00089   0.00143   0.03312  -0.03615
+0 N 3py          0.00143  -0.00089  -0.03615  -0.03312
+0 N 3pz         -0.00000   0.00000  -0.00000  -0.00000
+0 N 4px         -0.00353  -0.00564  -0.00027   0.00029
+0 N 4py         -0.00564   0.00353   0.00029   0.00027
+0 N 4pz         -0.00000   0.00000  -0.00000  -0.00000
+0 N 3dxy        -0.00000  -0.00000  -0.00000   0.00000
+0 N 3dyz         0.04188  -0.02624  -0.01495  -0.01370
+0 N 3dz^2        0.00000  -0.00000  -0.00000  -0.00000
+0 N 3dxz         0.02624   0.04188   0.01370  -0.01495
+0 N 3dx2-y2      0.00000  -0.00000  -0.00000  -0.00000
+0 N 4dxy        -0.00000  -0.00000   0.00000  -0.00000
+0 N 4dyz         0.00243  -0.00152  -0.00635  -0.00582
+0 N 4dz^2        0.00000  -0.00000   0.00000   0.00000
+0 N 4dxz         0.00152   0.00243   0.00582  -0.00635
+0 N 4dx2-y2      0.00000  -0.00000   0.00000   0.00000
+0 N 4f-3         0.00000  -0.00000  -0.00000  -0.00000
+0 N 4f-2        -0.00000  -0.00000  -0.00000   0.00000
+0 N 4f-1         0.00883  -0.00553   0.00854   0.00783
+0 N 4f+0         0.00000  -0.00000  -0.00000  -0.00000
+0 N 4f+1         0.00553   0.00883  -0.00783   0.00854
+0 N 4f+2         0.00000  -0.00000  -0.00000  -0.00000
+0 N 4f+3        -0.00000  -0.00000  -0.00000   0.00000
+1 N 1s          -0.00000   0.00000   0.00000   0.00000
+1 N 2s          -0.00000   0.00000  -0.00000  -0.00000
+1 N 3s           0.00000  -0.00000   0.00000   0.00000
+1 N 4s          -0.00000   0.00000  -0.00000   0.00000
+1 N 2px          0.37446   0.59764  -0.47620   0.51982
+1 N 2py          0.59764  -0.37446   0.51982   0.47620
+1 N 2pz         -0.00000   0.00000   0.00000   0.00000
+1 N 3px          0.00089   0.00143  -0.03312   0.03615
+1 N 3py          0.00143  -0.00089   0.03615   0.03312
+1 N 3pz          0.00000  -0.00000  -0.00000  -0.00000
+1 N 4px         -0.00353  -0.00564   0.00027  -0.00029
+1 N 4py         -0.00564   0.00353  -0.00029  -0.00027
+1 N 4pz          0.00000   0.00000  -0.00000  -0.00000
+1 N 3dxy        -0.00000  -0.00000   0.00000  -0.00000
+1 N 3dyz        -0.04188   0.02624  -0.01495  -0.01370
+1 N 3dz^2        0.00000  -0.00000   0.00000   0.00000
+1 N 3dxz        -0.02624  -0.04188   0.01370  -0.01495
+1 N 3dx2-y2      0.00000  -0.00000   0.00000   0.00000
+1 N 4dxy        -0.00000  -0.00000  -0.00000   0.00000
+1 N 4dyz        -0.00243   0.00152  -0.00635  -0.00582
+1 N 4dz^2        0.00000  -0.00000  -0.00000  -0.00000
+1 N 4dxz        -0.00152  -0.00243   0.00582  -0.00635
+1 N 4dx2-y2      0.00000  -0.00000  -0.00000  -0.00000
+1 N 4f-3         0.00000  -0.00000   0.00000   0.00000
+1 N 4f-2         0.00000   0.00000  -0.00000   0.00000
+1 N 4f-1         0.00883  -0.00553  -0.00854  -0.00783
+1 N 4f+0        -0.00000   0.00000  -0.00000  -0.00000
+1 N 4f+1         0.00553   0.00883   0.00783  -0.00854
+1 N 4f+2        -0.00000   0.00000  -0.00000  -0.00000
+1 N 4f+3        -0.00000  -0.00000   0.00000  -0.00000
+<CAS-nat-orb|mo-hf>  6      6        0.99826950
+<CAS-nat-orb|mo-hf>  7      7        0.99826950
+<CAS-nat-orb|mo-hf>  8      9        0.91958833
+<CAS-nat-orb|mo-hf>  9      8        0.91958833
+Sr    (-1)',   E = -0.00409612138984
+Si    (+1)',   E = -0.00000000000000
+Sijrs (0)  ,   E = -0.08888514854699
+Sijr  (+1) ,   E = -0.01576977600724
+Srsi  (-1) ,   E = -0.08014079585552
+Srs   (-2) ,   E = -0.02554959247198
+Sij   (+2) ,   E = -0.00509977128057
+Sir   (0)' ,   E = -0.07997576939808
+Nevpt2 Energy = -0.299516974950224
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpu70pwqk_
+max_memory 4000 MB (current use 228 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -108.212385632068
+  HOMO = -0.326827159600828  LUMO = -0.028476257353158
+cycle= 1 E= -108.754924895671  delta_E= -0.543  |g|= 0.363  |ddm|= 1.22
+  HOMO = -0.568272571257728  LUMO = -0.0211363274259068
+cycle= 2 E= -108.783901084361  delta_E= -0.029  |g|= 0.103  |ddm|= 0.274
+  HOMO = -0.511153726516761  LUMO = 0.035681697804861
+cycle= 3 E= -108.786217200359  delta_E= -0.00232  |g|= 0.0201  |ddm|= 0.054
+  HOMO = -0.510198037029117  LUMO = 0.0379714214320109
+cycle= 4 E= -108.786412067611  delta_E= -0.000195  |g|= 0.00268  |ddm|= 0.0232
+  HOMO = -0.511005183898791  LUMO = 0.0372751378051645
+cycle= 5 E= -108.786413859641  delta_E= -1.79e-06  |g|= 0.000129  |ddm|= 0.00212
+  HOMO = -0.510998687988089  LUMO = 0.0372749474879126
+cycle= 6 E= -108.786413864176  delta_E= -4.54e-09  |g|= 2.28e-05  |ddm|= 0.000106
+  HOMO = -0.510995132327974  LUMO = 0.0372803565045404
+cycle= 7 E= -108.786413864303  delta_E= -1.27e-10  |g|= 2.67e-06  |ddm|= 2.04e-05
+  HOMO = -0.510995027746668  LUMO = 0.0372804866714584
+Extra cycle  E= -108.786413864306  delta_E= -2.79e-12  |g|= 7.82e-07  |ddm|= 2.84e-06
+converged SCF energy = -108.786413864306
+
+******** CASCI flags ********
+CAS (2e+2e, 4o), ncore = 5, nvir = 51
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1.85118624 1.85118624 0.14881376 0.14881376]
+CASCI converged
+CASCI E = -108.905729687138  E(CI) = -5.01672621470220  S^2 = 0.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (2e+2e, 4o), ncore = 5, nvir = 51
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmpu70pwqk_
+max_memory 4000 MB (current use 228 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -108.905729687138  S^2 = 0.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 17 JK    4 micro), CASSCF E = -108.936990695880  dE = -3.12610087e-02  S^2 = 0.0000000
+               |grad[o]|=0.112  |grad[c]|=0.0303  |ddm|=0.0512  |maxRot[o]|=0.214
+macro iter   2 (  5 JK    2 micro), CASSCF E = -108.936999106760  dE = -8.41087989e-06  S^2 = 0.0000000
+               |grad[o]|=0.00266  |grad[c]|=0.00028  |ddm|=0.000737  |maxRot[o]|=0.00171
+macro iter   3 (  3 JK    1 micro), CASSCF E = -108.936999114864  dE = -8.10352674e-09  S^2 = 0.0000000
+               |grad[o]|=9.87e-05  |grad[c]|=2.4e-05  |ddm|=3.19e-05  |maxRot[o]|=6.26e-05
+1-step CASSCF converged in   3 macro ( 25 JK   7 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1.82526275 1.82526275 0.17473725 0.17473725]
+CASSCF energy = -108.936999114864
+CASCI E = -108.936999114864  E(CI) = -5.07466463859049  S^2 = 0.0000000
+Natural occ [1.82526275 1.82526275 0.17473725 0.17473725]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4       
+0 N 1s          -0.00000  -0.00000  -0.00000  -0.00000
+0 N 2s          -0.00000  -0.00000   0.00000   0.00000
+0 N 3s           0.00000  -0.00000  -0.00000  -0.00000
+0 N 4s          -0.00000   0.00000  -0.00000  -0.00000
+0 N 2px         -0.10932   0.69705   0.70151   0.08332
+0 N 2py          0.69705   0.10932   0.08332  -0.70151
+0 N 2pz          0.00000  -0.00000   0.00000   0.00000
+0 N 3px          0.00304  -0.01941   0.02617   0.00311
+0 N 3py         -0.01941  -0.00304   0.00311  -0.02617
+0 N 3pz         -0.00000   0.00000  -0.00000  -0.00000
+0 N 4px          0.00040  -0.00256  -0.00359  -0.00043
+0 N 4py         -0.00256  -0.00040  -0.00043   0.00359
+0 N 4pz         -0.00000   0.00000  -0.00000  -0.00000
+0 N 3dxy         0.00000  -0.00000   0.00000  -0.00000
+0 N 3dyz         0.04040   0.00634   0.00149  -0.01253
+0 N 3dz^2        0.00000  -0.00000  -0.00000   0.00000
+0 N 3dxz        -0.00634   0.04040   0.01253   0.00149
+0 N 3dx2-y2      0.00000   0.00000   0.00000   0.00000
+0 N 4dxy         0.00000   0.00000   0.00000   0.00000
+0 N 4dyz         0.00710   0.00111   0.00052  -0.00440
+0 N 4dz^2        0.00000  -0.00000   0.00000  -0.00000
+0 N 4dxz        -0.00111   0.00710   0.00440   0.00052
+0 N 4dx2-y2     -0.00000   0.00000  -0.00000   0.00000
+0 N 4f-3         0.00000  -0.00000  -0.00000  -0.00000
+0 N 4f-2         0.00000   0.00000  -0.00000  -0.00000
+0 N 4f-1         0.00700   0.00110  -0.00088   0.00739
+0 N 4f+0         0.00000  -0.00000  -0.00000  -0.00000
+0 N 4f+1        -0.00110   0.00700  -0.00739  -0.00088
+0 N 4f+2        -0.00000   0.00000   0.00000  -0.00000
+0 N 4f+3        -0.00000  -0.00000  -0.00000   0.00000
+1 N 1s           0.00000   0.00000   0.00000  -0.00000
+1 N 2s           0.00000   0.00000  -0.00000  -0.00000
+1 N 3s           0.00000  -0.00000   0.00000  -0.00000
+1 N 4s          -0.00000   0.00000   0.00000   0.00000
+1 N 2px         -0.10932   0.69705  -0.70151  -0.08332
+1 N 2py          0.69705   0.10932  -0.08332   0.70151
+1 N 2pz         -0.00000   0.00000   0.00000   0.00000
+1 N 3px          0.00304  -0.01941  -0.02617  -0.00311
+1 N 3py         -0.01941  -0.00304  -0.00311   0.02617
+1 N 3pz          0.00000  -0.00000  -0.00000  -0.00000
+1 N 4px          0.00040  -0.00256   0.00359   0.00043
+1 N 4py         -0.00256  -0.00040   0.00043  -0.00359
+1 N 4pz          0.00000  -0.00000  -0.00000  -0.00000
+1 N 3dxy         0.00000   0.00000   0.00000  -0.00000
+1 N 3dyz        -0.04040  -0.00634   0.00149  -0.01253
+1 N 3dz^2        0.00000  -0.00000   0.00000   0.00000
+1 N 3dxz         0.00634  -0.04040   0.01253   0.00149
+1 N 3dx2-y2     -0.00000   0.00000   0.00000   0.00000
+1 N 4dxy         0.00000   0.00000   0.00000  -0.00000
+1 N 4dyz        -0.00710  -0.00111   0.00052  -0.00440
+1 N 4dz^2        0.00000  -0.00000   0.00000  -0.00000
+1 N 4dxz         0.00111  -0.00710   0.00440   0.00052
+1 N 4dx2-y2     -0.00000   0.00000   0.00000   0.00000
+1 N 4f-3         0.00000  -0.00000   0.00000   0.00000
+1 N 4f-2        -0.00000   0.00000  -0.00000  -0.00000
+1 N 4f-1         0.00700   0.00110   0.00088  -0.00739
+1 N 4f+0        -0.00000   0.00000  -0.00000  -0.00000
+1 N 4f+1        -0.00110   0.00700   0.00739   0.00088
+1 N 4f+2        -0.00000  -0.00000   0.00000  -0.00000
+1 N 4f+3        -0.00000  -0.00000   0.00000  -0.00000
+<CAS-nat-orb|mo-hf>  6      6        0.99930470
+<CAS-nat-orb|mo-hf>  7      7        0.99930470
+<CAS-nat-orb|mo-hf>  8      9        0.96855434
+<CAS-nat-orb|mo-hf>  9      8        0.96855434
+Sr    (-1)',   E = -0.00507145314670
+Si    (+1)',   E = -0.00000000000000
+Sijrs (0)  ,   E = -0.09393928789500
+Sijr  (+1) ,   E = -0.01610550026202
+Srsi  (-1) ,   E = -0.08401898089853
+Srs   (-2) ,   E = -0.02132736483544
+Sij   (+2) ,   E = -0.00447703662502
+Sir   (0)' ,   E = -0.08585816110356
+Nevpt2 Energy = -0.310797784766269
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpbt4tsi9e
+max_memory 4000 MB (current use 228 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -107.926746246721
+  HOMO = -0.271483877588791  LUMO = -0.0691217912604338
+cycle= 1 E= -108.590531247415  delta_E= -0.664  |g|= 0.362  |ddm|= 1.19
+  HOMO = -0.521550572091739  LUMO = -0.0794883086025912
+cycle= 2 E= -108.61948897794  delta_E= -0.029  |g|= 0.102  |ddm|= 0.298
+  HOMO = -0.466690790454563  LUMO = -0.0215288639340611
+cycle= 3 E= -108.621910234806  delta_E= -0.00242  |g|= 0.0209  |ddm|= 0.0543
+  HOMO = -0.465931447540242  LUMO = -0.0192319741137058
+cycle= 4 E= -108.622139041404  delta_E= -0.000229  |g|= 0.00297  |ddm|= 0.0246
+  HOMO = -0.466820991608545  LUMO = -0.0200612262636136
+cycle= 5 E= -108.622141673724  delta_E= -2.63e-06  |g|= 0.000196  |ddm|= 0.00254
+  HOMO = -0.466788643410499  LUMO = -0.0200286499941273
+cycle= 6 E= -108.622141683612  delta_E= -9.89e-09  |g|= 3.39e-05  |ddm|= 0.000165
+  HOMO = -0.466786798758941  LUMO = -0.0200241600290428
+cycle= 7 E= -108.622141684011  delta_E= -3.99e-10  |g|= 5.24e-06  |ddm|= 3.42e-05
+  HOMO = -0.466786684762287  LUMO = -0.0200241272360956
+Extra cycle  E= -108.622141684022  delta_E= -1.1e-11  |g|= 1.5e-06  |ddm|= 5.29e-06
+converged SCF energy = -108.622141684022
+
+******** CASCI flags ********
+CAS (2e+2e, 4o), ncore = 5, nvir = 51
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1.70133767 1.70133767 0.29866233 0.29866233]
+CASCI converged
+CASCI E = -108.794939014801  E(CI) = -4.72942086350747  S^2 = 0.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (2e+2e, 4o), ncore = 5, nvir = 51
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmpbt4tsi9e
+max_memory 4000 MB (current use 228 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -108.794939014802  S^2 = 0.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 13 JK    4 micro), CASSCF E = -108.826861512403  dE = -3.19224976e-02  S^2 = 0.0000000
+               |grad[o]|=0.145  |grad[c]|=0.0294  |ddm|=0.0667  |maxRot[o]|=0.133
+macro iter   2 (  6 JK    2 micro), CASSCF E = -108.826881056885  dE = -1.95444821e-05  S^2 = 0.0000000
+               |grad[o]|=0.00417  |grad[c]|=0.000639  |ddm|=0.00384  |maxRot[o]|=0.00255
+macro iter   3 (  3 JK    1 micro), CASSCF E = -108.826881089910  dE = -3.30256427e-08  S^2 = 0.0000000
+               |grad[o]|=0.000203  |grad[c]|=4.06e-05  |ddm|=0.000138  |maxRot[o]|=9.75e-05
+1-step CASSCF converged in   3 macro ( 22 JK   7 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1.65795359 1.65795359 0.34204641 0.34204641]
+CASSCF energy = -108.826881089910
+CASCI E = -108.826881089910  E(CI) = -4.79834422982175  S^2 = 0.0000000
+Natural occ [1.65795359 1.65795359 0.34204641 0.34204641]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4       
+0 N 1s          -0.00000  -0.00000   0.00000   0.00000
+0 N 2s          -0.00000  -0.00000  -0.00000   0.00000
+0 N 3s           0.00000  -0.00000   0.00000  -0.00000
+0 N 4s          -0.00000   0.00000  -0.00000   0.00000
+0 N 2px          0.69974   0.09242  -0.00866  -0.70696
+0 N 2py         -0.09242   0.69974  -0.70696   0.00866
+0 N 2pz         -0.00000   0.00000  -0.00000   0.00000
+0 N 3px         -0.02819  -0.00372  -0.00007  -0.00588
+0 N 3py          0.00372  -0.02819  -0.00588   0.00007
+0 N 3pz          0.00000  -0.00000   0.00000  -0.00000
+0 N 4px          0.00056   0.00007   0.00005   0.00397
+0 N 4py         -0.00007   0.00056   0.00397  -0.00005
+0 N 4pz         -0.00000  -0.00000  -0.00000  -0.00000
+0 N 3dxy         0.00000   0.00000  -0.00000  -0.00000
+0 N 3dyz        -0.00402   0.03043  -0.00674   0.00008
+0 N 3dz^2       -0.00000   0.00000  -0.00000   0.00000
+0 N 3dxz         0.03043   0.00402  -0.00008  -0.00674
+0 N 3dx2-y2      0.00000  -0.00000   0.00000   0.00000
+0 N 4dxy         0.00000   0.00000  -0.00000   0.00000
+0 N 4dyz        -0.00098   0.00740  -0.00157   0.00002
+0 N 4dz^2       -0.00000   0.00000  -0.00000   0.00000
+0 N 4dxz         0.00740   0.00098  -0.00002  -0.00157
+0 N 4dx2-y2      0.00000  -0.00000   0.00000  -0.00000
+0 N 4f-3         0.00000  -0.00000   0.00000  -0.00000
+0 N 4f-2         0.00000   0.00000   0.00000  -0.00000
+0 N 4f-1        -0.00054   0.00408   0.00611  -0.00007
+0 N 4f+0        -0.00000   0.00000  -0.00000   0.00000
+0 N 4f+1         0.00408   0.00054   0.00007   0.00611
+0 N 4f+2         0.00000   0.00000   0.00000   0.00000
+0 N 4f+3         0.00000   0.00000  -0.00000  -0.00000
+1 N 1s          -0.00000   0.00000  -0.00000  -0.00000
+1 N 2s           0.00000   0.00000   0.00000  -0.00000
+1 N 3s          -0.00000   0.00000  -0.00000   0.00000
+1 N 4s          -0.00000  -0.00000   0.00000   0.00000
+1 N 2px          0.69974   0.09242   0.00866   0.70696
+1 N 2py         -0.09242   0.69974   0.70696  -0.00866
+1 N 2pz          0.00000   0.00000  -0.00000   0.00000
+1 N 3px         -0.02819  -0.00372   0.00007   0.00588
+1 N 3py          0.00372  -0.02819   0.00588  -0.00007
+1 N 3pz          0.00000  -0.00000   0.00000  -0.00000
+1 N 4px          0.00056   0.00007  -0.00005  -0.00397
+1 N 4py         -0.00007   0.00056  -0.00397   0.00005
+1 N 4pz          0.00000  -0.00000   0.00000  -0.00000
+1 N 3dxy         0.00000  -0.00000  -0.00000  -0.00000
+1 N 3dyz         0.00402  -0.03043  -0.00674   0.00008
+1 N 3dz^2        0.00000  -0.00000   0.00000  -0.00000
+1 N 3dxz        -0.03043  -0.00402  -0.00008  -0.00674
+1 N 3dx2-y2      0.00000  -0.00000   0.00000  -0.00000
+1 N 4dxy         0.00000   0.00000  -0.00000  -0.00000
+1 N 4dyz         0.00098  -0.00740  -0.00157   0.00002
+1 N 4dz^2        0.00000  -0.00000   0.00000  -0.00000
+1 N 4dxz        -0.00740  -0.00098  -0.00002  -0.00157
+1 N 4dx2-y2      0.00000  -0.00000   0.00000   0.00000
+1 N 4f-3         0.00000  -0.00000  -0.00000   0.00000
+1 N 4f-2         0.00000   0.00000   0.00000   0.00000
+1 N 4f-1        -0.00054   0.00408  -0.00611   0.00007
+1 N 4f+0        -0.00000   0.00000  -0.00000   0.00000
+1 N 4f+1         0.00408   0.00054  -0.00007  -0.00611
+1 N 4f+2         0.00000   0.00000   0.00000   0.00000
+1 N 4f+3         0.00000   0.00000   0.00000   0.00000
+<CAS-nat-orb|mo-hf>  6      6        0.99407951
+<CAS-nat-orb|mo-hf>  7      7        0.99407951
+<CAS-nat-orb|mo-hf>  8      9        0.95267149
+<CAS-nat-orb|mo-hf>  9      8        0.95267149
+Sr    (-1)',   E = -0.00436303124518
+Si    (+1)',   E = -0.00000000000000
+Sijrs (0)  ,   E = -0.10136990493256
+Sijr  (+1) ,   E = -0.01585894900529
+Srsi  (-1) ,   E = -0.09067406296786
+Srs   (-2) ,   E = -0.01746731338115
+Sij   (+2) ,   E = -0.00301189023170
+Sir   (0)' ,   E = -0.08359355649434
+Nevpt2 Energy = -0.316338708258084
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp9ekfxcul
+max_memory 4000 MB (current use 228 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -107.764730325307
+  HOMO = -0.236107132522061  LUMO = -0.0979722563241532
+cycle= 1 E= -108.447463037653  delta_E= -0.683  |g|= 0.354  |ddm|= 1.19
+  HOMO = -0.485576171508746  LUMO = -0.119310217850209
+cycle= 2 E= -108.474880027639  delta_E= -0.0274  |g|= 0.101  |ddm|= 0.305
+  HOMO = -0.434151145619776  LUMO = -0.0633802737336949
+cycle= 3 E= -108.47726883286  delta_E= -0.00239  |g|= 0.0205  |ddm|= 0.0542
+  HOMO = -0.433575433628567  LUMO = -0.0614156045923815
+cycle= 4 E= -108.47749812122  delta_E= -0.000229  |g|= 0.00313  |ddm|= 0.0244
+  HOMO = -0.434440095899129  LUMO = -0.062239322812592
+cycle= 5 E= -108.477501453313  delta_E= -3.33e-06  |g|= 0.000267  |ddm|= 0.00284
+  HOMO = -0.434385491423084  LUMO = -0.0621818929565329
+cycle= 6 E= -108.477501471679  delta_E= -1.84e-08  |g|= 5.11e-05  |ddm|= 0.000241
+  HOMO = -0.434383565048203  LUMO = -0.0621763664522676
+cycle= 7 E= -108.477501472616  delta_E= -9.38e-10  |g|= 7.09e-06  |ddm|= 5.2e-05
+  HOMO = -0.434383236252109  LUMO = -0.0621762183931138
+Extra cycle  E= -108.477501472636  delta_E= -1.92e-11  |g|= 1.97e-06  |ddm|= 7.42e-06
+converged SCF energy = -108.477501472636
+
+******** CASCI flags ********
+CAS (2e+2e, 4o), ncore = 5, nvir = 51
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1.48327586 1.48327586 0.51672414 0.51672414]
+CASCI converged
+CASCI E = -108.713082906760  E(CI) = -4.54371882781820  S^2 = 0.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (2e+2e, 4o), ncore = 5, nvir = 51
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmp9ekfxcul
+max_memory 4000 MB (current use 228 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -108.713082906760  S^2 = 0.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 14 JK    4 micro), CASSCF E = -108.747951539896  dE = -3.48686331e-02  S^2 = 0.0000000
+               |grad[o]|=0.175  |grad[c]|=0.0302  |ddm|=0.104  |maxRot[o]|=0.138
+macro iter   2 (  7 JK    3 micro), CASSCF E = -108.747968763012  dE = -1.72231157e-05  S^2 = 0.0000000
+               |grad[o]|=0.0049  |grad[c]|=6.13e-05  |ddm|=0.0011  |maxRot[o]|=0.00262
+macro iter   3 (  3 JK    1 micro), CASSCF E = -108.747968766861  dE = -3.84953580e-09  S^2 = 0.0000000
+               |grad[o]|=3.04e-05  |grad[c]|=3.33e-05  |ddm|=0.000118  |maxRot[o]|=1.27e-05
+1-step CASSCF converged in   3 macro ( 24 JK   8 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1.4271722 1.4271722 0.5728278 0.5728278]
+CASSCF energy = -108.747968766861
+CASCI E = -108.747968766861  E(CI) = -4.62853685794391  S^2 = 0.0000000
+Natural occ [1.4271722 1.4271722 0.5728278 0.5728278]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4       
+0 N 1s          -0.00000  -0.00000   0.00000   0.00000
+0 N 2s          -0.00000   0.00000  -0.00000   0.00000
+0 N 3s           0.00000  -0.00000   0.00000  -0.00000
+0 N 4s          -0.00000   0.00000  -0.00000   0.00000
+0 N 2px          0.69830  -0.10580   0.06948  -0.70363
+0 N 2py          0.10580   0.69830  -0.70363  -0.06948
+0 N 2pz         -0.00000   0.00000  -0.00000   0.00000
+0 N 3px         -0.02675   0.00405  -0.00058   0.00589
+0 N 3py         -0.00405  -0.02675   0.00589   0.00058
+0 N 3pz          0.00000  -0.00000   0.00000  -0.00000
+0 N 4px          0.00166  -0.00025  -0.00028   0.00285
+0 N 4py          0.00025   0.00166   0.00285   0.00028
+0 N 4pz         -0.00000   0.00000   0.00000   0.00000
+0 N 3dxy         0.00000  -0.00000   0.00000   0.00000
+0 N 3dyz         0.00305   0.02015  -0.00317  -0.00031
+0 N 3dz^2       -0.00000   0.00000  -0.00000   0.00000
+0 N 3dxz         0.02015  -0.00305   0.00031  -0.00317
+0 N 3dx2-y2      0.00000  -0.00000   0.00000   0.00000
+0 N 4dxy        -0.00000  -0.00000   0.00000   0.00000
+0 N 4dyz         0.00082   0.00543  -0.00001  -0.00000
+0 N 4dz^2       -0.00000   0.00000  -0.00000   0.00000
+0 N 4dxz         0.00543  -0.00082   0.00000  -0.00001
+0 N 4dx2-y2      0.00000  -0.00000   0.00000  -0.00000
+0 N 4f-3        -0.00000   0.00000  -0.00000   0.00000
+0 N 4f-2         0.00000  -0.00000   0.00000   0.00000
+0 N 4f-1         0.00023   0.00152   0.00532   0.00053
+0 N 4f+0        -0.00000   0.00000  -0.00000   0.00000
+0 N 4f+1         0.00152  -0.00023  -0.00053   0.00532
+0 N 4f+2        -0.00000  -0.00000   0.00000  -0.00000
+0 N 4f+3        -0.00000  -0.00000   0.00000   0.00000
+1 N 1s           0.00000   0.00000   0.00000  -0.00000
+1 N 2s           0.00000  -0.00000   0.00000  -0.00000
+1 N 3s          -0.00000   0.00000  -0.00000   0.00000
+1 N 4s           0.00000  -0.00000   0.00000  -0.00000
+1 N 2px          0.69830  -0.10580  -0.06948   0.70363
+1 N 2py          0.10580   0.69830   0.70363   0.06948
+1 N 2pz          0.00000  -0.00000  -0.00000   0.00000
+1 N 3px         -0.02675   0.00405   0.00058  -0.00589
+1 N 3py         -0.00405  -0.02675  -0.00589  -0.00058
+1 N 3pz          0.00000  -0.00000   0.00000  -0.00000
+1 N 4px          0.00166  -0.00025   0.00028  -0.00285
+1 N 4py          0.00025   0.00166  -0.00285  -0.00028
+1 N 4pz         -0.00000   0.00000  -0.00000   0.00000
+1 N 3dxy         0.00000   0.00000  -0.00000  -0.00000
+1 N 3dyz        -0.00305  -0.02015  -0.00317  -0.00031
+1 N 3dz^2        0.00000  -0.00000   0.00000  -0.00000
+1 N 3dxz        -0.02015   0.00305   0.00031  -0.00317
+1 N 3dx2-y2     -0.00000  -0.00000   0.00000  -0.00000
+1 N 4dxy         0.00000  -0.00000   0.00000  -0.00000
+1 N 4dyz        -0.00082  -0.00543  -0.00001  -0.00000
+1 N 4dz^2        0.00000  -0.00000   0.00000  -0.00000
+1 N 4dxz        -0.00543   0.00082   0.00000  -0.00001
+1 N 4dx2-y2     -0.00000   0.00000   0.00000  -0.00000
+1 N 4f-3        -0.00000   0.00000   0.00000  -0.00000
+1 N 4f-2         0.00000  -0.00000   0.00000  -0.00000
+1 N 4f-1         0.00023   0.00152  -0.00532  -0.00053
+1 N 4f+0        -0.00000   0.00000  -0.00000   0.00000
+1 N 4f+1         0.00152  -0.00023   0.00053  -0.00532
+1 N 4f+2        -0.00000  -0.00000   0.00000   0.00000
+1 N 4f+3        -0.00000  -0.00000  -0.00000  -0.00000
+<CAS-nat-orb|mo-hf>  6      6        0.98534427
+<CAS-nat-orb|mo-hf>  7      7        0.98534427
+<CAS-nat-orb|mo-hf>  8      9        0.98390208
+<CAS-nat-orb|mo-hf>  9      8        0.98390208
+Sr    (-1)',   E = -0.00240540318074
+Si    (+1)',   E = -0.00000000000000
+Sijrs (0)  ,   E = -0.10997591961897
+Sijr  (+1) ,   E = -0.01524504100135
+Srsi  (-1) ,   E = -0.09750812536818
+Srs   (-2) ,   E = -0.01482941478204
+Sij   (+2) ,   E = -0.00145323129754
+Sir   (0)' ,   E = -0.07278487208191
+Nevpt2 Energy = -0.314202007330730
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp99vnj6vm
+max_memory 4000 MB (current use 228 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -107.67673318338
+  HOMO = -0.213036145190876  LUMO = -0.118212329290876
+cycle= 1 E= -108.328975817741  delta_E= -0.652  |g|= 0.348  |ddm|=  1.2
+  HOMO = -0.458674672154451  LUMO = -0.147548474942942
+cycle= 2 E= -108.354912280813  delta_E= -0.0259  |g|= 0.103  |ddm|= 0.305
+  HOMO = -0.410103609610808  LUMO = -0.094279076514402
+cycle= 3 E= -108.357300923636  delta_E= -0.00239  |g|= 0.0196  |ddm|= 0.055
+  HOMO = -0.409590789752007  LUMO = -0.0926482304427253
+cycle= 4 E= -108.357515023453  delta_E= -0.000214  |g|= 0.00321  |ddm|= 0.0238
+  HOMO = -0.410415038528205  LUMO = -0.0934408435225521
+cycle= 5 E= -108.357518712518  delta_E= -3.69e-06  |g|= 0.00033  |ddm|= 0.00302
+  HOMO = -0.410343748779267  LUMO = -0.0933674181953114
+cycle= 6 E= -108.357518739561  delta_E= -2.7e-08  |g|= 7.3e-05  |ddm|= 0.000295
+  HOMO = -0.410339301556422  LUMO = -0.0933581559745879
+cycle= 7 E= -108.357518741389  delta_E= -1.83e-09  |g|= 7.51e-06  |ddm|= 7.09e-05
+  HOMO = -0.410338998113899  LUMO = -0.0933579479395474
+cycle= 8 E= -108.357518741414  delta_E= -2.5e-11  |g|= 6.22e-07  |ddm|= 1.1e-05
+  HOMO = -0.410339146406168  LUMO = -0.0933580788615104
+Extra cycle  E= -108.357518741414  delta_E= -9.95e-14  |g|= 1.64e-07  |ddm|= 7.43e-07
+converged SCF energy = -108.357518741414
+
+******** CASCI flags ********
+CAS (2e+2e, 4o), ncore = 5, nvir = 51
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1.29717229 1.29717229 0.70282771 0.70282771]
+CASCI converged
+CASCI E = -108.656657305008  E(CI) = -4.42422713283069  S^2 = 0.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (2e+2e, 4o), ncore = 5, nvir = 51
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmp99vnj6vm
+max_memory 4000 MB (current use 228 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -108.656657305008  S^2 = 0.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 12 JK    4 micro), CASSCF E = -108.693991369857  dE = -3.73340648e-02  S^2 = 0.0000000
+               |grad[o]|=0.189  |grad[c]|=0.0307  |ddm|=0.0887  |maxRot[o]|=0.104
+macro iter   2 (  7 JK    3 micro), CASSCF E = -108.694013186296  dE = -2.18164389e-05  S^2 = 0.0000000
+               |grad[o]|=0.00579  |grad[c]|=2.53e-05  |ddm|=0.000478  |maxRot[o]|=0.00198
+macro iter   3 (  1 JK    1 micro), CASSCF E = -108.694013186364  dE = -6.73026079e-11  S^2 = 0.0000000
+               |grad[o]|=1.26e-05  |grad[c]|=6.67e-06  |ddm|=1.09e-05  |maxRot[o]|=    0
+1-step CASSCF converged in   3 macro ( 20 JK   8 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1.25174522 1.25174522 0.74825478 0.74825478]
+CASSCF energy = -108.694013186364
+CASCI E = -108.694013186364  E(CI) = -4.52245081374916  S^2 = 0.0000000
+Natural occ [1.25174522 1.25174522 0.74825478 0.74825478]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4       
+0 N 1s           0.00000   0.00000   0.00000   0.00000
+0 N 2s           0.00000  -0.00000  -0.00000  -0.00000
+0 N 3s           0.00000   0.00000   0.00000   0.00000
+0 N 4s          -0.00000  -0.00000  -0.00000  -0.00000
+0 N 2px          0.70553   0.03968  -0.02909   0.70643
+0 N 2py         -0.03968   0.70553   0.70643   0.02909
+0 N 2pz         -0.00000  -0.00000  -0.00000  -0.00000
+0 N 3px         -0.02206  -0.00124   0.00038  -0.00928
+0 N 3py          0.00124  -0.02206  -0.00928  -0.00038
+0 N 3pz          0.00000   0.00000   0.00000   0.00000
+0 N 4px          0.00157   0.00009   0.00008  -0.00189
+0 N 4py         -0.00009   0.00157  -0.00189  -0.00008
+0 N 4pz          0.00000  -0.00000  -0.00000   0.00000
+0 N 3dxy        -0.00000  -0.00000   0.00000  -0.00000
+0 N 3dyz        -0.00069   0.01226   0.00142   0.00006
+0 N 3dz^2       -0.00000  -0.00000  -0.00000  -0.00000
+0 N 3dxz         0.01226   0.00069  -0.00006   0.00142
+0 N 3dx2-y2      0.00000  -0.00000  -0.00000   0.00000
+0 N 4dxy        -0.00000  -0.00000   0.00000  -0.00000
+0 N 4dyz        -0.00018   0.00318  -0.00063  -0.00003
+0 N 4dz^2       -0.00000  -0.00000  -0.00000  -0.00000
+0 N 4dxz         0.00318   0.00018   0.00003  -0.00063
+0 N 4dx2-y2     -0.00000  -0.00000  -0.00000   0.00000
+0 N 4f-3        -0.00000  -0.00000  -0.00000  -0.00000
+0 N 4f-2        -0.00000  -0.00000  -0.00000   0.00000
+0 N 4f-1         0.00002  -0.00035  -0.00462  -0.00019
+0 N 4f+0        -0.00000  -0.00000   0.00000   0.00000
+0 N 4f+1        -0.00035  -0.00002   0.00019  -0.00462
+0 N 4f+2         0.00000  -0.00000   0.00000   0.00000
+0 N 4f+3         0.00000  -0.00000  -0.00000   0.00000
+1 N 1s          -0.00000  -0.00000   0.00000   0.00000
+1 N 2s          -0.00000   0.00000   0.00000   0.00000
+1 N 3s          -0.00000  -0.00000  -0.00000   0.00000
+1 N 4s           0.00000   0.00000   0.00000   0.00000
+1 N 2px          0.70553   0.03968   0.02909  -0.70643
+1 N 2py         -0.03968   0.70553  -0.70643  -0.02909
+1 N 2pz          0.00000   0.00000  -0.00000  -0.00000
+1 N 3px         -0.02206  -0.00124  -0.00038   0.00928
+1 N 3py          0.00124  -0.02206   0.00928   0.00038
+1 N 3pz          0.00000   0.00000   0.00000   0.00000
+1 N 4px          0.00157   0.00009  -0.00008   0.00189
+1 N 4py         -0.00009   0.00157   0.00189   0.00008
+1 N 4pz         -0.00000  -0.00000  -0.00000  -0.00000
+1 N 3dxy        -0.00000   0.00000   0.00000  -0.00000
+1 N 3dyz         0.00069  -0.01226   0.00142   0.00006
+1 N 3dz^2        0.00000   0.00000   0.00000   0.00000
+1 N 3dxz        -0.01226  -0.00069  -0.00006   0.00142
+1 N 3dx2-y2      0.00000   0.00000  -0.00000   0.00000
+1 N 4dxy        -0.00000   0.00000  -0.00000   0.00000
+1 N 4dyz         0.00018  -0.00318  -0.00063  -0.00003
+1 N 4dz^2        0.00000   0.00000   0.00000   0.00000
+1 N 4dxz        -0.00318  -0.00018   0.00003  -0.00063
+1 N 4dx2-y2     -0.00000   0.00000   0.00000  -0.00000
+1 N 4f-3        -0.00000  -0.00000   0.00000   0.00000
+1 N 4f-2        -0.00000   0.00000  -0.00000   0.00000
+1 N 4f-1         0.00002  -0.00035   0.00462   0.00019
+1 N 4f+0        -0.00000  -0.00000   0.00000   0.00000
+1 N 4f+1        -0.00035  -0.00002  -0.00019   0.00462
+1 N 4f+2         0.00000  -0.00000   0.00000  -0.00000
+1 N 4f+3         0.00000  -0.00000   0.00000  -0.00000
+<CAS-nat-orb|mo-hf>  6      7        0.96939651
+<CAS-nat-orb|mo-hf>  7      6        0.96939651
+<CAS-nat-orb|mo-hf>  8      9        0.99257162
+<CAS-nat-orb|mo-hf>  9      8        0.99257162
+Sr    (-1)',   E = -0.00101416242179
+Si    (+1)',   E = -0.00000000000000
+Sijrs (0)  ,   E = -0.11911478205067
+Sijr  (+1) ,   E = -0.01460856469599
+Srsi  (-1) ,   E = -0.10151466656547
+Srs   (-2) ,   E = -0.01375671907606
+Sij   (+2) ,   E = -0.00061735563813
+Sir   (0)' ,   E = -0.06377474312238
+Nevpt2 Energy = -0.314400993570510
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpro6c0mgb
+max_memory 4000 MB (current use 228 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -107.606434992011
+  HOMO = -0.18741806324038  LUMO = -0.142153354383624
+cycle= 1 E= -108.155261145179  delta_E= -0.549  |g|= 0.34  |ddm|= 1.24
+  HOMO = -0.423068387300916  LUMO = -0.183900600685765
+cycle= 2 E= -108.179014539148  delta_E= -0.0238  |g|= 0.109  |ddm|= 0.301
+  HOMO = -0.377532388292291  LUMO = -0.134706321020983
+cycle= 3 E= -108.181577471821  delta_E= -0.00256  |g|= 0.0175  |ddm|= 0.0597
+  HOMO = -0.377164736951747  LUMO = -0.133676726577336
+cycle= 4 E= -108.181752466543  delta_E= -0.000175  |g|= 0.0031  |ddm|= 0.0227
+  HOMO = -0.377886984210051  LUMO = -0.134407572815336
+cycle= 5 E= -108.181756003214  delta_E= -3.54e-06  |g|= 0.000387  |ddm|= 0.00318
+  HOMO = -0.377810057408924  LUMO = -0.134324980933526
+cycle= 6 E= -108.181756041396  delta_E= -3.82e-08  |g|= 9.06e-05  |ddm|= 0.000347
+  HOMO = -0.377801074264136  LUMO = -0.134311516047344
+cycle= 7 E= -108.181756044031  delta_E= -2.63e-09  |g|= 6.24e-06  |ddm|= 8.47e-05
+  HOMO = -0.37780084723355  LUMO = -0.134311296492321
+cycle= 8 E= -108.18175604405  delta_E= -1.88e-11  |g|= 5.98e-07  |ddm|= 8.62e-06
+  HOMO = -0.377800991388179  LUMO = -0.13431141754964
+Extra cycle  E= -108.18175604405  delta_E= -3.13e-13  |g|= 2.24e-07  |ddm|= 7.19e-07
+converged SCF energy = -108.18175604405
+
+******** CASCI flags ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1.37422504 1.11484974 1.11484974 0.88513407 0.88513407 0.62580734]
+CASCI converged
+CASCI E = -108.738829029831  E(CI) = -8.86976575361275  S^2 = 0.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmpro6c0mgb
+max_memory 4000 MB (current use 228 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -108.738829029831  S^2 = 0.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 14 JK    4 micro), CASSCF E = -108.794985905944  dE = -5.61568761e-02  S^2 = 0.0000725
+               |grad[o]|=0.246  |grad[c]|=0.0525  |ddm|=0.0711  |maxRot[o]|=0.118
+macro iter   2 ( 10 JK    4 micro), CASSCF E = -108.795291989584  dE = -3.06083640e-04  S^2 = 0.0000595
+               |grad[o]|=0.0183  |grad[c]|=0.000346  |ddm|=0.00127  |maxRot[o]|=0.0192
+macro iter   3 (  6 JK    2 micro), CASSCF E = -108.795292072565  dE = -8.29812024e-08  S^2 = 0.0000562
+               |grad[o]|=0.000218  |grad[c]|=5.25e-05  |ddm|=7.73e-05  |maxRot[o]|=0.000374
+1-step CASSCF converged in   3 macro ( 30 JK  10 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1.32758988 1.09516377 1.09516377 0.90483151 0.90483151 0.67241957]
+CASSCF energy = -108.795292072565
+CASCI E = -108.795292072565  E(CI) = -8.98763358307455  S^2 = 0.0000562
+Natural occ [1.32758988 1.09516377 1.09516377 0.90483151 0.90483151 0.67241957]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4        #5       
+0 N 1s           0.00055  -0.00000   0.00000   0.00000   0.00000
+0 N 2s          -0.01481   0.00000  -0.00000   0.00000  -0.00000
+0 N 3s           0.00849  -0.00000  -0.00000   0.00000  -0.00000
+0 N 4s          -0.00010  -0.00000   0.00000  -0.00000   0.00000
+0 N 2px          0.00000  -0.69344   0.13586  -0.13663  -0.69352
+0 N 2py          0.00000   0.13586   0.69344  -0.69352   0.13663
+0 N 2pz          0.70644   0.00000  -0.00000   0.00000   0.00000
+0 N 3px         -0.00000   0.02542  -0.00498   0.00359   0.01823
+0 N 3py         -0.00000  -0.00498  -0.02542   0.01823  -0.00359
+0 N 3pz         -0.02435   0.00000  -0.00000  -0.00000  -0.00000
+0 N 4px         -0.00000  -0.00022   0.00004   0.00059   0.00299
+0 N 4py          0.00000   0.00004   0.00022   0.00299  -0.00059
+0 N 4pz         -0.00100   0.00000   0.00000   0.00000   0.00000
+0 N 3dxy         0.00000   0.00000  -0.00000   0.00000   0.00000
+0 N 3dyz        -0.00000   0.00079   0.00402  -0.00084   0.00017
+0 N 3dz^2        0.00753  -0.00000   0.00000   0.00000   0.00000
+0 N 3dxz         0.00000  -0.00402   0.00079  -0.00017  -0.00084
+0 N 3dx2-y2      0.00000  -0.00000   0.00000   0.00000   0.00000
+0 N 4dxy        -0.00000  -0.00000   0.00000  -0.00000  -0.00000
+0 N 4dyz        -0.00000   0.00024   0.00124   0.00049  -0.00010
+0 N 4dz^2        0.00216  -0.00000   0.00000   0.00000   0.00000
+0 N 4dxz        -0.00000  -0.00124   0.00024   0.00010   0.00049
+0 N 4dx2-y2      0.00000  -0.00000  -0.00000   0.00000  -0.00000
+0 N 4f-3        -0.00000  -0.00000   0.00000  -0.00000  -0.00000
+0 N 4f-2        -0.00000   0.00000  -0.00000   0.00000   0.00000
+0 N 4f-1        -0.00000   0.00008   0.00041   0.00037  -0.00007
+0 N 4f+0         0.00125  -0.00000   0.00000   0.00000   0.00000
+0 N 4f+1        -0.00000  -0.00041   0.00008   0.00007   0.00037
+0 N 4f+2         0.00000  -0.00000  -0.00000  -0.00000   0.00000
+0 N 4f+3         0.00000   0.00000   0.00000  -0.00000   0.00000
+1 N 1s           0.00055   0.00000  -0.00000   0.00000   0.00000
+1 N 2s          -0.01481  -0.00000  -0.00000  -0.00000  -0.00000
+1 N 3s           0.00849   0.00000   0.00000  -0.00000  -0.00000
+1 N 4s          -0.00010  -0.00000  -0.00000   0.00000  -0.00000
+1 N 2px         -0.00000  -0.69344   0.13586   0.13663   0.69352
+1 N 2py         -0.00000   0.13586   0.69344   0.69352  -0.13663
+1 N 2pz         -0.70644   0.00000  -0.00000  -0.00000  -0.00000
+1 N 3px          0.00000   0.02542  -0.00498  -0.00359  -0.01823
+1 N 3py          0.00000  -0.00498  -0.02542  -0.01823   0.00359
+1 N 3pz          0.02435   0.00000  -0.00000   0.00000   0.00000
+1 N 4px         -0.00000  -0.00022   0.00004  -0.00059  -0.00299
+1 N 4py         -0.00000   0.00004   0.00022  -0.00299   0.00059
+1 N 4pz          0.00100  -0.00000   0.00000  -0.00000   0.00000
+1 N 3dxy        -0.00000   0.00000  -0.00000  -0.00000  -0.00000
+1 N 3dyz         0.00000  -0.00079  -0.00402  -0.00084   0.00017
+1 N 3dz^2        0.00753   0.00000  -0.00000   0.00000   0.00000
+1 N 3dxz         0.00000   0.00402  -0.00079  -0.00017  -0.00084
+1 N 3dx2-y2      0.00000   0.00000   0.00000   0.00000   0.00000
+1 N 4dxy        -0.00000   0.00000  -0.00000  -0.00000   0.00000
+1 N 4dyz        -0.00000  -0.00024  -0.00124   0.00049  -0.00010
+1 N 4dz^2        0.00216   0.00000  -0.00000   0.00000   0.00000
+1 N 4dxz        -0.00000   0.00124  -0.00024   0.00010   0.00049
+1 N 4dx2-y2      0.00000  -0.00000  -0.00000  -0.00000   0.00000
+1 N 4f-3        -0.00000  -0.00000   0.00000   0.00000   0.00000
+1 N 4f-2        -0.00000   0.00000   0.00000  -0.00000  -0.00000
+1 N 4f-1         0.00000   0.00008   0.00041  -0.00037   0.00007
+1 N 4f+0        -0.00125  -0.00000   0.00000   0.00000  -0.00000
+1 N 4f+1         0.00000  -0.00041   0.00008  -0.00007  -0.00037
+1 N 4f+2         0.00000   0.00000   0.00000   0.00000  -0.00000
+1 N 4f+3         0.00000   0.00000   0.00000   0.00000  -0.00000
+               #6       
+0 N 1s          -0.00030
+0 N 2s           0.04918
+0 N 3s          -0.00446
+0 N 4s          -0.00211
+0 N 2px          0.00000
+0 N 2py          0.00000
+0 N 2pz          0.70520
+0 N 3px          0.00000
+0 N 3py          0.00000
+0 N 3pz         -0.01412
+0 N 4px         -0.00000
+0 N 4py         -0.00000
+0 N 4pz         -0.00602
+0 N 3dxy         0.00000
+0 N 3dyz        -0.00000
+0 N 3dz^2       -0.00277
+0 N 3dxz        -0.00000
+0 N 3dx2-y2     -0.00000
+0 N 4dxy         0.00000
+0 N 4dyz        -0.00000
+0 N 4dz^2       -0.00277
+0 N 4dxz        -0.00000
+0 N 4dx2-y2     -0.00000
+0 N 4f-3        -0.00000
+0 N 4f-2         0.00000
+0 N 4f-1        -0.00000
+0 N 4f+0        -0.00151
+0 N 4f+1        -0.00000
+0 N 4f+2        -0.00000
+0 N 4f+3         0.00000
+1 N 1s           0.00030
+1 N 2s          -0.04918
+1 N 3s           0.00446
+1 N 4s           0.00211
+1 N 2px          0.00000
+1 N 2py          0.00000
+1 N 2pz          0.70520
+1 N 3px          0.00000
+1 N 3py          0.00000
+1 N 3pz         -0.01412
+1 N 4px         -0.00000
+1 N 4py         -0.00000
+1 N 4pz         -0.00602
+1 N 3dxy        -0.00000
+1 N 3dyz         0.00000
+1 N 3dz^2        0.00277
+1 N 3dxz         0.00000
+1 N 3dx2-y2      0.00000
+1 N 4dxy         0.00000
+1 N 4dyz         0.00000
+1 N 4dz^2        0.00277
+1 N 4dxz         0.00000
+1 N 4dx2-y2     -0.00000
+1 N 4f-3         0.00000
+1 N 4f-2        -0.00000
+1 N 4f-1        -0.00000
+1 N 4f+0        -0.00151
+1 N 4f+1        -0.00000
+1 N 4f+2         0.00000
+1 N 4f+3        -0.00000
+<CAS-nat-orb|mo-hf>  5      5        0.99640480
+<CAS-nat-orb|mo-hf>  6      6       -0.64724345
+<CAS-nat-orb|mo-hf>  6      7        0.75705161
+<CAS-nat-orb|mo-hf>  7      6        0.75705161
+<CAS-nat-orb|mo-hf>  7      7        0.64724345
+<CAS-nat-orb|mo-hf>  8      8        0.62574831
+<CAS-nat-orb|mo-hf>  8      9        0.77464119
+<CAS-nat-orb|mo-hf>  9      8        0.77464119
+<CAS-nat-orb|mo-hf>  9      9       -0.62574831
+<CAS-nat-orb|mo-hf>  10     10       0.99162008
+Sr    (-1)',   E = -0.00255175080526
+Si    (+1)',   E = -0.00016977582660
+Sijrs (0)  ,   E = -0.02916397678482
+Sijr  (+1) ,   E = -0.00614235955692
+Srsi  (-1) ,   E = -0.06195291313914
+Srs   (-2) ,   E = -0.03967562422207
+Sij   (+2) ,   E = -0.00049423183637
+Sir   (0)' ,   E = -0.08385255242389
+Nevpt2 Energy = -0.224003184595076
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmprwlb5tv5
+max_memory 4000 MB (current use 229 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -107.588247362498
+  HOMO = -0.175538965012385  LUMO = -0.153738277768636
+cycle= 1 E= -108.042875488125  delta_E= -0.455  |g|= 0.332  |ddm|= 1.27
+  HOMO = -0.400513057804816  LUMO = -0.204872679132621
+cycle= 2 E= -108.064616485333  delta_E= -0.0217  |g|= 0.112  |ddm|= 0.295
+  HOMO = -0.356162283836666  LUMO = -0.158097344435808
+cycle= 3 E= -108.06733537026  delta_E= -0.00272  |g|= 0.0154  |ddm|= 0.0652
+  HOMO = -0.356084240248107  LUMO = -0.157611942952936
+cycle= 4 E= -108.067471319147  delta_E= -0.000136  |g|= 0.00276  |ddm|= 0.0216
+  HOMO = -0.35670749466413  LUMO = -0.158270346664546
+cycle= 5 E= -108.067474279368  delta_E= -2.96e-06  |g|= 0.000376  |ddm|= 0.00319
+  HOMO = -0.356638392428539  LUMO = -0.158192799114041
+cycle= 6 E= -108.06747431751  delta_E= -3.81e-08  |g|= 8.55e-05  |ddm|= 0.000337
+  HOMO = -0.356629441561041  LUMO = -0.158180992489672
+cycle= 7 E= -108.067474319876  delta_E= -2.37e-09  |g|= 4.86e-06  |ddm|= 8.44e-05
+  HOMO = -0.356629287457516  LUMO = -0.158180869445129
+cycle= 8 E= -108.067474319887  delta_E= -1.13e-11  |g|= 1.6e-06  |ddm|= 6.26e-06
+  HOMO = -0.356629390224211  LUMO = -0.158180952516156
+Extra cycle  E= -108.067474319856  delta_E= 3.13e-11  |g|= 1.27e-05  |ddm|= 4.41e-06
+converged SCF energy = -108.067474319856
+
+******** CASCI flags ********
+CAS (2e+2e, 5o), ncore = 5, nvir = 50
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1.30007225 0.02304568 1.99457198 0.01639375 0.66591634]
+CASCI converged
+CASCI E = -108.492277955539  E(CI) = -4.23503305463628  S^2 = 0.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (2e+2e, 5o), ncore = 5, nvir = 50
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmprwlb5tv5
+max_memory 4000 MB (current use 229 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -108.492277955539  S^2 = 0.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 16 JK    4 micro), CASSCF E = -108.522949643427  dE = -3.06716879e-02  S^2 = 0.0000003
+               |grad[o]|=0.244  |grad[c]|=0.0286  |ddm|=0.063  |maxRot[o]|=0.0919
+macro iter   2 ( 12 JK    3 micro), CASSCF E = -108.523814225976  dE = -8.64582549e-04  S^2 = 0.0000004
+               |grad[o]|=0.00644  |grad[c]|=0.0131  |ddm|=0.0165  |maxRot[o]|=0.149
+macro iter   3 ( 21 JK    4 micro), CASSCF E = -108.527335282261  dE = -3.52105628e-03  S^2 = 0.0000000
+               |grad[o]|=0.0074  |grad[c]|=0.0122  |ddm|=0.0297  |maxRot[o]|=0.159
+macro iter   4 ( 21 JK    4 micro), CASSCF E = -108.643151534872  dE = -1.15816253e-01  S^2 = 5.9999975
+               |grad[o]|=0.0199  |grad[c]|=0.0181  |ddm|=0.901  |maxRot[o]|=0.315
+macro iter   5 ( 13 JK    4 micro), CASSCF E = -108.653204292396  dE = -1.00527575e-02  S^2 = 5.9999993
+               |grad[o]|=0.0974  |grad[c]|=0.00902  |ddm|=0.00323  |maxRot[o]|=0.115
+macro iter   6 ( 11 JK    4 micro), CASSCF E = -108.654578077774  dE = -1.37378538e-03  S^2 = 5.9999999
+               |grad[o]|=0.0352  |grad[c]|=0.0072  |ddm|=0.054  |maxRot[o]|=0.00993
+macro iter   7 ( 12 JK    4 micro), CASSCF E = -108.656348426212  dE = -1.77034844e-03  S^2 = 5.9999999
+               |grad[o]|=0.0603  |grad[c]|=0.00686  |ddm|=0.0625  |maxRot[o]|=0.0129
+macro iter   8 ( 10 JK    4 micro), CASSCF E = -108.656780776975  dE = -4.32350763e-04  S^2 = 5.9999999
+               |grad[o]|=0.0314  |grad[c]|=0.00363  |ddm|=0.203  |maxRot[o]|=0.00701
+macro iter   9 (  7 JK    3 micro), CASSCF E = -108.656858901259  dE = -7.81242835e-05  S^2 = 6.0000000
+               |grad[o]|=0.0133  |grad[c]|=0.000127  |ddm|=0.0838  |maxRot[o]|=0.00312
+macro iter  10 (  7 JK    3 micro), CASSCF E = -108.656874195897  dE = -1.52946386e-05  S^2 = 6.0000000
+               |grad[o]|=0.00575  |grad[c]|=6.78e-05  |ddm|=0.0374  |maxRot[o]|=0.00142
+macro iter  11 (  7 JK    3 micro), CASSCF E = -108.656877281707  dE = -3.08580982e-06  S^2 = 6.0000000
+               |grad[o]|=0.0026  |grad[c]|=0.000126  |ddm|=0.00205  |maxRot[o]|=0.000649
+macro iter  12 (  6 JK    2 micro), CASSCF E = -108.656877696961  dE = -4.15254107e-07  S^2 = 6.0000000
+               |grad[o]|=0.00116  |grad[c]|=0.000114  |ddm|=0.000313  |maxRot[o]|=0.000269
+macro iter  13 (  1 JK    1 micro), CASSCF E = -108.656877702587  dE = -5.62526736e-09  S^2 = 6.0000000
+               |grad[o]|=1.19e-05  |grad[c]|=7.14e-05  |ddm|=4.84e-05  |maxRot[o]|=    0
+1-step CASSCF converged in  13 macro (144 JK  43 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [0.58085251 0.99994249 1.         0.99994028 0.41926471]
+CASSCF energy = -108.656877702587
+CASCI E = -108.656877702587  E(CI) = -4.63271613118854  S^2 = 6.0000000
+
+WARN: Active orbitals [4] (occs = [4.6704961e-09]) are canonicalized with external orbitals
+
+Natural occ [1.00000000e+00 1.00000000e+00 1.00000000e+00 9.99999996e-01
+ 4.67049610e-09]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4        #5       
+0 N 1s          -0.00009  -0.00008   0.00000   0.00000  -0.00031
+0 N 2s          -0.01011  -0.00930   0.00055   0.00070   0.02929
+0 N 3s          -0.00294  -0.00268   0.00016   0.00014   0.04061
+0 N 4s          -0.00018  -0.00017   0.00001  -0.00001  -0.01236
+0 N 2px          0.04216  -0.10307  -0.99311   0.00291   0.00002
+0 N 2py          0.67920  -0.72554   0.10403  -0.02373   0.00018
+0 N 2pz          0.72841   0.67715  -0.03943  -0.02707   0.08122
+0 N 3px         -0.00126   0.00300   0.02851  -0.00024   0.00002
+0 N 3py         -0.02019   0.02143  -0.00302  -0.00145   0.00020
+0 N 3pz         -0.02363  -0.02193   0.00128   0.00086   0.01491
+0 N 4px         -0.00010   0.00027   0.00268   0.00008  -0.00001
+0 N 4py         -0.00163   0.00181  -0.00027   0.00131  -0.00011
+0 N 4pz         -0.00204  -0.00190   0.00011   0.00006  -0.01566
+0 N 3dxy         0.00001   0.00001  -0.00000  -0.00000   0.00000
+0 N 3dyz         0.00057  -0.00050   0.00006   0.00211  -0.00010
+0 N 3dz^2        0.00187   0.00173  -0.00010  -0.00011  -0.02141
+0 N 3dxz         0.00004  -0.00005  -0.00034   0.00016  -0.00001
+0 N 3dx2-y2     -0.00009  -0.00008   0.00000   0.00000  -0.00001
+0 N 4dxy         0.00001   0.00000  -0.00000  -0.00000   0.00000
+0 N 4dyz         0.00041  -0.00038   0.00005   0.00095  -0.00007
+0 N 4dz^2        0.00086   0.00080  -0.00005  -0.00005  -0.01446
+0 N 4dxz         0.00003  -0.00005  -0.00036   0.00007  -0.00001
+0 N 4dx2-y2     -0.00004  -0.00003   0.00000   0.00000  -0.00000
+0 N 4f-3        -0.00002   0.00003  -0.00001   0.00000  -0.00000
+0 N 4f-2         0.00000   0.00000  -0.00000  -0.00000   0.00000
+0 N 4f-1         0.00018  -0.00018   0.00003   0.00028  -0.00002
+0 N 4f+0         0.00031   0.00029  -0.00002  -0.00002  -0.00292
+0 N 4f+1         0.00001  -0.00002  -0.00023   0.00002  -0.00000
+0 N 4f+2        -0.00003  -0.00003   0.00000   0.00000  -0.00001
+0 N 4f+3        -0.00001   0.00001   0.00004   0.00000  -0.00000
+1 N 1s           0.00013   0.00012  -0.00001  -0.00000   0.00008
+1 N 2s          -0.01974  -0.01834   0.00107   0.00070  -0.00316
+1 N 3s          -0.00237  -0.00219   0.00013   0.00006  -0.01693
+1 N 4s           0.00123   0.00114  -0.00007  -0.00004   0.00498
+1 N 2px          0.00287   0.00125   0.02224   0.07357  -0.00074
+1 N 2py          0.03625   0.00206   0.00262   0.99600  -0.00886
+1 N 2pz         -0.05867  -0.05461   0.00323   0.01139   0.96638
+1 N 3px         -0.00018   0.00005  -0.00056  -0.00239   0.00020
+1 N 3py         -0.00239   0.00111  -0.00015  -0.03240   0.00237
+1 N 3pz          0.00663   0.00613  -0.00036  -0.00052  -0.23343
+1 N 4px          0.00005  -0.00009  -0.00067   0.00005  -0.00003
+1 N 4py          0.00075  -0.00076   0.00008   0.00068  -0.00035
+1 N 4pz         -0.00213  -0.00197   0.00012   0.00007   0.02656
+1 N 3dxy        -0.00009  -0.00008   0.00001   0.00000   0.00000
+1 N 3dyz        -0.00116   0.00120  -0.00016  -0.00003   0.00000
+1 N 3dz^2        0.00366   0.00340  -0.00020  -0.00012   0.00633
+1 N 3dxz        -0.00007   0.00016   0.00148  -0.00001   0.00000
+1 N 3dx2-y2      0.00061   0.00057  -0.00003  -0.00002  -0.00002
+1 N 4dxy         0.00001   0.00001  -0.00000  -0.00000   0.00001
+1 N 4dyz        -0.00055   0.00057  -0.00008  -0.00001  -0.00000
+1 N 4dz^2        0.00165   0.00153  -0.00009  -0.00005   0.00499
+1 N 4dxz        -0.00003   0.00008   0.00070  -0.00000  -0.00000
+1 N 4dx2-y2     -0.00004  -0.00004   0.00000   0.00000  -0.00004
+1 N 4f-3        -0.00024  -0.00005   0.00001  -0.00772   0.00003
+1 N 4f-2        -0.00004  -0.00003   0.00000   0.00001   0.00040
+1 N 4f-1         0.00022  -0.00015   0.00002   0.00200  -0.00011
+1 N 4f+0        -0.00058  -0.00054   0.00003   0.00007   0.00606
+1 N 4f+1         0.00002  -0.00001  -0.00002   0.00015  -0.00001
+1 N 4f+2         0.00024   0.00022  -0.00001  -0.00007  -0.00272
+1 N 4f+3        -0.00006  -0.00002  -0.00021  -0.00174   0.00001
+<CAS-nat-orb|mo-hf>  6      5        0.55507335
+<CAS-nat-orb|mo-hf>  6      7        0.50488887
+<CAS-nat-orb|mo-hf>  6      9       -0.45393171
+<CAS-nat-orb|mo-hf>  6      10       0.47087875
+<CAS-nat-orb|mo-hf>  7      5        0.51604552
+<CAS-nat-orb|mo-hf>  7      7       -0.51344329
+<CAS-nat-orb|mo-hf>  7      9        0.51680448
+<CAS-nat-orb|mo-hf>  7      10       0.43769951
+<CAS-nat-orb|mo-hf>  8      6       -0.68725001
+<CAS-nat-orb|mo-hf>  8      8        0.71896724
+<CAS-nat-orb|mo-hf>  9      7        0.68722961
+<CAS-nat-orb|mo-hf>  9      9        0.72063118
+<CAS-nat-orb|mo-hf>  10     5       -0.64369198
+<CAS-nat-orb|mo-hf>  10     10       0.75434684
+Sr    (-1)',   E = -0.00035897597143
+Si    (+1)',   E = -0.00021581088191
+Sijrs (0)  ,   E = -0.07251781319042
+Sijr  (+1) ,   E = -0.02165697691759
+Srsi  (-1) ,   E = -0.06009852089534
+Srs   (-2) ,   E = -0.01941199018809
+Sij   (+2) ,   E = -0.00598309141331
+Sir   (0)' ,   E = -0.05658217995739
+Nevpt2 Energy = -0.236825359415496
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpctws4t7_
+max_memory 4000 MB (current use 229 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -107.583713888169
+  HOMO = -0.169834634110468  LUMO = -0.159378766697488
+cycle= 1 E= -107.969214321977  delta_E= -0.386  |g|= 0.321  |ddm|=  1.3
+  HOMO = -0.384196471914756  LUMO = -0.217379678310072
+cycle= 2 E= -107.988906882266  delta_E= -0.0197  |g|= 0.112  |ddm|= 0.289
+  HOMO = -0.340699710296089  LUMO = -0.172351651932414
+cycle= 3 E= -107.991627160905  delta_E= -0.00272  |g|= 0.0131  |ddm|= 0.0691
+  HOMO = -0.340821307788074  LUMO = -0.172198480739664
+cycle= 4 E= -107.991723610081  delta_E= -9.64e-05  |g|= 0.00233  |ddm|= 0.0194
+  HOMO = -0.341359439563405  LUMO = -0.172773267927724
+cycle= 5 E= -107.991725790325  delta_E= -2.18e-06  |g|= 0.000338  |ddm|= 0.00291
+  HOMO = -0.341301580742028  LUMO = -0.172706810836691
+cycle= 6 E= -107.991725824264  delta_E= -3.39e-08  |g|= 7.22e-05  |ddm|= 0.000311
+  HOMO = -0.34129480031653  LUMO = -0.172698351106918
+cycle= 7 E= -107.991725826068  delta_E= -1.8e-09  |g|= 3.77e-06  |ddm|= 7.9e-05
+  HOMO = -0.341294686656599  LUMO = -0.172698271553442
+cycle= 8 E= -107.991725826073  delta_E= -5.61e-12  |g|= 2.78e-06  |ddm|= 4.7e-06
+  HOMO = -0.341294748742645  LUMO = -0.172698321013145
+Extra cycle  E= -107.991725825909  delta_E= 1.64e-10  |g|= 2.93e-05  |ddm|= 9.54e-06
+converged SCF energy = -107.991725825909
+
+******** CASCI flags ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1. 1. 1. 1. 1. 1.]
+CASCI converged
+CASCI E = -108.743106947371  E(CI) = -8.35506380802725  S^2 = 12.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmpctws4t7_
+max_memory 4000 MB (current use 229 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -108.743106947371  S^2 = 12.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 14 JK    4 micro), CASSCF E = -108.793754684351  dE = -5.06477370e-02  S^2 = 12.0000000
+               |grad[o]|=0.228  |grad[c]|=0.0442  |ddm|=5.44e-16  |maxRot[o]|=0.112
+macro iter   2 (  8 JK    3 micro), CASSCF E = -108.793835890159  dE = -8.12058078e-05  S^2 = 12.0000000
+               |grad[o]|=0.0112  |grad[c]|=7.07e-05  |ddm|=    0  |maxRot[o]|=0.00366
+macro iter   3 (  1 JK    1 micro), CASSCF E = -108.793835890159  dE =  0.00000000e+00  S^2 = 12.0000000
+               |grad[o]|=2.58e-05  |grad[c]|=6.96e-15  |ddm|=    0  |maxRot[o]|=    0
+1-step CASSCF converged in   3 macro ( 23 JK   8 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1. 1. 1. 1. 1. 1.]
+CASSCF energy = -108.793835890159
+CASCI E = -108.793835890159  E(CI) = -8.47276103720128  S^2 = 12.0000000
+Natural occ [1. 1. 1. 1. 1. 1.]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4        #5       
+0 N 1s          -0.00003  -0.00001   0.00002  -0.00001  -0.00002
+0 N 2s           0.01065   0.00528  -0.00556   0.00237   0.00740
+0 N 3s           0.00174   0.00151  -0.00159   0.00068   0.00211
+0 N 4s          -0.00058  -0.00043   0.00045  -0.00019  -0.00060
+0 N 2px          0.00000   0.15257   0.58875  -0.60154   0.50233
+0 N 2py          0.00000   0.54130   0.57833   0.58289  -0.11024
+0 N 2pz         -0.70667   0.33863  -0.35683   0.15223   0.47447
+0 N 3px         -0.00000  -0.00438  -0.01915   0.01873  -0.01623
+0 N 3py         -0.00000  -0.01642  -0.01879  -0.01924   0.00271
+0 N 3pz          0.02218  -0.01002   0.01056  -0.00450  -0.01404
+0 N 4px         -0.00000  -0.00057  -0.00107   0.00150  -0.00096
+0 N 4py         -0.00000  -0.00157  -0.00105  -0.00092   0.00063
+0 N 4pz          0.00084  -0.00136   0.00144  -0.00061  -0.00191
+0 N 3dxy        -0.00000  -0.00000  -0.00000   0.00000  -0.00000
+0 N 3dyz        -0.00000  -0.00052   0.00026   0.00045   0.00052
+0 N 3dz^2       -0.00116  -0.00076   0.00080  -0.00034  -0.00106
+0 N 3dxz        -0.00000  -0.00031   0.00027   0.00027   0.00016
+0 N 3dx2-y2     -0.00000   0.00000   0.00000  -0.00000   0.00000
+0 N 4dxy         0.00000  -0.00000   0.00000  -0.00000  -0.00000
+0 N 4dyz        -0.00000  -0.00027   0.00011   0.00021   0.00026
+0 N 4dz^2       -0.00038  -0.00032   0.00034  -0.00014  -0.00045
+0 N 4dxz        -0.00000  -0.00016   0.00012   0.00015   0.00007
+0 N 4dx2-y2     -0.00000   0.00000   0.00000  -0.00000   0.00000
+0 N 4f-3        -0.00000   0.00000   0.00000   0.00000  -0.00000
+0 N 4f-2        -0.00000   0.00000   0.00000  -0.00000  -0.00000
+0 N 4f-1        -0.00000  -0.00007   0.00003   0.00005   0.00007
+0 N 4f+0        -0.00011  -0.00008   0.00008  -0.00003  -0.00011
+0 N 4f+1        -0.00000  -0.00004   0.00003   0.00004   0.00002
+0 N 4f+2        -0.00000  -0.00000   0.00000  -0.00000   0.00000
+0 N 4f+3         0.00000  -0.00000  -0.00000   0.00000  -0.00000
+1 N 1s          -0.00003   0.00001  -0.00002   0.00001   0.00002
+1 N 2s           0.01065  -0.00528   0.00556  -0.00237  -0.00740
+1 N 3s           0.00174  -0.00151   0.00159  -0.00068  -0.00211
+1 N 4s          -0.00058   0.00043  -0.00045   0.00019   0.00060
+1 N 2px         -0.00000  -0.32839   0.18366   0.34487   0.08978
+1 N 2py         -0.00000  -0.58784   0.17152   0.36339   0.52547
+1 N 2pz          0.70668   0.33863  -0.35683   0.15223   0.47447
+1 N 3px          0.00000   0.01028  -0.00680  -0.01011  -0.00366
+1 N 3py          0.00000   0.01799  -0.00640  -0.01255  -0.01666
+1 N 3pz         -0.02218  -0.01002   0.01056  -0.00450  -0.01404
+1 N 4px          0.00000   0.00079   0.00008  -0.00117   0.00020
+1 N 4py          0.00000   0.00162   0.00009  -0.00030  -0.00116
+1 N 4pz         -0.00084  -0.00136   0.00144  -0.00061  -0.00191
+1 N 3dxy        -0.00000  -0.00000   0.00000   0.00000  -0.00000
+1 N 3dyz        -0.00000  -0.00047  -0.00061  -0.00065   0.00004
+1 N 3dz^2       -0.00116   0.00076  -0.00080   0.00034   0.00106
+1 N 3dxz        -0.00000  -0.00011  -0.00063   0.00057  -0.00052
+1 N 3dx2-y2     -0.00000   0.00000  -0.00000   0.00000   0.00000
+1 N 4dxy         0.00000  -0.00000   0.00000  -0.00000  -0.00000
+1 N 4dyz        -0.00000  -0.00025  -0.00030  -0.00031   0.00003
+1 N 4dz^2       -0.00038   0.00032  -0.00034   0.00014   0.00045
+1 N 4dxz        -0.00000  -0.00006  -0.00030   0.00029  -0.00026
+1 N 4dx2-y2      0.00000  -0.00000  -0.00000   0.00000   0.00000
+1 N 4f-3         0.00000  -0.00000   0.00000   0.00000   0.00000
+1 N 4f-2         0.00000   0.00000  -0.00000  -0.00000  -0.00000
+1 N 4f-1         0.00000   0.00007   0.00008   0.00008  -0.00001
+1 N 4f+0         0.00011  -0.00008   0.00008  -0.00003  -0.00011
+1 N 4f+1         0.00000   0.00002   0.00008  -0.00008   0.00007
+1 N 4f+2         0.00000  -0.00000   0.00000   0.00000   0.00000
+1 N 4f+3         0.00000   0.00000  -0.00000  -0.00000  -0.00000
+               #6       
+0 N 1s           0.00000
+0 N 2s          -0.00149
+0 N 3s          -0.00043
+0 N 4s           0.00012
+0 N 2px         -0.12197
+0 N 2py          0.13993
+0 N 2pz         -0.09552
+0 N 3px          0.00524
+0 N 3py         -0.00521
+0 N 3pz          0.00283
+0 N 4px         -0.00041
+0 N 4py          0.00007
+0 N 4pz          0.00038
+0 N 3dxy        -0.00000
+0 N 3dyz         0.00049
+0 N 3dz^2        0.00021
+0 N 3dxz        -0.00089
+0 N 3dx2-y2     -0.00000
+0 N 4dxy        -0.00000
+0 N 4dyz         0.00024
+0 N 4dz^2        0.00009
+0 N 4dxz        -0.00043
+0 N 4dx2-y2      0.00000
+0 N 4f-3         0.00000
+0 N 4f-2        -0.00000
+0 N 4f-1         0.00006
+0 N 4f+0         0.00002
+0 N 4f+1        -0.00012
+0 N 4f+2        -0.00000
+0 N 4f+3         0.00000
+1 N 1s          -0.00000
+1 N 2s           0.00149
+1 N 3s           0.00043
+1 N 4s          -0.00012
+1 N 2px         -0.85464
+1 N 2py          0.46457
+1 N 2pz         -0.09552
+1 N 3px          0.02757
+1 N 3py         -0.01510
+1 N 3pz          0.00283
+1 N 4px          0.00166
+1 N 4py         -0.00085
+1 N 4pz          0.00038
+1 N 3dxy        -0.00000
+1 N 3dyz        -0.00021
+1 N 3dz^2       -0.00021
+1 N 3dxz         0.00024
+1 N 3dx2-y2      0.00000
+1 N 4dxy         0.00000
+1 N 4dyz        -0.00009
+1 N 4dz^2       -0.00009
+1 N 4dxz         0.00010
+1 N 4dx2-y2      0.00000
+1 N 4f-3         0.00000
+1 N 4f-2        -0.00000
+1 N 4f-1         0.00002
+1 N 4f+0         0.00002
+1 N 4f+1        -0.00002
+1 N 4f+2        -0.00000
+1 N 4f+3         0.00000
+<CAS-nat-orb|mo-hf>  5      5        0.99332733
+<CAS-nat-orb|mo-hf>  6      8        0.76086670
+<CAS-nat-orb|mo-hf>  6      9        0.41177813
+<CAS-nat-orb|mo-hf>  6      10       0.47734228
+<CAS-nat-orb|mo-hf>  7      7        0.75521273
+<CAS-nat-orb|mo-hf>  7      8        0.40200728
+<CAS-nat-orb|mo-hf>  7      10      -0.50299104
+<CAS-nat-orb|mo-hf>  8      6        0.63290454
+<CAS-nat-orb|mo-hf>  8      8       -0.42573237
+<CAS-nat-orb|mo-hf>  8      9        0.53645461
+<CAS-nat-orb|mo-hf>  9      7        0.50845750
+<CAS-nat-orb|mo-hf>  9      9       -0.53173624
+<CAS-nat-orb|mo-hf>  9      10       0.66882836
+<CAS-nat-orb|mo-hf>  10     6        0.76315042
+<CAS-nat-orb|mo-hf>  10     9       -0.50063557
+Sr    (-1)',   E = -0.00000000029544
+Si    (+1)',   E = -0.00000000006698
+Sijrs (0)  ,   E = -0.02905033781378
+Sijr  (+1) ,   E = -0.00600636917217
+Srsi  (-1) ,   E = -0.06302092583907
+Srs   (-2) ,   E = -0.03921908309789
+Sij   (+2) ,   E = -0.00001827926099
+Sir   (0)' ,   E = -0.08283597286734
+Nevpt2 Energy = -0.220150968413646
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpizxygtji
+max_memory 4000 MB (current use 229 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -107.582604202989
+  HOMO = -0.167062990733785  LUMO = -0.162154846892449
+cycle= 1 E= -107.919333633953  delta_E= -0.337  |g|= 0.309  |ddm|= 1.32
+  HOMO = -0.371036906490318  LUMO = -0.224749678633619
+cycle= 2 E= -107.937161747805  delta_E= -0.0178  |g|= 0.11  |ddm|= 0.281
+  HOMO = -0.328577979779042  LUMO = -0.181328935370971
+cycle= 3 E= -107.93976885736  delta_E= -0.00261  |g|= 0.011  |ddm|= 0.0704
+  HOMO = -0.32871114270788  LUMO = -0.181265171891324
+cycle= 4 E= -107.939831753939  delta_E= -6.29e-05  |g|= 0.00187  |ddm|= 0.0164
+  HOMO = -0.329155259428322  LUMO = -0.181738913058805
+cycle= 5 E= -107.939833112061  delta_E= -1.36e-06  |g|= 0.000285  |ddm|= 0.00231
+  HOMO = -0.329109749329592  LUMO = -0.181686112092567
+cycle= 6 E= -107.939833139088  delta_E= -2.7e-08  |g|= 5.75e-05  |ddm|= 0.000279
+  HOMO = -0.329105232696548  LUMO = -0.181680640742819
+cycle= 7 E= -107.93983314027  delta_E= -1.18e-09  |g|= 3.39e-06  |ddm|= 6.61e-05
+  HOMO = -0.329105084184071  LUMO = -0.181680514383263
+cycle= 8 E= -107.939833140155  delta_E= 1.15e-10  |g|= 2.53e-05  |ddm|= 8.5e-06
+  HOMO = -0.329105110463436  LUMO = -0.181680532870576
+Extra cycle  E= -107.939833119727  delta_E= 2.04e-08  |g|= 0.000331  |ddm|= 0.000103
+converged SCF energy = -107.939833119727
+
+******** CASCI flags ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1. 1. 1. 1. 1. 1.]
+CASCI converged
+CASCI E = -108.742994668372  E(CI) = -8.18666327700713  S^2 = 12.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmpizxygtji
+max_memory 4000 MB (current use 229 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -108.742994668372  S^2 = 12.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 14 JK    4 micro), CASSCF E = -108.794470984814  dE = -5.14763164e-02  S^2 = 12.0000000
+               |grad[o]|= 0.23  |grad[c]|=0.0452  |ddm|=8.16e-16  |maxRot[o]|=0.116
+macro iter   2 (  8 JK    3 micro), CASSCF E = -108.794552010845  dE = -8.10260313e-05  S^2 = 12.0000000
+               |grad[o]|=0.0113  |grad[c]|=7e-05  |ddm|=    0  |maxRot[o]|=0.00349
+macro iter   3 (  1 JK    1 micro), CASSCF E = -108.794552010845  dE =  0.00000000e+00  S^2 = 12.0000000
+               |grad[o]|=2.5e-05  |grad[c]|=7.93e-15  |ddm|=    0  |maxRot[o]|=    0
+1-step CASSCF converged in   3 macro ( 23 JK   8 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1. 1. 1. 1. 1. 1.]
+CASSCF energy = -108.794552010845
+CASCI E = -108.794552010845  E(CI) = -8.30747198112135  S^2 = 12.0000000
+Natural occ [1. 1. 1. 1. 1. 1.]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4        #5       
+0 N 1s           0.00002   0.00000  -0.00001  -0.00000  -0.00001
+0 N 2s          -0.00484  -0.00041   0.00431   0.00030   0.00226
+0 N 3s          -0.00229  -0.00021   0.00225   0.00016   0.00118
+0 N 4s           0.00053   0.00005  -0.00048  -0.00003  -0.00025
+0 N 2px          0.00000   0.63562   0.31806   0.24722  -0.59469
+0 N 2py          0.00000  -0.25298   0.04144  -0.66204  -0.20534
+0 N 2pz          0.70669  -0.05846   0.61840   0.04290   0.32444
+0 N 3px         -0.00000  -0.02099  -0.00981  -0.00757   0.01822
+0 N 3py         -0.00000   0.00830  -0.00103   0.02029   0.00630
+0 N 3pz         -0.02420   0.00167  -0.01761  -0.00122  -0.00924
+0 N 4px         -0.00000  -0.00095  -0.00079  -0.00064   0.00154
+0 N 4py         -0.00000   0.00040  -0.00022   0.00171   0.00053
+0 N 4pz         -0.00049   0.00021  -0.00226  -0.00016  -0.00118
+0 N 3dxy         0.00000   0.00000  -0.00000   0.00000  -0.00000
+0 N 3dyz        -0.00000  -0.00013  -0.00014   0.00034   0.00010
+0 N 3dz^2        0.00116   0.00010  -0.00105  -0.00007  -0.00055
+0 N 3dxz        -0.00000   0.00039  -0.00013  -0.00013   0.00031
+0 N 3dx2-y2      0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+0 N 4dxy         0.00000   0.00000  -0.00000  -0.00000  -0.00000
+0 N 4dyz        -0.00000  -0.00007  -0.00007   0.00019   0.00006
+0 N 4dz^2        0.00056   0.00005  -0.00050  -0.00003  -0.00026
+0 N 4dxz        -0.00000   0.00020  -0.00007  -0.00007   0.00017
+0 N 4dx2-y2      0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+0 N 4f-3        -0.00000  -0.00000  -0.00000  -0.00000   0.00000
+0 N 4f-2        -0.00000  -0.00000  -0.00000   0.00000  -0.00000
+0 N 4f-1        -0.00000  -0.00002  -0.00002   0.00004   0.00001
+0 N 4f+0         0.00012   0.00001  -0.00011  -0.00001  -0.00006
+0 N 4f+1        -0.00000   0.00005  -0.00002  -0.00002   0.00004
+0 N 4f+2        -0.00000   0.00000  -0.00000   0.00000  -0.00000
+0 N 4f+3         0.00000  -0.00000  -0.00000  -0.00000   0.00000
+1 N 1s           0.00002  -0.00000   0.00001   0.00000   0.00001
+1 N 2s          -0.00485   0.00041  -0.00431  -0.00030  -0.00226
+1 N 3s          -0.00229   0.00021  -0.00225  -0.00016  -0.00118
+1 N 4s           0.00053  -0.00005   0.00048   0.00003   0.00025
+1 N 2px         -0.00000   0.68744  -0.25776  -0.24725   0.59470
+1 N 2py         -0.00000  -0.22692  -0.25475   0.65941   0.19757
+1 N 2pz         -0.70665  -0.05847   0.61844   0.04290   0.32447
+1 N 3px          0.00000  -0.02257   0.00783   0.00758  -0.01822
+1 N 3py          0.00000   0.00750   0.00805  -0.02020  -0.00604
+1 N 3pz          0.02420   0.00167  -0.01761  -0.00122  -0.00924
+1 N 4px          0.00000  -0.00109   0.00070   0.00064  -0.00154
+1 N 4py          0.00000   0.00034   0.00055  -0.00171  -0.00051
+1 N 4pz          0.00049   0.00021  -0.00226  -0.00016  -0.00118
+1 N 3dxy        -0.00000   0.00000  -0.00000   0.00000   0.00000
+1 N 3dyz        -0.00000   0.00014  -0.00002   0.00035   0.00011
+1 N 3dz^2        0.00116  -0.00010   0.00105   0.00007   0.00055
+1 N 3dxz        -0.00000  -0.00036  -0.00017  -0.00013   0.00031
+1 N 3dx2-y2     -0.00000   0.00000  -0.00000  -0.00000  -0.00000
+1 N 4dxy        -0.00000   0.00000  -0.00000  -0.00000  -0.00000
+1 N 4dyz        -0.00000   0.00007  -0.00001   0.00019   0.00006
+1 N 4dz^2        0.00056  -0.00005   0.00050   0.00003   0.00026
+1 N 4dxz        -0.00000  -0.00019  -0.00009  -0.00007   0.00017
+1 N 4dx2-y2     -0.00000   0.00000  -0.00000  -0.00000   0.00000
+1 N 4f-3         0.00000  -0.00000  -0.00000   0.00000   0.00000
+1 N 4f-2        -0.00000  -0.00000   0.00000  -0.00000   0.00000
+1 N 4f-1         0.00000  -0.00002   0.00000  -0.00004  -0.00001
+1 N 4f+0        -0.00012   0.00001  -0.00011  -0.00001  -0.00006
+1 N 4f+1         0.00000   0.00004   0.00002   0.00002  -0.00004
+1 N 4f+2        -0.00000  -0.00000   0.00000   0.00000   0.00000
+1 N 4f+3        -0.00000  -0.00000   0.00000  -0.00000  -0.00000
+               #6       
+0 N 1s          -0.00000
+0 N 2s           0.00057
+0 N 3s           0.00029
+0 N 4s          -0.00006
+0 N 2px          0.28114
+0 N 2py          0.67290
+0 N 2pz          0.08115
+0 N 3px         -0.00918
+0 N 3py         -0.02212
+0 N 3pz         -0.00231
+0 N 4px         -0.00047
+0 N 4py         -0.00106
+0 N 4pz         -0.00030
+0 N 3dxy        -0.00000
+0 N 3dyz         0.00036
+0 N 3dz^2       -0.00014
+0 N 3dxz         0.00012
+0 N 3dx2-y2     -0.00000
+0 N 4dxy        -0.00000
+0 N 4dyz         0.00019
+0 N 4dz^2       -0.00007
+0 N 4dxz         0.00006
+0 N 4dx2-y2     -0.00000
+0 N 4f-3        -0.00000
+0 N 4f-2        -0.00000
+0 N 4f-1         0.00004
+0 N 4f+0        -0.00001
+0 N 4f+1         0.00001
+0 N 4f+2        -0.00000
+0 N 4f+3        -0.00000
+1 N 1s           0.00000
+1 N 2s          -0.00057
+1 N 3s          -0.00029
+1 N 4s           0.00006
+1 N 2px          0.21253
+1 N 2py          0.63933
+1 N 2pz          0.08116
+1 N 3px         -0.00708
+1 N 3py         -0.02109
+1 N 3pz         -0.00231
+1 N 4px         -0.00029
+1 N 4py         -0.00097
+1 N 4pz         -0.00030
+1 N 3dxy         0.00000
+1 N 3dyz        -0.00038
+1 N 3dz^2        0.00014
+1 N 3dxz        -0.00016
+1 N 3dx2-y2     -0.00000
+1 N 4dxy         0.00000
+1 N 4dyz        -0.00020
+1 N 4dz^2        0.00007
+1 N 4dxz        -0.00008
+1 N 4dx2-y2     -0.00000
+1 N 4f-3         0.00000
+1 N 4f-2         0.00000
+1 N 4f-1         0.00005
+1 N 4f+0        -0.00001
+1 N 4f+1         0.00002
+1 N 4f+2         0.00000
+1 N 4f+3        -0.00000
+<CAS-nat-orb|mo-hf>  5      5        0.99329591
+<CAS-nat-orb|mo-hf>  6      6        0.76323959
+<CAS-nat-orb|mo-hf>  6      7       -0.63307773
+<CAS-nat-orb|mo-hf>  7      9       -0.45241777
+<CAS-nat-orb|mo-hf>  7      10       0.87174923
+<CAS-nat-orb|mo-hf>  8      8        0.99426614
+<CAS-nat-orb|mo-hf>  9      9        0.88489269
+<CAS-nat-orb|mo-hf>  9      10       0.45736761
+<CAS-nat-orb|mo-hf>  10     6        0.63962970
+<CAS-nat-orb|mo-hf>  10     7        0.75278578
+Sr    (-1)',   E = -0.00000000028380
+Si    (+1)',   E = -0.00000000003849
+Sijrs (0)  ,   E = -0.02901968312148
+Sijr  (+1) ,   E = -0.00600395900276
+Srsi  (-1) ,   E = -0.06305247670180
+Srs   (-2) ,   E = -0.03914642183267
+Sij   (+2) ,   E = -0.00000905983021
+Sir   (0)' ,   E = -0.08268030171489
+Nevpt2 Energy = -0.219911902526093
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp131tzcq1
+max_memory 4000 MB (current use 229 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -107.582318747967
+  HOMO = -0.165727069137465  LUMO = -0.163515716017413
+cycle= 1 E= -107.88434748647  delta_E= -0.302  |g|= 0.299  |ddm|= 1.33
+  HOMO = -0.359805705740274  LUMO = -0.229000001278267
+cycle= 2 E= -107.900672529821  delta_E= -0.0163  |g|= 0.108  |ddm|= 0.273
+  HOMO = -0.31855164224717  LUMO = -0.187125194028904
+cycle= 3 E= -107.90313145144  delta_E= -0.00246  |g|= 0.00937  |ddm|= 0.0699
+  HOMO = -0.318593929009496  LUMO = -0.187022245682046
+cycle= 4 E= -107.903172559246  delta_E= -4.11e-05  |g|= 0.00146  |ddm|= 0.0135
+  HOMO = -0.318946222268979  LUMO = -0.187397784877344
+cycle= 5 E= -107.903173327279  delta_E= -7.68e-07  |g|= 0.000232  |ddm|= 0.00167
+  HOMO = -0.318911818728301  LUMO = -0.187357834839466
+cycle= 6 E= -107.903173347053  delta_E= -1.98e-08  |g|= 4.55e-05  |ddm|= 0.00024
+  HOMO = -0.318908779793359  LUMO = -0.187354262557743
+cycle= 7 E= -107.903173346206  delta_E= 8.48e-10  |g|= 9.28e-05  |ddm|= 5.83e-05
+  HOMO = -0.318908757272706  LUMO = -0.187354239377124
+cycle= 8 E= -107.903173347669  delta_E= -1.46e-09  |g|= 2.56e-05  |ddm|= 3.33e-05
+  HOMO = -0.318908589592849  LUMO = -0.187354085488083
+cycle= 9 E= -107.903173347791  delta_E= -1.22e-10  |g|= 3.36e-07  |ddm|= 7.6e-06
+  HOMO = -0.318908599902832  LUMO = -0.187354091473934
+Extra cycle  E= -107.903173347791  delta_E= 2.84e-14  |g|= 2.15e-07  |ddm|= 3.55e-07
+converged SCF energy = -107.903173347791
+
+******** CASCI flags ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1. 1. 1. 1. 1. 1.]
+CASCI converged
+CASCI E = -108.742476567006  E(CI) = -8.05357568959904  S^2 = 12.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmp131tzcq1
+max_memory 4000 MB (current use 229 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -108.742476567006  S^2 = 12.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 13 JK    4 micro), CASSCF E = -108.794626710798  dE = -5.21501438e-02  S^2 = 12.0000000
+               |grad[o]|=0.233  |grad[c]|=0.0461  |ddm|=5.44e-16  |maxRot[o]|=0.112
+macro iter   2 (  5 JK    2 micro), CASSCF E = -108.794709301473  dE = -8.25906755e-05  S^2 = 12.0000000
+               |grad[o]|=0.0115  |grad[c]|=7.11e-05  |ddm|=    0  |maxRot[o]|=0.00335
+macro iter   3 (  3 JK    1 micro), CASSCF E = -108.794709301903  dE = -4.30176783e-10  S^2 = 12.0000000
+               |grad[o]|=2.85e-05  |grad[c]|=3.81e-10  |ddm|=    0  |maxRot[o]|=8.1e-06
+1-step CASSCF converged in   3 macro ( 21 JK   7 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1. 1. 1. 1. 1. 1.]
+CASSCF energy = -108.794709301903
+CASCI E = -108.794709301903  E(CI) = -8.17510636891470  S^2 = 12.0000000
+Natural occ [1. 1. 1. 1. 1. 1.]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4        #5       
+0 N 1s          -0.00000  -0.00000  -0.00000   0.00000   0.00001
+0 N 2s           0.00005   0.00004   0.00003  -0.00011  -0.00215
+0 N 3s           0.00004   0.00004   0.00002  -0.00010  -0.00188
+0 N 4s          -0.00001  -0.00001  -0.00000   0.00002   0.00040
+0 N 2px          0.04752  -0.71683   0.44646   0.53126   0.00000
+0 N 2py         -0.45222   0.43196   0.77902  -0.03076  -0.00000
+0 N 2pz          0.01700   0.01435   0.00858  -0.03769   0.70667
+0 N 3px         -0.00154   0.02239  -0.01401  -0.01744  -0.00000
+0 N 3py          0.01372  -0.01387  -0.02498   0.00103   0.00000
+0 N 3pz         -0.00048  -0.00041  -0.00024   0.00107  -0.02473
+0 N 4px         -0.00009   0.00164  -0.00099  -0.00083  -0.00000
+0 N 4py          0.00122  -0.00082  -0.00149   0.00004   0.00000
+0 N 4pz         -0.00006  -0.00005  -0.00003   0.00013  -0.00039
+0 N 3dxy        -0.00000   0.00000   0.00000  -0.00000  -0.00000
+0 N 3dyz         0.00021   0.00005   0.00009  -0.00002   0.00000
+0 N 3dz^2       -0.00002  -0.00002  -0.00001   0.00004   0.00082
+0 N 3dxz         0.00001   0.00012  -0.00005   0.00020  -0.00000
+0 N 3dx2-y2     -0.00000  -0.00000   0.00000   0.00000   0.00000
+0 N 4dxy         0.00000   0.00000   0.00000   0.00000   0.00000
+0 N 4dyz         0.00012   0.00003   0.00005  -0.00001   0.00000
+0 N 4dz^2       -0.00001  -0.00001  -0.00001   0.00002   0.00044
+0 N 4dxz         0.00001   0.00007  -0.00003   0.00011  -0.00000
+0 N 4dx2-y2      0.00000  -0.00000  -0.00000   0.00000  -0.00000
+0 N 4f-3         0.00000  -0.00000   0.00000   0.00000   0.00000
+0 N 4f-2         0.00000  -0.00000   0.00000  -0.00000   0.00000
+0 N 4f-1         0.00002   0.00001   0.00001  -0.00000   0.00000
+0 N 4f+0        -0.00000  -0.00000  -0.00000   0.00000   0.00007
+0 N 4f+1         0.00000   0.00001  -0.00001   0.00002  -0.00000
+0 N 4f+2        -0.00000   0.00000  -0.00000   0.00000  -0.00000
+0 N 4f+3         0.00000   0.00000  -0.00000  -0.00000   0.00000
+1 N 1s           0.00000   0.00000   0.00000  -0.00000   0.00001
+1 N 2s          -0.00005  -0.00004  -0.00003   0.00011  -0.00215
+1 N 3s          -0.00004  -0.00004  -0.00002   0.00010  -0.00188
+1 N 4s           0.00001   0.00001   0.00000  -0.00002   0.00040
+1 N 2px          0.04071   0.49291  -0.21608   0.84045  -0.00000
+1 N 2py          0.88883   0.23496   0.38203  -0.08111   0.00000
+1 N 2pz          0.01700   0.01435   0.00858  -0.03769  -0.70667
+1 N 3px         -0.00132  -0.01513   0.00654  -0.02703   0.00000
+1 N 3py         -0.02787  -0.00776  -0.01267   0.00259  -0.00000
+1 N 3pz         -0.00048  -0.00041  -0.00024   0.00107   0.02473
+1 N 4px         -0.00007  -0.00125   0.00059  -0.00157   0.00000
+1 N 4py         -0.00199  -0.00035  -0.00054   0.00016  -0.00000
+1 N 4pz         -0.00006  -0.00005  -0.00003   0.00013   0.00039
+1 N 3dxy        -0.00000   0.00000  -0.00000   0.00000   0.00000
+1 N 3dyz         0.00011  -0.00010  -0.00018   0.00001   0.00000
+1 N 3dz^2        0.00002   0.00002   0.00001  -0.00004   0.00082
+1 N 3dxz        -0.00001   0.00017  -0.00011  -0.00012  -0.00000
+1 N 3dx2-y2     -0.00000  -0.00000   0.00000  -0.00000  -0.00000
+1 N 4dxy        -0.00000   0.00000  -0.00000   0.00000  -0.00000
+1 N 4dyz         0.00006  -0.00006  -0.00010   0.00000   0.00000
+1 N 4dz^2        0.00001   0.00001   0.00001  -0.00002   0.00044
+1 N 4dxz        -0.00001   0.00009  -0.00006  -0.00007  -0.00000
+1 N 4dx2-y2      0.00000  -0.00000   0.00000  -0.00000   0.00000
+1 N 4f-3         0.00000  -0.00000   0.00000  -0.00000  -0.00000
+1 N 4f-2        -0.00000   0.00000  -0.00000   0.00000   0.00000
+1 N 4f-1        -0.00001   0.00001   0.00002  -0.00000  -0.00000
+1 N 4f+0        -0.00000  -0.00000  -0.00000   0.00000  -0.00007
+1 N 4f+1         0.00000  -0.00002   0.00001   0.00001   0.00000
+1 N 4f+2         0.00000  -0.00000   0.00000  -0.00000  -0.00000
+1 N 4f+3         0.00000   0.00000   0.00000  -0.00000  -0.00000
+               #6       
+0 N 1s          -0.00001
+0 N 2s           0.00213
+0 N 3s           0.00185
+0 N 4s          -0.00036
+0 N 2px          0.03639
+0 N 2py         -0.00900
+0 N 2pz          0.70540
+0 N 3px         -0.00118
+0 N 3py          0.00031
+0 N 3pz         -0.02004
+0 N 4px         -0.00006
+0 N 4py          0.00001
+0 N 4pz         -0.00248
+0 N 3dxy        -0.00000
+0 N 3dyz        -0.00001
+0 N 3dz^2       -0.00080
+0 N 3dxz         0.00001
+0 N 3dx2-y2      0.00000
+0 N 4dxy        -0.00000
+0 N 4dyz        -0.00000
+0 N 4dz^2       -0.00042
+0 N 4dxz         0.00000
+0 N 4dx2-y2      0.00000
+0 N 4f-3         0.00000
+0 N 4f-2         0.00000
+0 N 4f-1        -0.00000
+0 N 4f+0        -0.00007
+0 N 4f+1         0.00000
+0 N 4f+2        -0.00000
+0 N 4f+3        -0.00000
+1 N 1s           0.00001
+1 N 2s          -0.00213
+1 N 3s          -0.00185
+1 N 4s           0.00036
+1 N 2px          0.03652
+1 N 2py         -0.03518
+1 N 2pz          0.70540
+1 N 3px         -0.00118
+1 N 3py          0.00112
+1 N 3pz         -0.02004
+1 N 4px         -0.00006
+1 N 4py          0.00007
+1 N 4pz         -0.00248
+1 N 3dxy        -0.00000
+1 N 3dyz         0.00000
+1 N 3dz^2        0.00080
+1 N 3dxz        -0.00001
+1 N 3dx2-y2      0.00000
+1 N 4dxy        -0.00000
+1 N 4dyz         0.00000
+1 N 4dz^2        0.00042
+1 N 4dxz        -0.00000
+1 N 4dx2-y2      0.00000
+1 N 4f-3        -0.00000
+1 N 4f-2        -0.00000
+1 N 4f-1        -0.00000
+1 N 4f+0        -0.00007
+1 N 4f+1         0.00000
+1 N 4f+2         0.00000
+1 N 4f+3        -0.00000
+<CAS-nat-orb|mo-hf>  5      8       -0.41076924
+<CAS-nat-orb|mo-hf>  5      9        0.85094760
+<CAS-nat-orb|mo-hf>  6      8        0.82918921
+<CAS-nat-orb|mo-hf>  7      6        0.80803915
+<CAS-nat-orb|mo-hf>  7      9       -0.45331187
+<CAS-nat-orb|mo-hf>  8      7        0.90596157
+<CAS-nat-orb|mo-hf>  9      5        0.99391158
+<CAS-nat-orb|mo-hf>  10     10       0.99421142
+Sr    (-1)',   E = -0.00000000000009
+Si    (+1)',   E = -0.00000000000007
+Sijrs (0)  ,   E = -0.02900589786277
+Sijr  (+1) ,   E = -0.00600200761460
+Srsi  (-1) ,   E = -0.06305266506673
+Srs   (-2) ,   E = -0.03911315789682
+Sij   (+2) ,   E = -0.00000482988401
+Sir   (0)' ,   E = -0.08262345018849
+Nevpt2 Energy = -0.219802008513588
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpuhq_gzzq
+max_memory 4000 MB (current use 229 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -107.582181210569
+
+WARN: HOMO -0.164747832952962 == LUMO -0.164524171604439
+
+cycle= 1 E= -107.832501039447  delta_E= -0.25  |g|= 0.285  |ddm|= 1.34
+  HOMO = -0.340610815139634  LUMO = -0.236250521426267
+cycle= 2 E= -107.846914495112  delta_E= -0.0144  |g|= 0.104  |ddm|= 0.26
+  HOMO = -0.301368382173539  LUMO = -0.196721560054844
+cycle= 3 E= -107.849182647873  delta_E= -0.00227  |g|= 0.00769  |ddm|= 0.0682
+  HOMO = -0.30128750131557  LUMO = -0.196559055579023
+cycle= 4 E= -107.849205192495  delta_E= -2.25e-05  |g|= 0.000912  |ddm|= 0.0104
+  HOMO = -0.30151318901827  LUMO = -0.196800502878498
+cycle= 5 E= -107.849205430886  delta_E= -2.38e-07  |g|= 0.000142  |ddm|= 0.000844
+  HOMO = -0.30149589684337  LUMO = -0.196780653372485
+cycle= 6 E= -107.849205438918  delta_E= -8.03e-09  |g|= 6.43e-05  |ddm|= 0.000156
+  HOMO = -0.301495009958116  LUMO = -0.196779671428294
+cycle= 7 E= -107.849205346926  delta_E= 9.2e-08  |g|= 0.000724  |ddm|= 0.000211
+  HOMO = -0.301494344578533  LUMO = -0.196778938686841
+cycle= 8 E= -107.849205439779  delta_E= -9.29e-08  |g|= 1.71e-06  |ddm|= 0.000196
+  HOMO = -0.301494210155622  LUMO = -0.196778809671485
+cycle= 9 E= -107.84920543978  delta_E= -1.11e-12  |g|= 2.37e-07  |ddm|= 1.47e-06
+  HOMO = -0.301494215895834  LUMO = -0.196778813983501
+Extra cycle  E= -107.84920543978  delta_E= -3.27e-13  |g|= 7.97e-07  |ddm|= 1.04e-06
+converged SCF energy = -107.84920543978
+
+******** CASCI flags ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1. 1. 1. 1. 1. 1.]
+CASCI converged
+CASCI E = -108.741492244239  E(CI) = -7.81583638210289  S^2 = 12.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmpuhq_gzzq
+max_memory 4000 MB (current use 229 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -108.741492244239  S^2 = 12.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 13 JK    4 micro), CASSCF E = -108.794630994634  dE = -5.31387504e-02  S^2 = 12.0000000
+               |grad[o]|=0.237  |grad[c]|=0.0474  |ddm|=1.09e-15  |maxRot[o]|=0.101
+macro iter   2 (  8 JK    3 micro), CASSCF E = -108.794718815428  dE = -8.78207942e-05  S^2 = 12.0000000
+               |grad[o]|=0.0119  |grad[c]|=7.57e-05  |ddm|=    0  |maxRot[o]|=0.00336
+macro iter   3 (  1 JK    1 micro), CASSCF E = -108.794718815428  dE =  0.00000000e+00  S^2 = 12.0000000
+               |grad[o]|=2.48e-05  |grad[c]|=1.02e-14  |ddm|=    0  |maxRot[o]|=    0
+1-step CASSCF converged in   3 macro ( 22 JK   8 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1. 1. 1. 1. 1. 1.]
+CASSCF energy = -108.794718815428
+CASCI E = -108.794718815428  E(CI) = -7.93692394471380  S^2 = 12.0000000
+Natural occ [1. 1. 1. 1. 1. 1.]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4        #5       
+0 N 1s           0.00000  -0.00000   0.00000  -0.00000  -0.00000
+0 N 2s          -0.00001   0.00002  -0.00022   0.00022   0.00000
+0 N 3s          -0.00001   0.00003  -0.00038   0.00037   0.00000
+0 N 4s           0.00000  -0.00001   0.00008  -0.00008  -0.00000
+0 N 2px         -0.47256   0.70699  -0.00000  -0.06801   0.52059
+0 N 2py          0.50384   0.00443   0.00000   0.05486   0.47821
+0 N 2pz         -0.02005   0.05287   0.70672   0.70334   0.00076
+0 N 3px          0.01504  -0.02243   0.00000   0.00215  -0.01645
+0 N 3py         -0.01603  -0.00021  -0.00000  -0.00174  -0.01511
+0 N 3pz          0.00061  -0.00162  -0.02322  -0.02152  -0.00002
+0 N 4px          0.00096  -0.00146   0.00000   0.00014  -0.00110
+0 N 4py         -0.00102   0.00002  -0.00000  -0.00012  -0.00101
+0 N 4pz          0.00005  -0.00014  -0.00110  -0.00181  -0.00000
+0 N 3dxy         0.00000   0.00000  -0.00000   0.00000  -0.00000
+0 N 3dyz         0.00001   0.00001  -0.00000  -0.00000  -0.00001
+0 N 3dz^2        0.00000  -0.00001   0.00008  -0.00008  -0.00000
+0 N 3dxz        -0.00001   0.00000   0.00000   0.00000  -0.00001
+0 N 3dx2-y2      0.00000   0.00000   0.00000  -0.00000   0.00000
+0 N 4dxy         0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+0 N 4dyz         0.00000   0.00000  -0.00000  -0.00000  -0.00000
+0 N 4dz^2        0.00000  -0.00000   0.00005  -0.00005  -0.00000
+0 N 4dxz        -0.00000   0.00000   0.00000   0.00000  -0.00000
+0 N 4dx2-y2     -0.00000   0.00000   0.00000   0.00000   0.00000
+0 N 4f-3         0.00000  -0.00000   0.00000   0.00000  -0.00000
+0 N 4f-2        -0.00000   0.00000  -0.00000   0.00000  -0.00000
+0 N 4f-1         0.00000   0.00000  -0.00000  -0.00000  -0.00000
+0 N 4f+0         0.00000  -0.00000   0.00000  -0.00000  -0.00000
+0 N 4f+1        -0.00000   0.00000   0.00000   0.00000  -0.00000
+0 N 4f+2         0.00000  -0.00000   0.00000  -0.00000  -0.00000
+0 N 4f+3         0.00000   0.00000  -0.00000   0.00000   0.00000
+1 N 1s          -0.00000   0.00000   0.00000   0.00000   0.00000
+1 N 2s           0.00001  -0.00002  -0.00022  -0.00022  -0.00000
+1 N 3s           0.00001  -0.00003  -0.00038  -0.00037  -0.00000
+1 N 4s          -0.00000   0.00001   0.00008   0.00008   0.00000
+1 N 2px         -0.49308   0.06999   0.00000   0.02119  -0.52083
+1 N 2py          0.52714   0.69903  -0.00000  -0.04007  -0.47752
+1 N 2pz         -0.02005   0.05287  -0.70672   0.70334   0.00076
+1 N 3px          0.01568  -0.00229  -0.00000  -0.00066   0.01646
+1 N 3py         -0.01677  -0.02217   0.00000   0.00126   0.01509
+1 N 3pz          0.00061  -0.00162   0.02322  -0.02152  -0.00002
+1 N 4px          0.00100  -0.00011  -0.00000  -0.00005   0.00110
+1 N 4py         -0.00107  -0.00145   0.00000   0.00009   0.00101
+1 N 4pz          0.00005  -0.00014   0.00110  -0.00181  -0.00000
+1 N 3dxy        -0.00000   0.00000   0.00000   0.00000  -0.00000
+1 N 3dyz        -0.00001  -0.00000  -0.00000  -0.00000  -0.00001
+1 N 3dz^2       -0.00000   0.00001   0.00008   0.00008   0.00000
+1 N 3dxz         0.00001  -0.00001   0.00000   0.00000  -0.00001
+1 N 3dx2-y2      0.00000  -0.00000  -0.00000  -0.00000   0.00000
+1 N 4dxy         0.00000  -0.00000   0.00000  -0.00000  -0.00000
+1 N 4dyz        -0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+1 N 4dz^2       -0.00000   0.00000   0.00005   0.00005   0.00000
+1 N 4dxz         0.00000  -0.00000   0.00000   0.00000  -0.00000
+1 N 4dx2-y2     -0.00000   0.00000  -0.00000   0.00000   0.00000
+1 N 4f-3        -0.00000  -0.00000   0.00000   0.00000  -0.00000
+1 N 4f-2         0.00000  -0.00000  -0.00000  -0.00000   0.00000
+1 N 4f-1         0.00000  -0.00000   0.00000   0.00000   0.00000
+1 N 4f+0         0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+1 N 4f+1        -0.00000   0.00000  -0.00000  -0.00000   0.00000
+1 N 4f+2        -0.00000   0.00000   0.00000   0.00000   0.00000
+1 N 4f+3        -0.00000  -0.00000   0.00000   0.00000   0.00000
+               #6       
+0 N 1s          -0.00000
+0 N 2s           0.00001
+0 N 3s           0.00002
+0 N 4s          -0.00000
+0 N 2px          0.01432
+0 N 2py         -0.71653
+0 N 2pz          0.04059
+0 N 3px         -0.00038
+0 N 3py          0.02272
+0 N 3pz         -0.00124
+0 N 4px         -0.00006
+0 N 4py          0.00149
+0 N 4pz         -0.00010
+0 N 3dxy         0.00000
+0 N 3dyz         0.00000
+0 N 3dz^2       -0.00000
+0 N 3dxz        -0.00001
+0 N 3dx2-y2     -0.00000
+0 N 4dxy        -0.00000
+0 N 4dyz         0.00000
+0 N 4dz^2       -0.00000
+0 N 4dxz        -0.00000
+0 N 4dx2-y2      0.00000
+0 N 4f-3        -0.00000
+0 N 4f-2         0.00000
+0 N 4f-1         0.00000
+0 N 4f+0        -0.00000
+0 N 4f+1        -0.00000
+0 N 4f+2        -0.00000
+0 N 4f+3        -0.00000
+1 N 1s           0.00000
+1 N 2s          -0.00001
+1 N 3s          -0.00002
+1 N 4s           0.00000
+1 N 2px         -0.69227
+1 N 2py          0.05324
+1 N 2pz          0.04059
+1 N 3px          0.02195
+1 N 3py         -0.00161
+1 N 3pz         -0.00124
+1 N 4px          0.00144
+1 N 4py         -0.00014
+1 N 4pz         -0.00010
+1 N 3dxy         0.00000
+1 N 3dyz         0.00001
+1 N 3dz^2        0.00000
+1 N 3dxz         0.00000
+1 N 3dx2-y2      0.00000
+1 N 4dxy        -0.00000
+1 N 4dyz         0.00000
+1 N 4dz^2        0.00000
+1 N 4dxz        -0.00000
+1 N 4dx2-y2      0.00000
+1 N 4f-3        -0.00000
+1 N 4f-2        -0.00000
+1 N 4f-1        -0.00000
+1 N 4f+0        -0.00000
+1 N 4f+1         0.00000
+1 N 4f+2         0.00000
+1 N 4f+3         0.00000
+<CAS-nat-orb|mo-hf>  5      7        0.99497395
+<CAS-nat-orb|mo-hf>  6      6        0.73806657
+<CAS-nat-orb|mo-hf>  6      8        0.66382448
+<CAS-nat-orb|mo-hf>  7      5        0.99516145
+<CAS-nat-orb|mo-hf>  8      10       0.99087249
+<CAS-nat-orb|mo-hf>  9      9        0.99559545
+<CAS-nat-orb|mo-hf>  10     6       -0.66800255
+<CAS-nat-orb|mo-hf>  10     8        0.73597191
+Sr    (-1)',   E = -0.00000000030487
+Si    (+1)',   E = -0.00000000000869
+Sijrs (0)  ,   E = -0.02900000212664
+Sijr  (+1) ,   E = -0.00599737198288
+Srsi  (-1) ,   E = -0.06304045677670
+Srs   (-2) ,   E = -0.03908737175716
+Sij   (+2) ,   E = -0.00000127656763
+Sir   (0)' ,   E = -0.08260030147001
+Nevpt2 Energy = -0.219726780994579
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpvx5c1ikl
+max_memory 4000 MB (current use 229 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -107.582178562933
+
+WARN: HOMO -0.164634830957995 == LUMO -0.164621541916924
+
+cycle= 1 E= -107.804091197518  delta_E= -0.222  |g|= 0.282  |ddm|= 1.34
+  HOMO = -0.330746138394629  LUMO = -0.243560317639732
+cycle= 2 E= -107.81804534108  delta_E= -0.014  |g|= 0.104  |ddm|= 0.259
+  HOMO = -0.29187747888258  LUMO = -0.204489610040659
+cycle= 3 E= -107.820343571308  delta_E= -0.0023  |g|= 0.00743  |ddm|= 0.0691
+  HOMO = -0.291819520622813  LUMO = -0.204372330144542
+cycle= 4 E= -107.820362745107  delta_E= -1.92e-05  |g|= 0.000711  |ddm|= 0.00989
+  HOMO = -0.292003124790536  LUMO = -0.204568772183784
+cycle= 5 E= -107.820362863296  delta_E= -1.18e-07  |g|= 0.000228  |ddm|= 0.000606
+  HOMO = -0.291997035628181  LUMO = -0.204561776195314
+cycle= 6 E= -107.820359338982  delta_E= 3.52e-06  |g|= 0.00452  |ddm|= 0.00124
+  HOMO = -0.291993936672591  LUMO = -0.204558292846213
+cycle= 7 E= -107.820362874865  delta_E= -3.54e-06  |g|= 2.02e-05  |ddm|= 0.00119
+  HOMO = -0.291993004598785  LUMO = -0.20455728402133
+cycle= 8 E= -107.820362875004  delta_E= -1.39e-10  |g|= 3.26e-06  |ddm|= 2.01e-05
+  HOMO = -0.291992899963985  LUMO = -0.204557180813655
+Extra cycle  E= -107.820362875327  delta_E= -3.23e-10  |g|= 1.74e-05  |ddm|= 2.37e-05
+converged SCF energy = -107.820362875327
+
+******** CASCI flags ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+max_memory 4000 (MB)
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 200
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+Density matrix diagonal elements [1. 1. 1. 1. 1. 1.]
+CASCI converged
+CASCI E = -108.741308588468  E(CI) = -7.65710213114021  S^2 = 12.0000000
+
+******** <class 'pyscf.mcscf.mc1step.CASSCF'> ********
+CAS (3e+3e, 6o), ncore = 4, nvir = 50
+max_cycle_macro = 50
+max_cycle_micro = 4
+conv_tol = 1e-07
+conv_tol_grad = None
+orbital rotation max_stepsize = 0.02
+orbital rotation threshold for CI restart = 0.01
+augmented hessian ah_max_cycle = 30
+augmented hessian ah_conv_tol = 1e-12
+augmented hessian ah_linear dependence = 1e-14
+augmented hessian ah_level shift = 1e-08
+augmented hessian ah_start_tol = 2.5
+augmented hessian ah_start_cycle = 3
+augmented hessian ah_grad_trust_region = 3
+kf_trust_region = 3
+kf_interval = 4
+ci_response_space = 4
+ci_grad_trust_region = 3
+with_dep4 0
+natorb = False
+canonicalization = True
+sorting_mo_energy = False
+ao2mo_level = 2
+chkfile = /tmp/tmpvx5c1ikl
+max_memory 4000 MB (current use 229 MB)
+internal_rotation = False
+******** <class 'pyscf.fci.direct_spin1.FCISolver'> ********
+max. cycles = 50
+conv_tol = 1e-08
+davidson only = False
+linear dependence = 1e-12
+level shift = 0.001
+max iter space = 12
+max_memory 4000 MB
+nroots = 1
+pspace_size = 400
+spin = None
+CASCI E = -108.741308588468  S^2 = 12.0000000
+Set conv_tol_grad to 0.000316228
+macro iter   1 ( 12 JK    4 micro), CASSCF E = -108.794625387562  dE = -5.33167991e-02  S^2 = 12.0000000
+               |grad[o]|=0.238  |grad[c]|=0.0477  |ddm|=1.09e-15  |maxRot[o]|=0.0983
+macro iter   2 (  6 JK    2 micro), CASSCF E = -108.794715724663  dE = -9.03371005e-05  S^2 = 12.0000000
+               |grad[o]|=0.012  |grad[c]|=7.81e-05  |ddm|=    0  |maxRot[o]|=0.00342
+macro iter   3 (  3 JK    1 micro), CASSCF E = -108.794715725374  dE = -7.10898007e-10  S^2 = 12.0000000
+               |grad[o]|=3.73e-05  |grad[c]|=5.27e-10  |ddm|=    0  |maxRot[o]|=1.08e-05
+1-step CASSCF converged in   3 macro ( 21 JK   7 micro) steps
+CASSCF canonicalization
+Density matrix diagonal elements [1. 1. 1. 1. 1. 1.]
+CASSCF energy = -108.794715725374
+CASCI E = -108.794715725374  E(CI) = -7.77816106612819  S^2 = 12.0000000
+Natural occ [1. 1. 1. 1. 1. 1.]
+Natural orbital (expansion on meta-Lowdin AOs) in CAS space
+               #1        #2        #3        #4        #5       
+0 N 1s          -0.00000  -0.00000  -0.00000   0.00000   0.00000
+0 N 2s          -0.00000  -0.00000  -0.00001   0.00001   0.00001
+0 N 3s          -0.00000  -0.00001  -0.00003   0.00002   0.00001
+0 N 4s           0.00000   0.00000   0.00001  -0.00000  -0.00000
+0 N 2px         -0.59385  -0.50368   0.00000  -0.51973   0.33035
+0 N 2py          0.69184  -0.60061   0.00000  -0.20217  -0.10510
+0 N 2pz         -0.09277  -0.18172   0.70675   0.53525   0.29739
+0 N 3px          0.01884   0.01598  -0.00000   0.01648  -0.01047
+0 N 3py         -0.02194   0.01905  -0.00000   0.00641   0.00333
+0 N 3pz          0.00293   0.00574  -0.02250  -0.01692  -0.00940
+0 N 4px          0.00123   0.00104  -0.00000   0.00108  -0.00069
+0 N 4py         -0.00144   0.00125  -0.00000   0.00042   0.00022
+0 N 4pz          0.00020   0.00039  -0.00143  -0.00114  -0.00063
+0 N 3dxy         0.00000   0.00000  -0.00000  -0.00000  -0.00000
+0 N 3dyz         0.00000   0.00000   0.00000  -0.00000   0.00000
+0 N 3dz^2        0.00000   0.00000   0.00000  -0.00000  -0.00000
+0 N 3dxz        -0.00000  -0.00000  -0.00000   0.00000  -0.00000
+0 N 3dx2-y2      0.00000   0.00000  -0.00000  -0.00000  -0.00000
+0 N 4dxy         0.00000   0.00000  -0.00000  -0.00000  -0.00000
+0 N 4dyz        -0.00000   0.00000  -0.00000  -0.00000   0.00000
+0 N 4dz^2        0.00000   0.00000   0.00000  -0.00000  -0.00000
+0 N 4dxz        -0.00000  -0.00000   0.00000   0.00000  -0.00000
+0 N 4dx2-y2      0.00000   0.00000  -0.00000  -0.00000  -0.00000
+0 N 4f-3        -0.00000   0.00000  -0.00000   0.00000  -0.00000
+0 N 4f-2         0.00000   0.00000   0.00000  -0.00000  -0.00000
+0 N 4f-1        -0.00000   0.00000   0.00000  -0.00000   0.00000
+0 N 4f+0         0.00000   0.00000   0.00000  -0.00000  -0.00000
+0 N 4f+1        -0.00000   0.00000   0.00000   0.00000  -0.00000
+0 N 4f+2         0.00000   0.00000   0.00000  -0.00000  -0.00000
+0 N 4f+3         0.00000   0.00000  -0.00000   0.00000  -0.00000
+1 N 1s           0.00000   0.00000  -0.00000  -0.00000  -0.00000
+1 N 2s           0.00000   0.00000  -0.00001  -0.00001  -0.00001
+1 N 3s           0.00000   0.00001  -0.00003  -0.00002  -0.00001
+1 N 4s          -0.00000  -0.00000   0.00001   0.00000   0.00000
+1 N 2px         -0.38696  -0.17584  -0.00000   0.15832  -0.82883
+1 N 2py          0.02733   0.53629  -0.00000  -0.29989   0.12235
+1 N 2pz         -0.09277  -0.18172  -0.70674   0.53526   0.29740
+1 N 3px          0.01228   0.00558   0.00000  -0.00502   0.02629
+1 N 3py         -0.00087  -0.01701   0.00000   0.00951  -0.00388
+1 N 3pz          0.00293   0.00574   0.02250  -0.01692  -0.00940
+1 N 4px          0.00080   0.00036   0.00000  -0.00033   0.00172
+1 N 4py         -0.00005  -0.00111   0.00000   0.00062  -0.00025
+1 N 4pz          0.00020   0.00039   0.00143  -0.00114  -0.00063
+1 N 3dxy         0.00000   0.00000   0.00000  -0.00000  -0.00000
+1 N 3dyz        -0.00000   0.00000  -0.00000   0.00000   0.00000
+1 N 3dz^2       -0.00000  -0.00000   0.00000   0.00000   0.00000
+1 N 3dxz         0.00000   0.00000   0.00000   0.00000  -0.00000
+1 N 3dx2-y2      0.00000   0.00000   0.00000  -0.00000  -0.00000
+1 N 4dxy         0.00000   0.00000   0.00000  -0.00000  -0.00000
+1 N 4dyz        -0.00000   0.00000  -0.00000   0.00000   0.00000
+1 N 4dz^2       -0.00000  -0.00000   0.00000   0.00000   0.00000
+1 N 4dxz         0.00000   0.00000  -0.00000   0.00000  -0.00000
+1 N 4dx2-y2      0.00000   0.00000   0.00000  -0.00000  -0.00000
+1 N 4f-3        -0.00000   0.00000  -0.00000  -0.00000  -0.00000
+1 N 4f-2        -0.00000  -0.00000   0.00000   0.00000   0.00000
+1 N 4f-1         0.00000  -0.00000  -0.00000  -0.00000  -0.00000
+1 N 4f+0         0.00000   0.00000  -0.00000  -0.00000  -0.00000
+1 N 4f+1        -0.00000  -0.00000  -0.00000  -0.00000   0.00000
+1 N 4f+2        -0.00000  -0.00000   0.00000   0.00000   0.00000
+1 N 4f+3        -0.00000  -0.00000  -0.00000   0.00000  -0.00000
+               #6       
+0 N 1s           0.00000
+0 N 2s           0.00001
+0 N 3s           0.00001
+0 N 4s          -0.00000
+0 N 2px          0.11572
+0 N 2py          0.32818
+0 N 2pz          0.28797
+0 N 3px         -0.00367
+0 N 3py         -0.01041
+0 N 3pz         -0.00910
+0 N 4px         -0.00024
+0 N 4py         -0.00068
+0 N 4pz         -0.00061
+0 N 3dxy        -0.00000
+0 N 3dyz         0.00000
+0 N 3dz^2       -0.00000
+0 N 3dxz         0.00000
+0 N 3dx2-y2     -0.00000
+0 N 4dxy        -0.00000
+0 N 4dyz         0.00000
+0 N 4dz^2       -0.00000
+0 N 4dxz         0.00000
+0 N 4dx2-y2     -0.00000
+0 N 4f-3        -0.00000
+0 N 4f-2        -0.00000
+0 N 4f-1         0.00000
+0 N 4f+0        -0.00000
+0 N 4f+1         0.00000
+0 N 4f+2        -0.00000
+0 N 4f+3         0.00000
+1 N 1s          -0.00000
+1 N 2s          -0.00001
+1 N 3s          -0.00001
+1 N 4s           0.00000
+1 N 2px          0.32605
+1 N 2py          0.77829
+1 N 2pz          0.28797
+1 N 3px         -0.01034
+1 N 3py         -0.02469
+1 N 3pz         -0.00910
+1 N 4px         -0.00068
+1 N 4py         -0.00161
+1 N 4pz         -0.00061
+1 N 3dxy        -0.00000
+1 N 3dyz        -0.00000
+1 N 3dz^2        0.00000
+1 N 3dxz        -0.00000
+1 N 3dx2-y2     -0.00000
+1 N 4dxy        -0.00000
+1 N 4dyz        -0.00000
+1 N 4dz^2        0.00000
+1 N 4dxz        -0.00000
+1 N 4dx2-y2     -0.00000
+1 N 4f-3         0.00000
+1 N 4f-2         0.00000
+1 N 4f-1         0.00000
+1 N 4f+0        -0.00000
+1 N 4f+1        -0.00000
+1 N 4f+2         0.00000
+1 N 4f+3         0.00000
+<CAS-nat-orb|mo-hf>  5      6       -0.59556146
+<CAS-nat-orb|mo-hf>  5      7        0.61573065
+<CAS-nat-orb|mo-hf>  5      8       -0.48587420
+<CAS-nat-orb|mo-hf>  6      6       -0.47938981
+<CAS-nat-orb|mo-hf>  6      8        0.75036473
+<CAS-nat-orb|mo-hf>  7      5        0.99544710
+<CAS-nat-orb|mo-hf>  8      9       -0.45913811
+<CAS-nat-orb|mo-hf>  8      10       0.75399912
+<CAS-nat-orb|mo-hf>  9      9        0.77774401
+<CAS-nat-orb|mo-hf>  9      10       0.41893087
+<CAS-nat-orb|mo-hf>  10     6        0.43806289
+<CAS-nat-orb|mo-hf>  10     7        0.71573520
+<CAS-nat-orb|mo-hf>  10     10       0.40565371
+Sr    (-1)',   E = -0.00000000000058
+Si    (+1)',   E = -0.00000000000016
+Sijrs (0)  ,   E = -0.02899987459165
+Sijr  (+1) ,   E = -0.00599671864962
+Srsi  (-1) ,   E = -0.06303861421287
+Srs   (-2) ,   E = -0.03908243404580
+Sij   (+2) ,   E = -0.00000043070816
+Sir   (0)' ,   E = -0.08259584438068
+Nevpt2 Energy = -0.219713916589521
+/public/software/python-packages/py38/installed/pyscf/dft/libxc.py:771: UserWarning: Since PySCF-2.3, B3LYP (and B3P86) are changed to the VWN-RPA variant, corresponding to the original definition by Stephens et al. (issue 1480) and the same as the B3LYP functional in Gaussian. To restore the VWN5 definition, you can put the setting "B3LYP_WITH_VWN5 = True" in pyscf_conf.py
+  warnings.warn('Since PySCF-2.3, B3LYP (and B3P86) are changed to the VWN-RPA variant, '

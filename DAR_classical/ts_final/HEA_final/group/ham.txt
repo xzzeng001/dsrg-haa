@@ -1,0 +1,934 @@
+-9.602593780099998639e+02
+1.311256350000000459e-01
+-7.660490000000042931e-05
+7.660490000000042931e-05
+-8.922682499999624525e-06
+8.922682499999624525e-06
+5.991774999999098662e-06
+5.991774999999098662e-06
+1.311256350000000459e-01
+-7.660490000000041576e-05
+7.660490000000041576e-05
+-8.922682499999624525e-06
+8.922682499999624525e-06
+5.991774999999096120e-06
+5.991774999999096120e-06
+1.131811850000000452e-01
+1.061821017500048323e-05
+1.061821017500048323e-05
+1.131811850000000175e-01
+1.061821017500044427e-05
+1.061821017500044427e-05
+-1.785626499999998446e-05
+1.785626499999998446e-05
+1.416971999999986839e-02
+1.212299750000001301e-04
+-1.212299750000001301e-04
+1.416972000000002105e-02
+1.212299750000001301e-04
+-1.212299750000001301e-04
+-2.876029999999994702e-03
+-2.876030000000008580e-03
+5.486599999999999810e-02
+5.211075000000035145e-05
+-5.211075000000035145e-05
+1.950932499999971008e-05
+-1.950932499999971008e-05
+-1.623227499999954128e-05
+-1.623227499999954128e-05
+5.211075000000035145e-05
+-5.211075000000035145e-05
+-6.318124999999986946e-04
+2.555812500000000792e-03
+-2.555812500000000792e-03
+6.318124999999986946e-04
+6.318124999999986946e-04
+-2.555812500000000792e-03
+2.555812500000000792e-03
+-6.318124999999986946e-04
+-8.634712499999982763e-07
+-2.295727875000000146e-05
+2.295727875000000146e-05
+8.634712499999982763e-07
+-8.634712499999982763e-07
+2.295727875000000146e-05
+-2.295727875000000146e-05
+8.634712499999982763e-07
+-4.602062500000502581e-07
+8.300168750000050922e-06
+-8.300168750000050922e-06
+4.602062500000502581e-07
+4.602062500000502581e-07
+8.300168750000050922e-06
+-8.300168750000050922e-06
+-4.602062500000502581e-07
+1.950932499999971008e-05
+-1.950932499999971008e-05
+-8.634712499999982763e-07
+-2.295727875000000146e-05
+2.295727875000000146e-05
+-8.634712499999982763e-07
+8.634712499999982763e-07
+2.295727875000000146e-05
+-2.295727875000000146e-05
+8.634712499999982763e-07
+-2.207749999999985765e-04
+5.371525000000001125e-03
+-5.371525000000001125e-03
+-2.207749999999985765e-04
+-2.207749999999985765e-04
+-5.371525000000001125e-03
+5.371525000000001125e-03
+-2.207749999999985765e-04
+8.441000000001881419e-07
+1.645585000000018567e-05
+-1.645585000000018567e-05
+8.441000000001881419e-07
+-8.441000000001881419e-07
+1.645585000000018567e-05
+-1.645585000000018567e-05
+-8.441000000001881419e-07
+-1.623227499999954128e-05
+-1.623227499999954128e-05
+-4.602062500000502581e-07
+8.300168750000050922e-06
+8.300168750000050922e-06
+4.602062500000502581e-07
+4.602062500000502581e-07
+-8.300168750000050922e-06
+-8.300168750000050922e-06
+-4.602062500000502581e-07
+8.441000000001881419e-07
+1.645585000000018567e-05
+1.645585000000018567e-05
+-8.441000000001881419e-07
+8.441000000001881419e-07
+-1.645585000000018567e-05
+-1.645585000000018567e-05
+-8.441000000001881419e-07
+6.500000000009102663e-07
+9.102849999999999137e-03
+9.102849999999999137e-03
+-6.500000000009102663e-07
+-6.500000000009102663e-07
+9.102849999999999137e-03
+9.102849999999999137e-03
+6.500000000009102663e-07
+9.307622249999999986e-02
+1.594835017500000662e-05
+1.594835017500000662e-05
+-5.470224999999999791e-06
+5.470224999999999791e-06
+6.663750000000013067e-07
+6.663750000000013067e-07
+-2.135854999999999899e-05
+-2.135854999999999899e-05
+-1.083849999999996882e-04
+-1.636031500000000027e-02
+-8.645744999999998084e-03
+-7.822954999999999492e-03
+4.904728249999999734e-02
+-6.491349999999991983e-05
+6.491349999999991983e-05
+-1.397129999999999954e-05
+1.397129999999999954e-05
+-3.969972500000000385e-05
+-3.969972500000000385e-05
+1.292950000000002588e-06
+1.292950000000002588e-06
+-4.511499999999719551e-07
+-1.744390000000002792e-05
+-1.744390000000002792e-05
+4.511499999999719551e-07
+4.511499999999719551e-07
+1.744390000000002792e-05
+1.744390000000002792e-05
+-4.511499999999719551e-07
+2.209624999999984795e-06
+-1.001453749999999898e-04
+-1.001453749999999898e-04
+-2.209624999999984795e-06
+2.209624999999984795e-06
+1.001453749999999898e-04
+1.001453749999999898e-04
+-2.209624999999984795e-06
+7.147750000000008264e-05
+-2.855802500000000337e-03
+-2.855802500000000337e-03
+-7.147750000000008264e-05
+-7.147750000000008264e-05
+-2.855802500000000337e-03
+-2.855802500000000337e-03
+7.147750000000008264e-05
+7.141037499999999135e-06
+-7.141037499999999135e-06
+-1.824875000000096602e-07
+-3.618026250000001078e-05
+3.618026250000001078e-05
+1.824875000000096602e-07
+1.824875000000096602e-07
+3.618026250000001078e-05
+-3.618026250000001078e-05
+-1.824875000000096602e-07
+-3.658675000000000338e-04
+5.815892499999999327e-03
+-5.815892499999999327e-03
+3.658675000000000338e-04
+-3.658675000000000338e-04
+-5.815892499999999327e-03
+5.815892499999999327e-03
+3.658675000000000338e-04
+-1.212349999999910559e-06
+3.619864999999991133e-05
+-3.619864999999991133e-05
+1.212349999999910559e-06
+1.212349999999910559e-06
+3.619864999999991133e-05
+-3.619864999999991133e-05
+-1.212349999999910559e-06
+8.318954999999998712e-02
+3.273905000000000294e-05
+-3.273905000000000294e-05
+3.572160000000001388e-05
+-3.572160000000001388e-05
+4.686962499999999809e-02
+-5.400374999999999604e-05
+5.400374999999999604e-05
+-1.448917500000091232e-06
+1.448917500000091232e-06
+-2.851449999999999948e-05
+-2.851449999999999948e-05
+-6.445150000000000455e-06
+6.445150000000000455e-06
+-4.915374999999997437e-04
+-1.832937499999999931e-03
+1.832937499999999931e-03
+4.915374999999997437e-04
+4.915374999999997437e-04
+1.832937499999999931e-03
+-1.832937499999999931e-03
+-4.915374999999997437e-04
+9.437375000000114773e-07
+2.510262499999989673e-06
+-2.510262499999989673e-06
+-9.437375000000114773e-07
+9.437375000000114773e-07
+-2.510262499999989673e-06
+2.510262499999989673e-06
+-9.437375000000114773e-07
+-7.667750000001031879e-07
+-6.362599999999896527e-06
+6.362599999999896527e-06
+7.667750000001031879e-07
+7.667750000001031879e-07
+-6.362599999999896527e-06
+6.362599999999896527e-06
+-7.667750000001031879e-07
+8.306697499999998735e-02
+5.121664999999999551e-02
+4.319669999999999928e-05
+-4.319669999999999928e-05
+1.038675000000000012e-05
+-1.038675000000000012e-05
+-1.832732499999956114e-05
+-1.832732499999956114e-05
+4.904728249999999734e-02
+-6.491349999999991983e-05
+6.491349999999991983e-05
+-1.397129999999999954e-05
+1.397129999999999954e-05
+-3.969972500000000385e-05
+-3.969972500000000385e-05
+1.292950000000002588e-06
+1.292950000000002588e-06
+-4.511499999999719551e-07
+-1.744390000000003131e-05
+-1.744390000000003131e-05
+4.511499999999719551e-07
+4.511499999999719551e-07
+1.744390000000003131e-05
+1.744390000000003131e-05
+-4.511499999999719551e-07
+2.209624999999984795e-06
+-1.001453749999999898e-04
+-1.001453749999999898e-04
+-2.209624999999984795e-06
+2.209624999999984795e-06
+1.001453749999999898e-04
+1.001453749999999898e-04
+-2.209624999999984795e-06
+7.147750000000008264e-05
+-2.855802500000000337e-03
+-2.855802500000000337e-03
+-7.147750000000008264e-05
+-7.147750000000008264e-05
+-2.855802500000000337e-03
+-2.855802500000000337e-03
+7.147750000000008264e-05
+7.141037499999999135e-06
+-7.141037499999999135e-06
+-1.824875000000096602e-07
+-3.618026250000001078e-05
+3.618026250000001078e-05
+1.824875000000096602e-07
+1.824875000000096602e-07
+3.618026250000001078e-05
+-3.618026250000001078e-05
+-1.824875000000096602e-07
+-3.658675000000000338e-04
+5.815892499999999327e-03
+-5.815892499999999327e-03
+3.658675000000000338e-04
+-3.658675000000000338e-04
+-5.815892499999999327e-03
+5.815892499999999327e-03
+3.658675000000000338e-04
+-1.212349999999910559e-06
+3.619864999999991133e-05
+-3.619864999999991133e-05
+1.212349999999910559e-06
+1.212349999999910559e-06
+3.619864999999991133e-05
+-3.619864999999991133e-05
+-1.212349999999910559e-06
+9.307622249999999986e-02
+1.594835017500000662e-05
+1.594835017500000662e-05
+-5.470224999999999791e-06
+5.470224999999999791e-06
+6.663750000000013067e-07
+6.663750000000013067e-07
+-2.135854999999999899e-05
+-2.135854999999999899e-05
+-1.083849999999996882e-04
+-1.636031500000000027e-02
+-8.645744999999998084e-03
+-7.822954999999999492e-03
+4.686962499999999809e-02
+-5.400374999999999604e-05
+5.400374999999999604e-05
+-1.448917500000091232e-06
+1.448917500000091232e-06
+-2.851449999999999948e-05
+-2.851449999999999948e-05
+-6.445150000000000455e-06
+6.445150000000000455e-06
+-4.915374999999997437e-04
+-1.832937499999999931e-03
+1.832937499999999931e-03
+4.915374999999997437e-04
+4.915374999999997437e-04
+1.832937499999999931e-03
+-1.832937499999999931e-03
+-4.915374999999997437e-04
+9.437375000000114773e-07
+2.510262499999989249e-06
+-2.510262499999989249e-06
+-9.437375000000114773e-07
+9.437375000000114773e-07
+-2.510262499999989249e-06
+2.510262499999989249e-06
+-9.437375000000114773e-07
+-7.667750000001031879e-07
+-6.362599999999896527e-06
+6.362599999999896527e-06
+7.667750000001031879e-07
+7.667750000001031879e-07
+-6.362599999999896527e-06
+6.362599999999896527e-06
+-7.667750000001031879e-07
+8.318954999999998712e-02
+3.273905000000000294e-05
+-3.273905000000000294e-05
+3.572160000000001388e-05
+-3.572160000000001388e-05
+5.121664999999999551e-02
+4.319669999999999928e-05
+-4.319669999999999928e-05
+1.038675000000000012e-05
+-1.038675000000000012e-05
+-1.832732499999956114e-05
+-1.832732499999956114e-05
+8.306697499999998735e-02
+-1.785070499999998853e-05
+1.785070499999998853e-05
+5.828225000000000766e-02
+4.195249999999978510e-05
+4.195249999999978510e-05
+-2.499719999999764624e-06
+2.499719999999764624e-06
+4.195249999999978510e-05
+4.195249999999978510e-05
+8.525000000000112349e-06
+1.252472500000000391e-02
+1.252472500000000391e-02
+-8.525000000000112349e-06
+-8.525000000000112349e-06
+1.252472500000000391e-02
+1.252472500000000391e-02
+8.525000000000112349e-06
+-4.743262500000010052e-06
+-6.961423750000000096e-05
+-6.961423750000000096e-05
+4.743262500000010052e-06
+4.743262500000010052e-06
+6.961423750000000096e-05
+6.961423750000000096e-05
+-4.743262500000010052e-06
+-2.499719999999764200e-06
+2.499719999999764200e-06
+-4.743262500000010052e-06
+-6.961423750000000096e-05
+6.961423750000000096e-05
+4.743262500000010052e-06
+4.743262500000010052e-06
+-6.961423750000000096e-05
+6.961423750000000096e-05
+-4.743262500000010052e-06
+-1.915499999999999668e-04
+5.810299999999998279e-03
+-5.810299999999998279e-03
+1.915499999999999668e-04
+1.915499999999999668e-04
+-5.810299999999998279e-03
+5.810299999999998279e-03
+-1.915499999999999668e-04
+5.348707499999999504e-02
+6.144924999999978779e-05
+6.144924999999978779e-05
+1.104377499999999914e-05
+-1.104377499999999914e-05
+4.129852499999999945e-05
+-4.129852499999999945e-05
+-9.051124999999938053e-07
+-5.367362500000007177e-06
+5.367362500000007177e-06
+9.051124999999938053e-07
+9.051124999999938053e-07
+-5.367362500000007177e-06
+5.367362500000007177e-06
+-9.051124999999938053e-07
+-1.569208837499986526e-06
+9.018691162499985404e-06
+-9.018691162499985404e-06
+1.569208837499986526e-06
+1.569208837499986526e-06
+-9.018691162499985404e-06
+9.018691162499985404e-06
+-1.569208837499986526e-06
+4.708942500000000420e-02
+1.139562499999758580e-06
+-1.139562499999758580e-06
+5.348707499999999504e-02
+6.144924999999978779e-05
+6.144924999999978779e-05
+1.104377499999999914e-05
+-1.104377499999999914e-05
+4.129852499999999945e-05
+-4.129852499999999945e-05
+-9.051124999999936995e-07
+-5.367362500000007177e-06
+5.367362500000007177e-06
+9.051124999999936995e-07
+9.051124999999936995e-07
+-5.367362500000007177e-06
+5.367362500000007177e-06
+-9.051124999999936995e-07
+-1.569208837499986526e-06
+9.018691162499985404e-06
+-9.018691162499985404e-06
+1.569208837499986526e-06
+1.569208837499986526e-06
+-9.018691162499985404e-06
+9.018691162499985404e-06
+-1.569208837499986526e-06
+4.708942500000000420e-02
+1.139562499999758580e-06
+-1.139562499999758580e-06
+5.404775000000001245e-02
+8.991524999999995875e-05
+-8.991524999999995875e-05
+8.991524999999995875e-05
+-8.991524999999995875e-05
+-5.190337500000015728e-04
+1.410783749999998393e-03
+-1.410783749999998393e-03
+5.190337500000015728e-04
+5.190337500000015728e-04
+-1.410783749999998393e-03
+1.410783749999998393e-03
+-5.190337500000015728e-04
+4.684469000000000133e-02
+-3.549125000000010171e-05
+3.549125000000010171e-05
+4.684469000000000133e-02
+-3.549125000000010171e-05
+3.549125000000010171e-05
+5.120600000000000845e-02
+Identity(wires=[0])
+PauliZ(wires=[0])
+PauliX(wires=[0]) @ PauliZ(wires=[1])
+PauliX(wires=[0])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2])
+PauliX(wires=[0]) @ PauliX(wires=[1])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2])
+PauliZ(wires=[3])
+PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[3])
+PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliZ(wires=[1])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2])
+PauliX(wires=[1]) @ PauliX(wires=[2])
+PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[2])
+PauliZ(wires=[1]) @ PauliX(wires=[2])
+PauliX(wires=[2])
+PauliZ(wires=[5])
+PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[5])
+PauliZ(wires=[1]) @ PauliZ(wires=[2])
+PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliZ(wires=[3])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[3])
+PauliX(wires=[0]) @ PauliZ(wires=[3])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[3])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[3])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3])
+PauliZ(wires=[0]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[0]) @ PauliX(wires=[3])
+PauliY(wires=[0]) @ PauliY(wires=[3])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[3])
+PauliY(wires=[0]) @ PauliY(wires=[3]) @ PauliZ(wires=[4])
+PauliY(wires=[0]) @ PauliZ(wires=[1]) @ PauliY(wires=[3])
+PauliX(wires=[0]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[0]) @ PauliX(wires=[3])
+PauliY(wires=[0]) @ PauliZ(wires=[1]) @ PauliY(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[3])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[3])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[3]) @ PauliZ(wires=[4])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[3])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[3])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[3]) @ PauliZ(wires=[4])
+PauliY(wires=[0]) @ PauliX(wires=[1]) @ PauliY(wires=[3])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3])
+PauliY(wires=[0]) @ PauliX(wires=[1]) @ PauliY(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[0]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliZ(wires=[1]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliX(wires=[1]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[0]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[3]) @ PauliX(wires=[4])
+PauliY(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[0]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliZ(wires=[1]) @ PauliY(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[3]) @ PauliX(wires=[4])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[3]) @ PauliX(wires=[4])
+PauliY(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliX(wires=[1]) @ PauliY(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[1])
+PauliY(wires=[1]) @ PauliY(wires=[2])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[2])
+PauliX(wires=[1])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[2])
+PauliY(wires=[0]) @ PauliX(wires=[1]) @ PauliY(wires=[2])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[2])
+PauliY(wires=[0]) @ PauliY(wires=[1])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[2])
+PauliY(wires=[0]) @ PauliY(wires=[2])
+PauliY(wires=[0]) @ PauliZ(wires=[1]) @ PauliY(wires=[2])
+PauliX(wires=[0]) @ PauliX(wires=[2])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[2])
+PauliZ(wires=[0]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[0]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[0]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliX(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[0]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[4])
+PauliY(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[0]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliZ(wires=[1]) @ PauliY(wires=[4])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[4])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[4])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[4])
+PauliY(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliX(wires=[1]) @ PauliY(wires=[4])
+PauliZ(wires=[0]) @ PauliZ(wires=[2])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[2])
+PauliZ(wires=[0]) @ PauliX(wires=[2])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[2])
+PauliX(wires=[0]) @ PauliZ(wires=[2])
+PauliZ(wires=[0]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliZ(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliZ(wires=[1]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[5])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliX(wires=[1]) @ PauliY(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[5])
+PauliY(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[2])
+PauliZ(wires=[0]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[3])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[3])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[3])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[3])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[3])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3])
+PauliX(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[3])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[3])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliY(wires=[1]) @ PauliY(wires=[3])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[3])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3])
+PauliY(wires=[1]) @ PauliY(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[1]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[1]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliY(wires=[1]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[1]) @ PauliY(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[4])
+PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[3]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[4])
+PauliZ(wires=[3]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[3]) @ PauliX(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[3]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[3]) @ PauliY(wires=[4])
+PauliX(wires=[3]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[3]) @ PauliY(wires=[5])
+PauliY(wires=[3]) @ PauliZ(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[3]) @ PauliX(wires=[5])
+PauliX(wires=[3]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[2]) @ PauliZ(wires=[3])
+PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[2]) @ PauliX(wires=[3])
+PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3])
+PauliX(wires=[2]) @ PauliZ(wires=[3])
+PauliY(wires=[2]) @ PauliY(wires=[3])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3])
+PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3])
+PauliX(wires=[2]) @ PauliX(wires=[3])
+PauliZ(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliZ(wires=[4])
+PauliY(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[2]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[3]) @ PauliZ(wires=[5])
+PauliZ(wires=[3]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[3]) @ PauliX(wires=[5])
+PauliX(wires=[3]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[3]) @ PauliZ(wires=[5])
+PauliZ(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3])
+PauliZ(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3])
+PauliZ(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[3]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliX(wires=[1])
+PauliX(wires=[1]) @ PauliZ(wires=[2])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[1]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[1]) @ PauliX(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[4])
+PauliX(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[4])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[4])
+PauliY(wires=[1]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[1]) @ PauliY(wires=[4])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[5])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[5])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[5])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[5])
+PauliX(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliX(wires=[5])
+PauliZ(wires=[0]) @ PauliY(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[1]) @ PauliY(wires=[5])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[5])
+PauliY(wires=[1]) @ PauliZ(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[0]) @ PauliZ(wires=[1]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[0]) @ PauliX(wires=[1]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[2]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[2]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliY(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliX(wires=[5])
+PauliY(wires=[2]) @ PauliX(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[2]) @ PauliX(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[1]) @ PauliY(wires=[2]) @ PauliX(wires=[4]) @ PauliY(wires=[5])
+PauliY(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliX(wires=[2]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[3]) @ PauliY(wires=[4]) @ PauliZ(wires=[5])
+PauliY(wires=[2]) @ PauliY(wires=[4])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[2]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[4])
+PauliZ(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliZ(wires=[4])
+PauliZ(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[3]) @ PauliX(wires=[4])
+PauliZ(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[2]) @ PauliZ(wires=[5])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[5])
+PauliX(wires=[2]) @ PauliZ(wires=[5])
+PauliZ(wires=[2]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[2]) @ PauliX(wires=[5])
+PauliY(wires=[2]) @ PauliY(wires=[5])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliX(wires=[5])
+PauliY(wires=[2]) @ PauliZ(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[1]) @ PauliY(wires=[2]) @ PauliY(wires=[5])
+PauliX(wires=[2]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliX(wires=[2]) @ PauliX(wires=[5])
+PauliZ(wires=[1]) @ PauliY(wires=[2]) @ PauliZ(wires=[4]) @ PauliY(wires=[5])
+PauliZ(wires=[2]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[1]) @ PauliX(wires=[2]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliX(wires=[2]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])
+PauliZ(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[5])
+PauliZ(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[4]) @ PauliX(wires=[5])
+PauliZ(wires=[1]) @ PauliZ(wires=[2]) @ PauliX(wires=[5])
+PauliZ(wires=[1]) @ PauliZ(wires=[2]) @ PauliZ(wires=[4]) @ PauliZ(wires=[5])

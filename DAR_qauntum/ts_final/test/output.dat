@@ -1,0 +1,190 @@
+
+    -----------------------------------------------------------------------
+          Psi4: An Open-Source Ab Initio Electronic Structure Package
+                               Psi4 1.6.1 release
+
+                         Git: Rev {HEAD} 5b9f6e3 
+
+
+    D. G. A. Smith, L. A. Burns, A. C. Simmonett, R. M. Parrish,
+    M. C. Schieber, R. Galvelis, P. Kraus, H. Kruse, R. Di Remigio,
+    A. Alenaizan, A. M. James, S. Lehtola, J. P. Misiewicz, M. Scheurer,
+    R. A. Shaw, J. B. Schriber, Y. Xie, Z. L. Glick, D. A. Sirianni,
+    J. S. O'Brien, J. M. Waldrop, A. Kumar, E. G. Hohenstein,
+    B. P. Pritchard, B. R. Brooks, H. F. Schaefer III, A. Yu. Sokolov,
+    K. Patkowski, A. E. DePrince III, U. Bozkaya, R. A. King,
+    F. A. Evangelista, J. M. Turney, T. D. Crawford, C. D. Sherrill,
+    J. Chem. Phys. 152(18) 184108 (2020). https://doi.org/10.1063/5.0006002
+
+                            Additional Code Authors
+    E. T. Seidl, C. L. Janssen, E. F. Valeev, M. L. Leininger,
+    J. F. Gonthier, R. M. Richard, H. R. McAlexander, M. Saitow, X. Wang,
+    P. Verma, M. H. Lechner, and A. Jiang
+
+             Previous Authors, Complete List of Code Contributors,
+                       and Citations for Specific Modules
+    https://github.com/psi4/psi4/blob/master/codemeta.json
+    https://github.com/psi4/psi4/graphs/contributors
+    http://psicode.org/psi4manual/master/introduction.html#citing-psifour
+
+    -----------------------------------------------------------------------
+
+
+    Psi4 started on: Monday, 19 September 2022 10:04AM
+
+    Process ID: 81134
+    Host:       xzzeng.local
+    PSIDATADIR: /Users/xzzeng/.conda/envs/p4dev/share/psi4
+    Memory:     500.0 MiB
+    Threads:    1
+    
+  ==> Input File <==
+
+--------------------------------------------------------------------------
+import forte
+
+molecule{
+ H                 -1.33803100   -2.44347500    0.00148700
+ Cl                -2.17199400    0.23428200   -0.00061000
+ H                  8.49832350  -19.89593810   -6.38073387
+}
+
+set globals{
+ basis             cc-pvdz
+ reference         rhf
+ scf_type          pk
+ d_convergence     8
+ e_convergence     10
+# restricted_docc   [51,52,53,54,59,60]
+# active            [55,56,57,58]
+}
+
+##set forte{
+##  active_space_solver    fci
+##  correlation_solver     mrdsrg
+##  dsrg_s                 0.5
+##  frozen_docc            [1,0,0,0]
+##  restricted_docc        [1,0,1,1]
+##  active                 [2,0,0,0]
+##  dsrg_hbar_seq          true
+##}
+
+Emcscf, wfn = energy('hf',return_wfn=True)
+#Emcscf, wfn = energy('casscf',return_wfn=True)
+#energy('forte',ref_wfn=wfn)
+
+--------------------------------------------------------------------------
+
+Scratch directory: /tmp/
+
+*** tstart() called on xzzeng.local
+*** at Mon Sep 19 10:04:04 2022
+
+   => Loading Basis Set <=
+
+    Name: CC-PVDZ
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1, 3 entry H          line    22 file /Users/xzzeng/.conda/envs/p4dev/share/psi4/basis/cc-pvdz.gbs 
+    atoms 2    entry CL         line   658 file /Users/xzzeng/.conda/envs/p4dev/share/psi4/basis/cc-pvdz.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RHF Reference
+                        1 Threads,    500 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: cs
+    Full point group: Cs
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 2:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         H            0.150126887457    -2.123068863058     0.000000000000     1.007825032230
+         CL          -0.320884663566     0.641714917390     0.000000000000    34.968852682000
+         H           10.983718938257   -20.142734914815     0.000000000000     1.007825032230
+
+  Running in cs symmetry.
+
+  Rotational constants: A =     21.03973  B =      0.03053  C =      0.03048 [cm^-1]
+  Rotational constants: A = 630755.31257  B =    915.11786  C =    913.79211 [MHz]
+  Nuclear repulsion =    3.612962962772949
+
+  Charge       = 0
+  Multiplicity = 2
+  Electrons    = 19
+  Nalpha       = 10
+  Nbeta        = 9
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is PK.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-10
+  Density threshold  = 1.00e-08
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: CC-PVDZ
+    Blend: CC-PVDZ
+    Number of shells: 14
+    Number of basis functions: 28
+    Number of Cartesian functions: 29
+    Spherical Harmonics?: true
+    Max angular momentum: 2
+
+
+Traceback (most recent call last):
+  File "/Users/xzzeng/.conda/envs/p4dev/bin/psi4", line 338, in <module>
+    exec(content)
+  File "<string>", line 30, in <module>
+  File "/Users/xzzeng/.conda/envs/p4dev/lib//python3.9/site-packages/psi4/driver/driver.py", line 501, in energy
+    wfn = procedures['energy'][lowername](lowername, molecule=molecule, **kwargs)
+  File "/Users/xzzeng/.conda/envs/p4dev/lib//python3.9/site-packages/psi4/driver/procrouting/proc.py", line 2455, in run_scf
+    scf_wfn = scf_helper(name, post_scf=False, **kwargs)
+  File "/Users/xzzeng/.conda/envs/p4dev/lib//python3.9/site-packages/psi4/driver/procrouting/proc.py", line 1576, in scf_helper
+    scf_wfn = scf_wavefunction_factory(name, base_wfn, core.get_option('SCF', 'REFERENCE'), **kwargs)
+  File "/Users/xzzeng/.conda/envs/p4dev/lib//python3.9/site-packages/psi4/driver/procrouting/proc.py", line 1214, in scf_wavefunction_factory
+    wfn = core.RHF(ref_wfn, superfunc)
+
+RuntimeError: 
+Fatal Error: RHF: RHF reference is only for singlets.
+Error occurred in file: /Users/github/builds/conda-builds/psi4-multiout_1657311225504/work/psi4/src/psi4/libscf_solver/rhf.cc on line: 92
+The most recent 5 function calls were:
+
+
+
+
+Printing out the relevant lines from the Psithon --> Python processed input file:
+    core.set_global_option("BASIS", "cc-pvdz")
+    core.set_global_option("REFERENCE", "rhf")
+    core.set_global_option("SCF_TYPE", "pk")
+    core.set_global_option("D_CONVERGENCE", 8)
+    core.set_global_option("E_CONVERGENCE", 10)
+--> Emcscf, wfn = energy('hf',return_wfn=True)
+
+!----------------------------------------------------------------------------------!
+!                                                                                  !
+! Fatal Error: RHF: RHF reference is only for singlets.                            !
+! Error occurred in file: /Users/github/builds/conda-                              !
+!     builds/psi4-multiout_1657311225504/work/psi4/src/psi4/libscf_solver/rhf.cc   !
+!     on line: 92                                                                  !
+! The most recent 5 function calls were:                                           !
+!                                                                                  !
+!----------------------------------------------------------------------------------!
+
+    Psi4 stopped on: Monday, 19 September 2022 10:04AM
+    Psi4 wall time for execution: 0:00:00.10
+
+*** Psi4 encountered an error. Buy a developer more coffee!
+*** Resources and help at github.com/psi4/psi4.

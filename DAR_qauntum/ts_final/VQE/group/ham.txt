@@ -1,0 +1,20 @@
+-1.451590879800000266e+03
+1.378159999999999386e-01
+-1.192018700000000049e-02
+1.378159999999999663e-01
+-1.192018700000000223e-02
+1.302479999999998916e-02
+-7.217810000000001586e-03
+-7.217810000000001586e-03
+-4.083000000000037988e-04
+3.150929999999999009e-02
+Identity(wires=[0])
+PauliZ(wires=[0])
+PauliX(wires=[0])
+PauliZ(wires=[1])
+PauliX(wires=[1])
+PauliZ(wires=[0]) @ PauliZ(wires=[1])
+PauliX(wires=[0]) @ PauliZ(wires=[1])
+PauliZ(wires=[0]) @ PauliX(wires=[1])
+PauliY(wires=[0]) @ PauliY(wires=[1])
+PauliX(wires=[0]) @ PauliX(wires=[1])

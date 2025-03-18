@@ -1,0 +1,32 @@
+import forte
+
+molecule{
+ H                 -1.33803100   -2.44347500    0.00148700
+ Cl                -2.17199400    0.23428200   -0.00061000
+ H                  8.49832350  -19.89593810   -6.38073387
+}
+
+set globals{
+ basis             cc-pvdz
+ reference         rhf
+ scf_type          pk
+ d_convergence     8
+ e_convergence     10
+# restricted_docc   [51,52,53,54,59,60]
+# active            [55,56,57,58]
+}
+
+##set forte{
+##  active_space_solver    fci
+##  correlation_solver     mrdsrg
+##  dsrg_s                 0.5
+##  frozen_docc            [1,0,0,0]
+##  restricted_docc        [1,0,1,1]
+##  active                 [2,0,0,0]
+##  dsrg_hbar_seq          true
+##}
+
+Emcscf, wfn = energy('hf',return_wfn=True)
+#Emcscf, wfn = energy('casscf',return_wfn=True)
+#energy('forte',ref_wfn=wfn)
+

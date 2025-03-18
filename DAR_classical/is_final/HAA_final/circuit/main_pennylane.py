@@ -1,0 +1,81 @@
+import numpy as np
+import pennylane as qml
+import sys,os
+import torch
+import torch.optim as optim
+from torch.optim import lr_scheduler
+from time import time
+from pennylane_qchem.qchem import convert_observable 
+from openfermion.utils import count_qubits
+
+ham=np.load('ham.npy',allow_pickle=True).item()
+H=convert_observable(ham)
+n_qubits = count_qubits(ham)
+
+# define the network structure
+network=[n_qubits,1]
+
+n_qubits_tot=sum(network)
+ncycle=3
+
+n_tot_params=2*3*network[0]
+for icycle in range(ncycle):
+    n_tot_params += 3*network[0]*network[1]
+
+print('The Architecture of network: ',network)
+print('The cyle of each layer: ',ncycle)
+print('The total parameters of network:',n_tot_params)
+
+sys.stdout.flush()
+
+def circuit(params):
+   qml.BasisState(np.zeros(n_qubits_tot),wires=range(n_qubits_tot))
+
+   nparams=0
+   # for the input gates
+   for i in range(network[0]):
+      qml.U3(params[nparams+i*3], params[nparams+i*3+1], params[nparams+i*3+2], wires=i)
+
+   nparams=3*network[0]
+
+   for icycle in range(ncycle):
+
+      # for the intermediate layer
+      for i in range(network[0]):
+         # parameters of the respective "neuron gates"
+         # (can be larer than needed, overflow will be ignored)
+         neuron_params = params[nparams:]
+         # iterate over all input neurons and apply CAN gates
+         for j in range(network[1]):
+            tx, ty, tz = neuron_params[j*3:(j+1)*3]
+            qml.IsingXX(2*tx, wires=(sum(network[:1])+j,i))
+            qml.IsingYY(2*ty, wires=(sum(network[:1])+j,i))
+            qml.IsingZZ(2*tz, wires=(sum(network[:1])+j,i))
+#            print('two target:',sum(network[:n_layer-ilayer-2])+j,sum(network[:n_layer-ilayer-1])+i)
+         nparams += 3*network[1]
+
+   for i in range(network[0]):
+      qml.U3(params[nparams+i*3], params[nparams+i*3+1], params[nparams+i*3+2], wires=i)
+
+
+#assert torch.cuda.is_available()
+cpu_device = torch.device("cpu") 
+
+dev = qml.device("default.qubit.torch", wires=n_qubits_tot)
+
+@qml.qnode(dev,interface="torch", diff_method="backprop")
+def cost_fn(params):
+   circuit(params)
+   return qml.expval(H)
+
+if os.path.exists('params.txt'):
+    theta=torch.tensor(np.loadtxt('params.txt'),requires_grad=True,dtype=torch.float64,device=cpu_device)
+else:
+    print('please provide the params.txt file !!!!')
+    sys.exit(0)
+
+if (not os.path.exists('circuit.png')):
+   qml.drawer.use_style('black_white')
+   fig, ax = qml.draw_mpl(cost_fn,decimals=4)(theta)
+   fig.savefig('circuit.png')
+

@@ -1,0 +1,634 @@
+This binary contains symmetries: 2u1pg su2u1pg 
+DMRG version 3.1.1
+Temporary storage enabled in ./tmp//storage_temp_090d42aa6489/
+The hamiltonian will contain 1779 terms
+MPO Bond 0: 60/21
+MPO Bond 1: 70/26
+MPO Bond 2: 84/33
+MPO Bond 3: 106/44
+MPO Bond 4: 136/59
+MPO Bond 5: 168/76
+MPO Bond 6: 10/3
+MPO Bond 7: 1/0
+Right end: <10,0,0>
+MPS initialization has finished...
+Expecting 0 states to orthogonalize to.
+Boundaries are partially initialized...
+Boundaries are fully initialized...
+Done init_left_right
+TSMPOTensor: 1x70,  70 operators, 68 tags
+TSMPOTensor: 60x84,  235 operators, 170 tags
+TSMPOTensor: 70x106,  373 operators, 236 tags
+TSMPOTensor: 84x136,  503 operators, 318 tags
+TSMPOTensor: 106x168,  573 operators, 305 tags
+TSMPOTensor: 136x10,  346 operators, 261 tags
+TSMPOTensor: 168x1,  168 operators, 104 tags
+Total number of tags: 1462
+
+Sweep 0, optimizing sites 0 and 1
+JCD used 10 iterations.
+Time elapsed in JCD: 0.00478867
+Energy 1 -107.931241226636
+Sum: 4 -> 3
+Time elapsed in TRUNC: 8.937e-05
+Propagating t with norm 1
+Memory usage : 11819280 791308 
+Sweep has been running for 0.00715758 seconds.
+
+Sweep 0, optimizing sites 1 and 2
+JCD used 10 iterations.
+Time elapsed in JCD: 0.0221685
+Energy 1 -108.18274655913
+Sum: 12 -> 10
+Time elapsed in TRUNC: 0.00017633
+Propagating t with norm 1
+Memory usage : 11819280 791308 
+Sweep has been running for 0.0319645 seconds.
+
+Sweep 0, optimizing sites 2 and 3
+JCD used 10 iterations.
+Time elapsed in JCD: 0.0600682
+Energy 1 -108.386778403969
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.0001846
+Propagating t with norm 1
+Memory usage : 11819280 791308 
+Sweep has been running for 0.0964622 seconds.
+
+Sweep 0, optimizing sites 3 and 4
+JCD used 10 iterations.
+Time elapsed in JCD: 0.112098
+Energy 1 -108.539431918929
+Sum: 68 -> 61
+Time elapsed in TRUNC: 0.0003183
+Propagating t with norm 1
+Memory usage : 11819280 792384 
+Sweep has been running for 0.214941 seconds.
+
+Sweep 0, optimizing sites 4 and 5
+JCD used 10 iterations.
+Time elapsed in JCD: 0.100504
+Energy 1 -108.556583077803
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.000175481
+Propagating t with norm 1
+Memory usage : 11819280 792384 
+Sweep has been running for 0.321894 seconds.
+
+Sweep 0, optimizing sites 5 and 6
+JCD used 10 iterations.
+Time elapsed in JCD: 0.0253531
+Energy 1 -108.696478258181
+Sum: 12 -> 10
+Time elapsed in TRUNC: 0.000104271
+Propagating t with norm 1
+Memory usage : 11819280 792384 
+Sweep has been running for 0.353221 seconds.
+
+Sweep 0, optimizing sites 6 and 7
+JCD used 10 iterations.
+Time elapsed in JCD: 0.00503834
+Energy 1 -108.696633908072
+Sum: 4 -> 3
+Time elapsed in TRUNC: 4.053e-05
+Propagating t with norm 1
+Memory usage : 11819280 792384 
+Sweep has been running for 0.360312 seconds.
+
+Sweep 0, optimizing sites 6 and 7
+JCD used 3 iterations.
+Time elapsed in JCD: 0.00195473
+Energy -1 -108.696633902623
+Sum: 4 -> 3
+Time elapsed in TRUNC: 4.374e-05
+Propagating t with norm 1
+Memory usage : 11819280 792384 
+Sweep has been running for 0.36889 seconds.
+
+Sweep 0, optimizing sites 5 and 6
+JCD used 10 iterations.
+Time elapsed in JCD: 0.0260876
+Energy -1 -108.697360915948
+Sum: 12 -> 10
+Time elapsed in TRUNC: 0.00010643
+Propagating t with norm 1
+Memory usage : 11819280 792384 
+Sweep has been running for 0.398223 seconds.
+
+Sweep 0, optimizing sites 4 and 5
+JCD used 10 iterations.
+Time elapsed in JCD: 0.0990685
+Energy -1 -108.744280430334
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.000307091
+Propagating t with norm 1
+Memory usage : 11819280 792520 
+Sweep has been running for 0.507258 seconds.
+
+Sweep 0, optimizing sites 3 and 4
+JCD used 10 iterations.
+Time elapsed in JCD: 0.130999
+Energy -1 -108.744619099446
+Sum: 74 -> 66
+Time elapsed in TRUNC: 0.000277291
+Propagating t with norm 1
+Memory usage : 11819280 792916 
+Sweep has been running for 0.644944 seconds.
+
+Sweep 0, optimizing sites 2 and 3
+JCD used 10 iterations.
+Time elapsed in JCD: 0.078767
+Energy -1 -108.744619176738
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.00017852
+Propagating t with norm 1
+Memory usage : 11819280 792916 
+Sweep has been running for 0.728933 seconds.
+
+Sweep 0, optimizing sites 1 and 2
+JCD used 10 iterations.
+Time elapsed in JCD: 0.0250304
+Energy -1 -108.744619178763
+Sum: 12 -> 10
+Time elapsed in TRUNC: 0.00020401
+Propagating t with norm 1
+Memory usage : 11819280 792916 
+Sweep has been running for 0.75812 seconds.
+
+Sweep 0, optimizing sites 0 and 1
+JCD used 1 iterations.
+Time elapsed in JCD: 0.000687181
+Energy -1 -108.744619179479
+Sum: 4 -> 3
+Time elapsed in TRUNC: 4.885e-05
+Propagating t with norm 1
+Memory usage : 11819280 792916 
+Sweep has been running for 0.76001 seconds.
+
+Sweep 1, optimizing sites 0 and 1
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00109309
+Energy 1 -108.744619179479
+Sum: 4 -> 3
+Time elapsed in TRUNC: 8.179e-05
+Propagating t with norm 1
+Memory usage : 11819280 793480 
+Sweep has been running for 0.00221941 seconds.
+
+Sweep 1, optimizing sites 1 and 2
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00312065
+Energy 1 -108.744619179479
+Sum: 12 -> 10
+Time elapsed in TRUNC: 0.00015379
+Propagating t with norm 1
+Memory usage : 11819280 793480 
+Sweep has been running for 0.0082567 seconds.
+
+Sweep 1, optimizing sites 2 and 3
+JCD used 10 iterations.
+Time elapsed in JCD: 0.0858269
+Energy 1 -108.744619180661
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.00023869
+Propagating t with norm 1
+Memory usage : 11819280 793480 
+Sweep has been running for 0.0997202 seconds.
+
+Sweep 1, optimizing sites 3 and 4
+JCD used 10 iterations.
+Time elapsed in JCD: 0.147662
+Energy 1 -108.744619192907
+Sum: 74 -> 66
+Time elapsed in TRUNC: 0.0003978
+Propagating t with norm 1
+Memory usage : 11819280 793480 
+Sweep has been running for 0.255476 seconds.
+
+Sweep 1, optimizing sites 4 and 5
+JCD used 9 iterations.
+Time elapsed in JCD: 0.0900648
+Energy 1 -108.744619195411
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.00016708
+Propagating t with norm 1
+Memory usage : 11819280 793480 
+Sweep has been running for 0.352654 seconds.
+
+Sweep 1, optimizing sites 5 and 6
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00352026
+Energy 1 -108.744619194711
+Sum: 12 -> 10
+Time elapsed in TRUNC: 0.0001878
+Propagating t with norm 1
+Memory usage : 11819280 793480 
+Sweep has been running for 0.361062 seconds.
+
+Sweep 1, optimizing sites 6 and 7
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00111972
+Energy 1 -108.744619194711
+Sum: 4 -> 3
+Time elapsed in TRUNC: 9.838e-05
+Propagating t with norm 1
+Memory usage : 11819280 793480 
+Sweep has been running for 0.36406 seconds.
+
+Sweep 1, optimizing sites 6 and 7
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00127353
+Energy -1 -108.744619194711
+Sum: 4 -> 3
+Time elapsed in TRUNC: 8.279e-05
+Propagating t with norm 1
+Memory usage : 11819280 793480 
+Sweep has been running for 0.369324 seconds.
+
+Sweep 1, optimizing sites 5 and 6
+JCD used 1 iterations.
+Time elapsed in JCD: 0.0040696
+Energy -1 -108.744619194711
+Sum: 12 -> 10
+Time elapsed in TRUNC: 0.00014981
+Propagating t with norm 1
+Memory usage : 11819280 793480 
+Sweep has been running for 0.376141 seconds.
+
+Sweep 1, optimizing sites 4 and 5
+JCD used 1 iterations.
+Time elapsed in JCD: 0.0116294
+Energy -1 -108.744619194711
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.00027101
+Propagating t with norm 1
+Memory usage : 11819280 793480 
+Sweep has been running for 0.394127 seconds.
+
+Sweep 1, optimizing sites 3 and 4
+JCD used 3 iterations.
+Time elapsed in JCD: 0.0460575
+Energy -1 -108.744619198852
+Sum: 74 -> 66
+Time elapsed in TRUNC: 0.00044332
+Propagating t with norm 1
+Memory usage : 11819280 793480 
+Sweep has been running for 0.451186 seconds.
+
+Sweep 1, optimizing sites 2 and 3
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00912005
+Energy -1 -108.744619194711
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.0002677
+Propagating t with norm 1
+Memory usage : 11819280 793480 
+Sweep has been running for 0.467212 seconds.
+
+Sweep 1, optimizing sites 1 and 2
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00272112
+Energy -1 -108.744619194711
+Sum: 12 -> 10
+Time elapsed in TRUNC: 8.841e-05
+Propagating t with norm 1
+Memory usage : 11819280 793480 
+Sweep has been running for 0.473796 seconds.
+
+Sweep 1, optimizing sites 0 and 1
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00047757
+Energy -1 -108.744619194711
+Sum: 4 -> 3
+Time elapsed in TRUNC: 3.856e-05
+Propagating t with norm 1
+Memory usage : 11819280 793480 
+Sweep has been running for 0.475168 seconds.
+
+Sweep 2, optimizing sites 0 and 1
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00069974
+Energy 1 -108.744619194711
+Sum: 4 -> 3
+Time elapsed in TRUNC: 5.58e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.00159224 seconds.
+
+Sweep 2, optimizing sites 1 and 2
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00359063
+Energy 1 -108.744619194711
+Sum: 12 -> 10
+Time elapsed in TRUNC: 9.795e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.00743173 seconds.
+
+Sweep 2, optimizing sites 2 and 3
+JCD used 1 iterations.
+Time elapsed in JCD: 0.009004
+Energy 1 -108.744619194711
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.00016932
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0202923 seconds.
+
+Sweep 2, optimizing sites 3 and 4
+JCD used 1 iterations.
+Time elapsed in JCD: 0.0136533
+Energy 1 -108.744619194711
+Sum: 74 -> 66
+Time elapsed in TRUNC: 0.0002662
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0406752 seconds.
+
+Sweep 2, optimizing sites 4 and 5
+JCD used 1 iterations.
+Time elapsed in JCD: 0.0104403
+Energy 1 -108.744619194711
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.0001744
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0577767 seconds.
+
+Sweep 2, optimizing sites 5 and 6
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00332302
+Energy 1 -108.744619194711
+Sum: 12 -> 10
+Time elapsed in TRUNC: 9.898e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0647325 seconds.
+
+Sweep 2, optimizing sites 6 and 7
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00065546
+Energy 1 -108.744619194711
+Sum: 4 -> 3
+Time elapsed in TRUNC: 4.001e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0663553 seconds.
+
+Sweep 2, optimizing sites 6 and 7
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00060486
+Energy -1 -108.744619194711
+Sum: 4 -> 3
+Time elapsed in TRUNC: 3.737e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0683003 seconds.
+
+Sweep 2, optimizing sites 5 and 6
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00242846
+Energy -1 -108.744619194711
+Sum: 12 -> 10
+Time elapsed in TRUNC: 8.0031e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0730332 seconds.
+
+Sweep 2, optimizing sites 4 and 5
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00841683
+Energy -1 -108.744619194711
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.000212971
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0852956 seconds.
+
+Sweep 2, optimizing sites 3 and 4
+JCD used 1 iterations.
+Time elapsed in JCD: 0.01259
+Energy -1 -108.744619194711
+Sum: 74 -> 66
+Time elapsed in TRUNC: 0.00031929
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.104606 seconds.
+
+Sweep 2, optimizing sites 2 and 3
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00751699
+Energy -1 -108.744619194711
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.0001942
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.117343 seconds.
+
+Sweep 2, optimizing sites 1 and 2
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00210884
+Energy -1 -108.744619194711
+Sum: 12 -> 10
+Time elapsed in TRUNC: 7.623e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.122029 seconds.
+
+Sweep 2, optimizing sites 0 and 1
+JCD used 1 iterations.
+Time elapsed in JCD: 0.000427
+Energy -1 -108.744619194711
+Sum: 4 -> 3
+Time elapsed in TRUNC: 3.356e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.123401 seconds.
+
+Sweep 3, optimizing sites 0 and 1
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00066591
+Energy 1 -108.744619194711
+Sum: 4 -> 3
+Time elapsed in TRUNC: 5.372e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.00156821 seconds.
+
+Sweep 3, optimizing sites 1 and 2
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00302927
+Energy 1 -108.744619194711
+Sum: 12 -> 10
+Time elapsed in TRUNC: 0.00010678
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.00664921 seconds.
+
+Sweep 3, optimizing sites 2 and 3
+JCD used 1 iterations.
+Time elapsed in JCD: 0.0085571
+Energy 1 -108.744619194711
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.00015483
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0184437 seconds.
+
+Sweep 3, optimizing sites 3 and 4
+JCD used 1 iterations.
+Time elapsed in JCD: 0.0121427
+Energy 1 -108.744619194711
+Sum: 74 -> 66
+Time elapsed in TRUNC: 0.00023068
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0361605 seconds.
+
+Sweep 3, optimizing sites 4 and 5
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00912092
+Energy 1 -108.744619194711
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.00014991
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0515385 seconds.
+
+Sweep 3, optimizing sites 5 and 6
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00254923
+Energy 1 -108.744619194711
+Sum: 12 -> 10
+Time elapsed in TRUNC: 8.061e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0566589 seconds.
+
+Sweep 3, optimizing sites 6 and 7
+JCD used 1 iterations.
+Time elapsed in JCD: 0.000574981
+Energy 1 -108.744619194711
+Sum: 4 -> 3
+Time elapsed in TRUNC: 3.669e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.058669 seconds.
+
+Sweep 3, optimizing sites 6 and 7
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00051145
+Energy -1 -108.744619194711
+Sum: 4 -> 3
+Time elapsed in TRUNC: 3.5589e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0604232 seconds.
+
+Sweep 3, optimizing sites 5 and 6
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00237885
+Energy -1 -108.744619194711
+Sum: 12 -> 10
+Time elapsed in TRUNC: 8.096e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.064795 seconds.
+
+Sweep 3, optimizing sites 4 and 5
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00899209
+Energy -1 -108.744619194711
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.00014908
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0773476 seconds.
+
+Sweep 3, optimizing sites 3 and 4
+JCD used 1 iterations.
+Time elapsed in JCD: 0.0113357
+Energy -1 -108.744619194711
+Sum: 74 -> 66
+Time elapsed in TRUNC: 0.00022526
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.0941061 seconds.
+
+Sweep 3, optimizing sites 2 and 3
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00667064
+Energy -1 -108.744619194711
+Sum: 40 -> 35
+Time elapsed in TRUNC: 0.00014087
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.105177 seconds.
+
+Sweep 3, optimizing sites 1 and 2
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00216286
+Energy -1 -108.744619194711
+Sum: 12 -> 10
+Time elapsed in TRUNC: 7.372e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.110535 seconds.
+
+Sweep 3, optimizing sites 0 and 1
+JCD used 1 iterations.
+Time elapsed in JCD: 0.00051424
+Energy -1 -108.744619194711
+Sum: 4 -> 3
+Time elapsed in TRUNC: 3.394e-05
+Propagating t with norm 1
+Memory usage : 11819280 794044 
+Sweep has been running for 0.111996 seconds.
+Measuring oneptdm
+ measuring in su2 version of tagged_nrank 
+Right end: <5,5,0>
+Measuring Nup
+Measuring Ndown
+Measuring Nupdown
+Measuring oneptspdm
+ measuring in 2u1 version of tagged_nrank 
+Measuring dm_up
+ measuring in 2u1 version of tagged_nrank 
+Measuring dm_down
+ measuring in 2u1 version of tagged_nrank 
+Measuring nupnup
+ measuring in 2u1 version of tagged_nrank 
+Measuring nupndown
+ measuring in 2u1 version of tagged_nrank 
+Measuring ndownnup
+ measuring in 2u1 version of tagged_nrank 
+Measuring ndownndown
+ measuring in 2u1 version of tagged_nrank 
+Measuring doccdocc
+ measuring in 2u1 version of tagged_nrank 
+Measuring transfer_up_while_down
+ measuring in 2u1 version of tagged_nrank 
+Measuring transfer_down_while_up
+ measuring in 2u1 version of tagged_nrank 
+Measuring transfer_up_while_down_at_2
+ measuring in 2u1 version of tagged_nrank 
+Measuring transfer_up_while_down_at_1
+ measuring in 2u1 version of tagged_nrank 
+Measuring transfer_down_while_up_at_2
+ measuring in 2u1 version of tagged_nrank 
+Measuring transfer_down_while_up_at_1
+ measuring in 2u1 version of tagged_nrank 
+Measuring transfer_pair
+ measuring in 2u1 version of tagged_nrank 
+Measuring spinflip
+ measuring in 2u1 version of tagged_nrank 
+Measuring nupdocc
+ measuring in 2u1 version of tagged_nrank 
+Measuring ndowndocc
+ measuring in 2u1 version of tagged_nrank 
+Measuring doccnup
+ measuring in 2u1 version of tagged_nrank 
+Measuring doccndown
+ measuring in 2u1 version of tagged_nrank 
+Measuring splus_sminus
+ measuring in 2u1 version of tagged_nrank 

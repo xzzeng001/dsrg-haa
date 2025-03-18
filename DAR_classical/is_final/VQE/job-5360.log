@@ -1,0 +1,8 @@
+Running on hosts
+Time is Thu 10 Nov 2022 06:26:34 AM UTC
+Directory is /data/home/xzzeng/soft/forte/tests/my_test/DAR_3/6-31gd/is_final/VQE
+This job runs on the following nodes:
+localhost
+The Architecture of network:  [6, 2]
+The cyle of each layer:  1
+The total parameters of network: 116

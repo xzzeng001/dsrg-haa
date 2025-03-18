@@ -1,0 +1,12 @@
+&GATEWAY
+  COORD = /public/home/xzzeng/work/HQC/N2/cc-pvtz/NO/PES/entropy/2.4/n2.xyz
+  BASIS = cc-pvtz
+  GROUP = C1
+
+&SEWARD
+  CHOLesky
+
+&SCF
+  SPIN   = 1
+  CHARGE = 0
+  CHOLesky

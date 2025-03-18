@@ -1,0 +1,74 @@
+
+Host: xzzeng.local
+
+Timers On : Mon Sep 19 10:02:53 2022
+Timers Off: Mon Sep 19 10:02:55 2022
+
+Wall Time:        2.27 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+Total PK formation time             :      0.633u      0.033s      0.398w      1 calls
+Libint2ERI::Libint2ERI              :      0.100u      0.017s      0.070w      2 calls
+HF: Form core H                     :      0.000u      0.000s      0.002w      1 calls
+HF: Form S/X                        :      0.000u      0.000s      0.000w      1 calls
+HF: Guess                           :      0.133u      0.017s      0.097w      1 calls
+SAD Guess                           :      0.133u      0.017s      0.095w      1 calls
+HF: Form G                          :      0.150u      0.017s      0.066w    101 calls
+JK: D                               :      0.000u      0.017s      0.001w    101 calls
+JK: USO2AO                          :      0.000u      0.000s      0.002w    101 calls
+JK: JK                              :      0.150u      0.000s      0.060w    101 calls
+PK computes JK                      :      0.150u      0.000s      0.059w    101 calls
+JK: AO2USO                          :      0.000u      0.000s      0.002w    101 calls
+HF: Form F                          :      0.000u      0.017s      0.001w    101 calls
+HF: Form D                          :      0.000u      0.000s      0.001w    101 calls
+HF: DIIS                            :      0.933u      0.050s      0.609w    100 calls
+HF: Form C                          :      0.033u      0.000s      0.033w    100 calls
+
+--------------------------------------------------------------------------------------
+Total PK formation time             :      0.633u      0.033s      0.398w      1 calls
+| Libint2ERI::Libint2ERI            :      0.100u      0.017s      0.070w      2 calls
+HF: Form core H                     :      0.000u      0.000s      0.002w      1 calls
+HF: Form S/X                        :      0.000u      0.000s      0.000w      1 calls
+HF: Guess                           :      0.133u      0.017s      0.097w      1 calls
+| SAD Guess                         :      0.133u      0.017s      0.095w      1 calls
+HF: Form G                          :      0.150u      0.017s      0.066w    101 calls
+| JK: D                             :      0.000u      0.017s      0.001w    101 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.002w    101 calls
+| JK: JK                            :      0.150u      0.000s      0.060w    101 calls
+| | PK computes JK                  :      0.150u      0.000s      0.059w    101 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.002w    101 calls
+HF: Form F                          :      0.000u      0.017s      0.001w    101 calls
+HF: Form D                          :      0.000u      0.000s      0.001w    101 calls
+HF: DIIS                            :      0.933u      0.050s      0.609w    100 calls
+HF: Form C                          :      0.033u      0.000s      0.033w    100 calls
+
+**************************************************************************************
+
+Host: xzzeng.local
+
+Timers On : Mon Sep 19 10:03:46 2022
+Timers Off: Mon Sep 19 10:03:47 2022
+
+Wall Time:        0.86 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************
+
+Host: xzzeng.local
+
+Timers On : Mon Sep 19 10:04:03 2022
+Timers Off: Mon Sep 19 10:04:04 2022
+
+Wall Time:        0.86 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+
+--------------------------------------------------------------------------------------
+
+**************************************************************************************

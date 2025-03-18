@@ -1,0 +1,214 @@
+
+Host: ubuntu
+
+Timers On : Thu Nov 10 00:56:17 2022
+Timers Off: Thu Nov 10 01:52:37 2022
+
+Wall Time:     3379.20 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+DFH: sparsity prep                  :      1.283u      0.017s      0.782w      4 calls
+Libint2ERI::Libint2ERI              :      2.917u      0.067s      1.812w     19 calls
+DFH: initialize()                   :    179.650u      5.633s    111.266w      4 calls
+DFH: AO Construction                :     24.017u      1.200s     15.140w      4 calls
+DFH: AO-Met. Contraction            :    101.867u      3.433s     63.228w      4 calls
+HF: Form core H                     :      0.417u      0.000s      0.256w      1 calls
+HF: Form S/X                        :      0.100u      0.000s      0.058w      1 calls
+HF: Guess                           :      0.067u      0.000s      0.039w      1 calls
+SAD Guess                           :      0.067u      0.000s      0.037w      1 calls
+HF: Form G                          :     75.500u      3.267s     47.280w     14 calls
+JK: D                               :      0.000u      0.000s      0.027w     49 calls
+JK: USO2AO                          :      0.000u      0.000s      0.001w     49 calls
+JK: JK                              :    218.317u     10.883s    137.584w     49 calls
+DFH: compute_JK()                   :    185.050u      9.900s    117.061w     43 calls
+DFH: Grabbing AOs                   :      0.000u      0.000s      0.000w     43 calls
+DFH: compute_J                      :     15.333u      0.300s      9.394w     43 calls
+DFH: compute_K                      :    168.700u      1.683s    102.337w     43 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w     49 calls
+HF: Form F                          :      0.000u      0.000s      0.003w     14 calls
+HF: Form D                          :      0.000u      0.000s      0.011w     14 calls
+HF: DIIS                            :      0.483u      0.083s      0.357w     13 calls
+HF: Form C                          :      1.233u      0.000s      0.726w     13 calls
+JK: J                               :      0.767u      0.050s      0.471w      6 calls
+JK: J1                              :      0.383u      0.017s      0.220w      6 calls
+JK: J2                              :      0.383u      0.033s      0.247w      6 calls
+JK: K                               :     32.433u      0.867s     20.000w      6 calls
+JK: K1                              :     28.433u      0.800s     17.569w      8 calls
+JK: K2                              :      4.000u      0.067s      2.430w      6 calls
+CIWave: MCSCF integral transform    :   1559.500u   1018.083s   1651.294w     14 calls
+CIWave: CIvect write                :      0.000u      0.017s      0.004w    668 calls
+CIWave: CIvect read                 :      0.000u      0.000s      0.005w   3315 calls
+CIWave: s2                          :      0.000u      0.000s      0.000w     87 calls
+CIWave: s3                          :      0.000u      0.000s      0.000w     87 calls
+CIWave: opdm                        :      0.000u      0.000s      0.000w     14 calls
+CIWave: TPDM                        :      0.000u      0.000s      0.001w     14 calls
+CIWave: TPDM Block                  :      0.000u      0.000s      0.000w     14 calls
+CIWave: TPDM Reorder                :      0.000u      0.000s      0.000w     14 calls
+SOMCSCF: Compute Gradient           :     35.567u      0.850s     21.933w     13 calls
+SOMCSCF: Q matrix                   :      0.000u      0.017s      0.057w     13 calls
+SOMCSCF: Approximate hessian        :      0.000u      0.000s      0.001w     13 calls
+Integrals                           :     75.800u      7.883s     50.282w      1 calls
+JK: (A|mn)                          :      5.317u      0.400s      3.447w      1 calls
+JK: (A|Q)^-1/2                      :      7.400u      0.150s      4.535w      1 calls
+JK: (Q|mn)                          :     11.850u      0.467s      7.394w      1 calls
+DFH: transform()                    :     28.833u      9.900s     23.281w      2 calls
+DFH: Total Workflow                 :     27.217u      3.817s     18.637w      4 calls
+DFH: Total Transform                :     27.217u      3.817s     18.637w      4 calls
+DFH: 1st Contraction                :     11.433u      1.933s      8.025w      2 calls
+DFH: 2nd Contraction                :     15.783u      1.883s     10.612w      2 calls
+DFH: MO to disk                     :      1.200u      5.200s      3.853w      2 calls
+DFH: Direct Contractions            :      0.000u      0.000s      0.000w      2 calls
+semicanonicalize orbitals           :     63.883u      6.850s     42.489w      1 calls
+build Fock                          :     13.217u      0.433s      8.194w      1 calls
+Rotate RDMs                         :      0.233u      0.000s      0.143w      2 calls
+make_cumulant_L2aa                  :      0.000u      0.000s      0.000w      2 calls
+make_cumulant_L2ab                  :      0.000u      0.000s      0.000w      1 calls
+make_cumulant_L3aaa                 :      0.000u      0.000s      0.002w      2 calls
+make_cumulant_L3aab                 :      0.000u      0.000s      0.000w      1 calls
+make_cumulant_L3abb                 :      0.000u      0.000s      0.000w      1 calls
+
+--------------------------------------------------------------------------------------
+DFH: sparsity prep                  :      0.633u      0.017s      0.392w      2 calls
+| Libint2ERI::Libint2ERI            :      0.417u      0.000s      0.258w      2 calls
+DFH: initialize()                   :    114.333u      2.950s     70.429w      2 calls
+| Libint2ERI::Libint2ERI            :      0.400u      0.000s      0.247w      4 calls
+| DFH: AO Construction              :     13.567u      0.550s      8.479w      2 calls
+| DFH: AO-Met. Contraction          :     63.333u      1.950s     39.192w      2 calls
+HF: Form core H                     :      0.417u      0.000s      0.256w      1 calls
+HF: Form S/X                        :      0.100u      0.000s      0.058w      1 calls
+HF: Guess                           :      0.067u      0.000s      0.039w      1 calls
+| SAD Guess                         :      0.067u      0.000s      0.037w      1 calls
+HF: Form G                          :     75.500u      3.267s     47.280w     14 calls
+| JK: D                             :      0.000u      0.000s      0.011w     14 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     14 calls
+| JK: JK                            :     75.500u      3.267s     47.261w     14 calls
+| | DFH: compute_JK()               :     75.500u      3.267s     47.258w     14 calls
+| | | DFH: Grabbing AOs             :      0.000u      0.000s      0.000w     14 calls
+| | | DFH: compute_J                :      4.333u      0.000s      2.596w     14 calls
+| | | DFH: compute_K                :     70.650u      0.117s     42.513w     14 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     14 calls
+HF: Form F                          :      0.000u      0.000s      0.003w     14 calls
+HF: Form D                          :      0.000u      0.000s      0.011w     14 calls
+HF: DIIS                            :      0.483u      0.083s      0.357w     13 calls
+HF: Form C                          :      1.233u      0.000s      0.726w     13 calls
+Libint2ERI::Libint2ERI              :      0.417u      0.000s      0.254w      2 calls
+JK: D                               :      0.000u      0.000s      0.001w      3 calls
+JK: USO2AO                          :      0.000u      0.000s      0.000w      3 calls
+JK: JK                              :     14.567u      0.400s      8.970w      3 calls
+| DFH: compute_JK()                 :      1.417u      0.000s      0.858w      1 calls
+| | DFH: Grabbing AOs               :      0.000u      0.000s      0.000w      1 calls
+| | DFH: compute_J                  :      0.300u      0.000s      0.185w      1 calls
+| | DFH: compute_K                  :      1.117u      0.000s      0.668w      1 calls
+| JK: J                             :      0.233u      0.000s      0.147w      2 calls
+| | JK: J1                          :      0.117u      0.000s      0.072w      2 calls
+| | JK: J2                          :      0.117u      0.000s      0.074w      2 calls
+| JK: K                             :     12.867u      0.383s      7.948w      2 calls
+| | JK: K1                          :     10.917u      0.350s      6.763w      3 calls
+| | JK: K2                          :      1.950u      0.033s      1.185w      2 calls
+JK: AO2USO                          :      0.000u      0.000s      0.000w      3 calls
+CIWave: MCSCF integral transform    :   1559.500u   1018.083s   1651.294w     14 calls
+| JK: D                             :      0.000u      0.000s      0.010w     15 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     15 calls
+| JK: JK                            :     72.867u      5.800s     47.261w     15 calls
+| | DFH: compute_JK()               :     72.867u      5.800s     47.258w     15 calls
+| | | DFH: Grabbing AOs             :      0.000u      0.000s      0.000w     15 calls
+| | | DFH: compute_J                :      4.783u      0.200s      2.996w     15 calls
+| | | DFH: compute_K                :     67.667u      1.217s     41.369w     15 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     15 calls
+CIWave: CIvect write                :      0.000u      0.017s      0.004w    668 calls
+CIWave: CIvect read                 :      0.000u      0.000s      0.005w   3259 calls
+CIWave: s2                          :      0.000u      0.000s      0.000w     87 calls
+CIWave: s3                          :      0.000u      0.000s      0.000w     87 calls
+CIWave: opdm                        :      0.000u      0.000s      0.000w     14 calls
+| CIWave: CIvect read               :      0.000u      0.000s      0.000w     28 calls
+CIWave: TPDM                        :      0.000u      0.000s      0.001w     14 calls
+| CIWave: CIvect read               :      0.000u      0.000s      0.000w     28 calls
+| CIWave: TPDM Block                :      0.000u      0.000s      0.000w     14 calls
+| CIWave: TPDM Reorder              :      0.000u      0.000s      0.000w     14 calls
+SOMCSCF: Compute Gradient           :     35.567u      0.850s     21.933w     13 calls
+| JK: D                             :      0.000u      0.000s      0.003w     13 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w     13 calls
+| JK: JK                            :     35.283u      0.833s     21.690w     13 calls
+| | DFH: compute_JK()               :     35.267u      0.833s     21.687w     13 calls
+| | | DFH: Grabbing AOs             :      0.000u      0.000s      0.000w     13 calls
+| | | DFH: compute_J                :      5.917u      0.100s      3.616w     13 calls
+| | | DFH: compute_K                :     29.267u      0.350s     17.787w     13 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w     13 calls
+| SOMCSCF: Q matrix                 :      0.000u      0.017s      0.057w     13 calls
+SOMCSCF: Approximate hessian        :      0.000u      0.000s      0.001w     13 calls
+Integrals                           :     75.800u      7.883s     50.282w      1 calls
+| Libint2ERI::Libint2ERI            :      0.433u      0.000s      0.260w      2 calls
+| JK: (A|mn)                        :      5.317u      0.400s      3.447w      1 calls
+| JK: (A|Q)^-1/2                    :      7.400u      0.150s      4.535w      1 calls
+| | Libint2ERI::Libint2ERI          :      0.000u      0.000s      0.000w      1 calls
+| JK: (Q|mn)                        :     11.850u      0.467s      7.394w      1 calls
+| DFH: initialize()                 :     32.800u      1.283s     20.464w      1 calls
+| | Libint2ERI::Libint2ERI          :      0.217u      0.033s      0.147w      2 calls
+| | DFH: sparsity prep              :      0.333u      0.000s      0.194w      1 calls
+| | | Libint2ERI::Libint2ERI        :      0.217u      0.000s      0.127w      1 calls
+| | DFH: AO Construction            :      5.200u      0.333s      3.323w      1 calls
+| | DFH: AO-Met. Contraction        :     19.367u      0.667s     12.029w      1 calls
+| DFH: transform()                  :     14.483u      5.467s     11.997w      1 calls
+| | Libint2ERI::Libint2ERI          :      0.200u      0.000s      0.124w      1 calls
+| | DFH: Total Workflow             :     13.583u      2.250s      9.511w      2 calls
+| | | DFH: Total Transform          :     13.583u      2.250s      9.511w      2 calls
+| | | | DFH: 1st Contraction        :      5.717u      1.117s      4.104w      1 calls
+| | | | DFH: 2nd Contraction        :      7.867u      1.133s      5.407w      1 calls
+| | DFH: MO to disk                 :      0.700u      2.650s      2.014w      1 calls
+| | DFH: Direct Contractions        :      0.000u      0.000s      0.000w      1 calls
+| JK: D                             :      0.000u      0.000s      0.000w      1 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w      1 calls
+| JK: JK                            :      3.433u      0.067s      2.096w      1 calls
+| | JK: J                           :      0.133u      0.000s      0.075w      1 calls
+| | | JK: J1                        :      0.067u      0.000s      0.037w      1 calls
+| | | JK: J2                        :      0.067u      0.000s      0.038w      1 calls
+| | JK: K                           :      3.300u      0.050s      2.019w      1 calls
+| | | JK: K1                        :      3.250u      0.050s      1.991w      1 calls
+| | | JK: K2                        :      0.050u      0.000s      0.028w      1 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w      1 calls
+semicanonicalize orbitals           :     63.883u      6.850s     42.489w      1 calls
+| build Fock                        :     13.217u      0.433s      8.194w      1 calls
+| | JK: D                           :      0.000u      0.000s      0.001w      2 calls
+| | JK: USO2AO                      :      0.000u      0.000s      0.000w      2 calls
+| | JK: JK                          :     13.200u      0.433s      8.178w      2 calls
+| | | JK: J                         :      0.267u      0.033s      0.173w      2 calls
+| | | | JK: J1                      :      0.133u      0.000s      0.074w      2 calls
+| | | | JK: J2                      :      0.133u      0.033s      0.098w      2 calls
+| | | JK: K                         :     12.933u      0.367s      7.982w      2 calls
+| | | | JK: K1                      :     10.983u      0.333s      6.792w      3 calls
+| | | | JK: K2                      :      1.950u      0.033s      1.190w      2 calls
+| | JK: AO2USO                      :      0.000u      0.000s      0.000w      2 calls
+| DFH: initialize()                 :     32.517u      1.400s     20.373w      1 calls
+| | Libint2ERI::Libint2ERI          :      0.200u      0.033s      0.143w      2 calls
+| | DFH: sparsity prep              :      0.317u      0.000s      0.195w      1 calls
+| | | Libint2ERI::Libint2ERI        :      0.217u      0.000s      0.128w      1 calls
+| | DFH: AO Construction            :      5.250u      0.317s      3.337w      1 calls
+| | DFH: AO-Met. Contraction        :     19.167u      0.817s     12.006w      1 calls
+| DFH: transform()                  :     14.350u      4.433s     11.284w      1 calls
+| | Libint2ERI::Libint2ERI          :      0.200u      0.000s      0.124w      1 calls
+| | DFH: Total Workflow             :     13.633u      1.567s      9.126w      2 calls
+| | | DFH: Total Transform          :     13.633u      1.567s      9.126w      2 calls
+| | | | DFH: 1st Contraction        :      5.717u      0.817s      3.921w      1 calls
+| | | | DFH: 2nd Contraction        :      7.917u      0.750s      5.204w      1 calls
+| | DFH: MO to disk                 :      0.500u      2.550s      1.839w      1 calls
+| | DFH: Direct Contractions        :      0.000u      0.000s      0.000w      1 calls
+| JK: D                             :      0.000u      0.000s      0.000w      1 calls
+| JK: USO2AO                        :      0.000u      0.000s      0.000w      1 calls
+| JK: JK                            :      3.467u      0.083s      2.128w      1 calls
+| | JK: J                           :      0.133u      0.017s      0.076w      1 calls
+| | | JK: J1                        :      0.067u      0.017s      0.037w      1 calls
+| | | JK: J2                        :      0.067u      0.000s      0.038w      1 calls
+| | JK: K                           :      3.333u      0.067s      2.051w      1 calls
+| | | JK: K1                        :      3.283u      0.067s      2.023w      1 calls
+| | | JK: K2                        :      0.050u      0.000s      0.028w      1 calls
+| JK: AO2USO                        :      0.000u      0.000s      0.000w      1 calls
+| Rotate RDMs                       :      0.233u      0.000s      0.143w      1 calls
+make_cumulant_L2aa                  :      0.000u      0.000s      0.000w      2 calls
+make_cumulant_L2ab                  :      0.000u      0.000s      0.000w      1 calls
+make_cumulant_L3aaa                 :      0.000u      0.000s      0.002w      2 calls
+make_cumulant_L3aab                 :      0.000u      0.000s      0.000w      1 calls
+make_cumulant_L3abb                 :      0.000u      0.000s      0.000w      1 calls
+Rotate RDMs                         :      0.000u      0.000s      0.000w      1 calls
+
+**************************************************************************************

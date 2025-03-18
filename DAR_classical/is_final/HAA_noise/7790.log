@@ -1,0 +1,4 @@
+The Architecture of network:  [6, 2]
+The cyle of each layer:  3
+The total parameters of network: 126
+slurmstepd: error: *** JOB 7790 ON node15 CANCELLED AT 2024-07-04T11:28:46 ***

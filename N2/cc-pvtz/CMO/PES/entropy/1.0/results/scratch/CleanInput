@@ -1,0 +1,10 @@
+&RASSCF                                                                                                                                                                             
+SPIN                                                                                                                                                                                
+1                                                                                                                                                                                   
+NACTEL                                                                                                                                                                              
+10                                                                                                                                                                                  
+FILEORB                                                                                                                                                                             
+/public/home/xzzeng/work/HQC/N2/cc-pvtz/NO/PES/entropy/1.0/results/work_dir/n2/dmrg/n2.scf.h5_sel                                                                                   
+TYPEINDEX                                                                                                                                                                           
+CIONLY                                                                                                                                                                              
+End of Input                                                                                                                                                                        

@@ -1,0 +1,461 @@
+   This run of MOLCAS is using the pymolcas driver
+
+                             OPE
+                             OPE          NMOL  CASOP  ENMOLC A   SO
+                 OPE        NMOLC        AS  OP EN  MO LC     AS  OP
+                OPENM       OL CA        SO  PE NM  OL CA     SOP EN
+                OP EN      MO   LC       AS  OP ENMOL  CASO   PENMOL
+                OP  EN     MO   LC       AS  OP EN     MO     LC ASO
+               OP   E  NMOL  C  AS       OP  EN MO     LC     AS  OP
+               OP  E   NMO   LC AS        OPEN  MO     LCASOP EN   M
+               O  PEN   MO  LCA  SO
+            OPE   NMO   L   CAS    OP
+        OPENMOL  CASOP     ENMOL   CASOPE
+     OPENMOLCA   SOPENMOLCASOPEN   MOLCASOPE
+    OPENMOLCAS   OP           EN   MOL    CAS
+    OPENMOLCAS       OP  ENM        O     LCA
+    OPENMOLCAS    OPEN  MOLCASO     P  E  NMO
+    OPENMOLCAS     OP               E  N  MOL
+    OPENMOLCA   SO           PENM   O  L  CAS    OPEN    MO    LCAS
+    OPENMOLCA   SOP           ENM   O  L  CAS   OP  EN  MOLC  AS   O
+    OPENMOLCA   SOPE           NM      O  LCA   S      OP  EN MO
+    OPENMOLC                AS         O  PEN   M      OL  CA  SOPE
+    OPENMO        LCASOPE  NMOL        C  ASO   P      ENMOLC     AS
+    OPE     NMO      LCA  SO     P     E   NM   OL  CA SO  PE N   MO
+          OPENMOLCA            SOPE   NMO        LCAS  O    P  ENMO
+     OPENMOLCASOPENMOLCASOPENMOLCASOPENMOLCA
+        OPENMOLCASOPENMOLCASOPENMOLCASOPE
+            OPENMOLCASOPENMOLCASOPENM
+               OPENMOLCASOPENMOLCA        version: o822a959167d23c ?
+                   OPENMOLCASO
+                       OPE                tag:
+
+ OpenMolcas is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Lesser General Public License version 2.1.
+ OpenMolcas is distributed in the hope that it will be useful, but it
+ is provided "as is" and without any express or implied warranties.
+ For more details see the full text of the license in the file
+ LICENSE or in <http://www.gnu.org/licenses/>.
+
+                 Copyright (C) The OpenMolcas Authors
+           For the author list and the recommended citation,
+                   consult the file CONTRIBUTORS.md
+
+           *************************************************
+           * pymolcas version py2.28                       *
+           *   build c4a6d18ded8cb6cad61d2372a9abd97c      *
+           *   (after the EMIL interpreter by V. Veryazov) *
+           *************************************************
+
+configuration info
+------------------
+Host name: mgt (Linux)
+C Compiler ID: GNU
+C flags: -std=gnu99
+Fortran Compiler ID: GNU
+Fortran flags: -fno-aggressive-loop-optimizations -cpp -fdefault-integer-8 -fmax-stack-var-size=1048576
+Definitions: _MOLCAS_;_I8_;_LINUX_
+Parallel: OFF (GA=OFF)
+
+
+   ----------------------------------------------------------------------------------------------------------
+  |
+  |           Project: n2
+  |    Submitted from: /public/home/xzzeng/work/HQC/N2/cc-pvtz/NO/PES/entropy/1.4/results/work_dir/n2/initial
+  |      Scratch area: /public/home/xzzeng/work/HQC/N2/cc-pvtz/NO/PES/entropy/1.4/results/scratch
+  |   Save outputs to: /public/home/xzzeng/work/HQC/N2/cc-pvtz/NO/PES/entropy/1.4/results/work_dir/n2/initial
+  |            Molcas: /public/home/xzzeng/soft/OpenMolcas/build
+  |
+  | Scratch area is empty
+  |
+  |    MOLCAS_DRIVER = /public/home/xzzeng/soft/OpenMolcas/build/pymolcas
+  |    MOLCAS_NPROCS = 1
+  |    MOLCAS_SOURCE = /public/home/xzzeng/soft/OpenMolcas
+  | MOLCAS_STRUCTURE = 0
+  |
+   ----------------------------------------------------------------------------------------------------------
+
+++ ---------   Input file   ---------
+
+&GATEWAY
+  COORD = /public/home/xzzeng/work/HQC/N2/cc-pvtz/NO/PES/entropy/1.4/n2.xyz
+  BASIS = cc-pvtz
+  GROUP = C1
+
+&SEWARD
+  CHOLesky
+
+&SCF
+  SPIN   = 1
+  CHARGE = 0
+  CHOLesky
+
+-- ----------------------------------
+
+--- Start Module: gateway at Tue Apr  9 00:41:55 2024 ---
+
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+
+                                              &GATEWAY
+
+                                   only a single process is used
+                       available to each process: 12 GB of memory, 1 thread?
+                                             pid: 60774
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+
+
+++    Symmetry information:
+      ---------------------
+
+                    Character Table for C1 
+
+                             E  
+                    a        1  x, y, xy, Rz, z, xz, Ry, yz, Rx, I
+--
+
+
+++    Basis set information:
+      ----------------------
+
+
+      Basis set label: N.CC-PVTZ.........
+
+      Electronic valence basis set:
+      ------------------
+      Associated Effective Charge   7.000000 au
+      Associated Actual Charge      7.000000 au
+      Nuclear Model: Point charge
+
+      Shell  nPrim  nBasis  Cartesian Spherical Contaminant
+         s      10       4        X                  
+         p       5       3        X                  
+         d       2       2                 X         
+         f       1       1                 X         
+--
+
+
+++    Molecular structure info:
+      -------------------------
+
+                    ************************************************ 
+                    **** Cartesian Coordinates / Bohr, Angstrom **** 
+                    ************************************************ 
+
+     Center  Label                x              y              z                     x              y              z
+        1      N1               0.000000       0.000000       0.000000              0.000000       0.000000       0.000000
+        2      N2               0.000000       0.000000       2.645617              0.000000       0.000000       1.400000
+--
+
+
+            Nuclear Potential Energy             18.52120238 au
+
+--- Stop Module: gateway at Tue Apr  9 00:41:56 2024 /rc=_RC_ALL_IS_WELL_ ---
+*** files: xmldump
+    saved to directory /public/home/xzzeng/work/HQC/N2/cc-pvtz/NO/PES/entropy/1.4/results/work_dir/n2/initial
+
+--- Start Module: seward at Tue Apr  9 00:41:56 2024 ---
+
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+
+                                              &SEWARD
+
+                                   only a single process is used
+                       available to each process: 12 GB of memory, 1 thread?
+                                             pid: 60777
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+
+               SEWARD will generate:
+                  Multipole Moment integrals up to order  2
+                  Kinetic Energy integrals
+                  Nuclear Attraction integrals (point charge)
+                  One-Electron Hamiltonian integrals
+                  Velocity integrals
+                  Orbital angular momentum around ( 0.0000  0.0000  1.3228 )
+                  Velocity quadrupole around ( 0.0000  0.0000  1.3228 )
+                  Cholesky decomposed two-electron repulsion integrals
+                   - CD Threshold:   0.10E-03
+
+                   Integrals are discarded if absolute value <: 1.00E-40
+                   Integral cutoff threshold is set to       <: 1.00E-40
+
+            Nuclear Potential Energy             18.52120238 au
+
+
+      Basis set specifications :
+      Symmetry species         a  
+      Basis functions           60
+
+
+      Input file to MOLDEN was generated!
+
+--- Stop Module: seward at Tue Apr  9 00:41:57 2024 /rc=_RC_ALL_IS_WELL_ ---
+*** files: n2.GssOrb n2.guessorb.h5 n2.guessorb.molden xmldump
+    saved to directory /public/home/xzzeng/work/HQC/N2/cc-pvtz/NO/PES/entropy/1.4/results/work_dir/n2/initial
+--- Module seward spent 1 second ---
+
+*** symbolic link created: INPORB -> n2.GssOrb
+--- Start Module: scf at Tue Apr  9 00:41:57 2024 ---
+
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+
+                                                &SCF
+
+                                   only a single process is used
+                       available to each process: 12 GB of memory, 1 thread?
+                                             pid: 60780
+()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()()
+
+++    Input section:
+      --------------
+
+      Header of the integral files:
+      
+       Integrals generated by Gateway/Seward, Tue Apr  9 00:41:56 2024
+
+
+      Cartesian coordinates in Angstrom:
+      -----------------------------------------------------
+      No.  Label        X            Y            Z        
+      -----------------------------------------------------
+       1   N1         0.00000000   0.00000000   0.00000000
+       2   N2         0.00000000   0.00000000   1.40000000
+      -----------------------------------------------------
+      Nuclear repulsion energy =   18.52120238
+--
+
+++    Orbital specifications:
+      -----------------------
+
+      Symmetry species               1
+                                     a
+      Frozen orbitals                0
+      Occupied orbitals              7
+      Secondary orbitals            53
+      Deleted orbitals               0
+      Total number of orbitals      60
+      Number of basis functions     60
+--
+
+      Molecular charge                           0.000
+
+++    Optimization specifications:
+      ----------------------------
+
+      SCF Algorithm: LK-Cholesky
+      LK screening threshold:                     4.50E-02
+      Local-Exchange (LK) algorithm.
+       - the density matrix is decomposed
+      The actual AO density is used
+      Number of density matrices in core                 5
+      Maximum number of NDDO SCF iterations            400
+      Maximum number of HF SCF iterations              400
+      Threshold for SCF energy change             1.00E-09
+      Threshold for density matrix                1.00E-04
+      Threshold for Fock matrix                   1.50E-04
+      Threshold for linear dependence             1.00E-09
+      Threshold at which DIIS is turned on        1.50E-01
+      Maximum depth in the DIIS procedure                5
+      Maximum depth in the BFGS Hessian update          30
+      Threshold at which QNR/C2DIIS is turned on  7.50E-02
+      Threshold for Norm(delta) (QNR/C2DIIS)      1.00E-03
+      All orbitals punched on: SCFORB
+--
+
+      Input vectors read from INPORB
+      Orbital file label: *Guess orbitals
+
+
+++ Convergence information
+                                   SCF        iterations: Energy and convergence statistics
+
+Iter     Tot. SCF        One-elec.       Two-elec.     Energy      Max Dij or  Max Fij      DNorm      TNorm      AccCon     Time
+         Energy          Energy          Energy        Change      Delta Norm                                                in Sec.
+   1  -108.643300574  -183.860843494    56.696340539   0.00E+00    1.79E-01*   1.29E-01*    5.68E+00   6.60E+01   None         0.
+   2  -108.781901512  -184.129886909    56.826783016  -1.39E-01*   2.83E-02*   2.67E-02*    5.46E+00   6.62E+01   EDIIS        0.
+   3  -108.786106883  -183.998959742    56.691650478  -4.21E-03*   1.13E-02*   7.85E-03*    5.48E+00   6.61E+01   c2DIIS       0.
+   4  -108.786385626  -184.037516486    56.729928479  -2.79E-04*   2.45E-03*   1.29E-03*    5.50E+00   6.62E+01   QNRc2DIIS    0.
+   5  -108.786406518  -184.024248627    56.716639727  -2.09E-05*   1.14E-03*   6.79E-04*    5.50E+00   6.62E+01   QNRc2DIIS    0.
+   6  -108.786408899  -184.027617958    56.720006677  -2.38E-06*   6.68E-05    7.10E-05     5.50E+00   6.62E+01   QNRc2DIIS    0.
+   7  -108.786408913  -184.027035733    56.719424438  -1.43E-08*   3.71E-05    1.99E-05     5.50E+00   6.62E+01   QNRc2DIIS    0.
+   8  -108.786408915  -184.026953979    56.719342683  -1.62E-09*   1.48E-05    1.08E-05     5.50E+00   6.62E+01   QNRc2DIIS    0.
+   9  -108.786408916  -184.027080108    56.719468811  -8.37E-10    1.12E-06    8.58E-07     5.50E+00   6.62E+01   QNRc2DIIS    0.
+
+       Convergence after   9 Macro Iterations
+--
+
+ *****************************************************************************************************************************
+ *                                                                                                                           *
+ *                                             SCF/KS-DFT Program, Final results                                             *
+ *                                                                                                                           *
+ *                                                                                                                           *
+ *                                                                                                                           *
+ *                                                       Final Results                                                       *
+ *                                                                                                                           *
+ *****************************************************************************************************************************
+
+::    Total SCF energy                               -108.7864089159
+      One-electron energy                            -184.0270801083
+      Two-electron energy                              56.7194688108
+      Nuclear repulsion energy                         18.5212023816
+      Kinetic energy (interpolated)                   107.6052392824
+      Virial theorem                                    1.0109768785
+      Total spin, S(S+1)                                0.0000000000
+      Total spin, S                                     0.0000000000
+      Max non-diagonal density matrix element           0.0000013556
+      Max non-diagonal Fock matrix element              0.0000001323
+
+
+      All orbitals with orbital energies smaller than  E(LUMO)+0.5 are printed
+
+++    Molecular orbitals:
+      -------------------
+
+      Title: SCF orbitals
+
+      Molecular orbitals for symmetry species 1: a  
+
+          Orbital            1         2         3         4         5         6         7         8         9        10    
+          Energy          -15.7668  -15.7658   -1.2793   -0.8656   -0.5946   -0.5110   -0.5110    0.0373    0.0373    0.3374
+          Occ. No.          2.0000    2.0000    2.0000    2.0000    2.0000    2.0000    2.0000    0.0000    0.0000    0.0000
+
+        1 N1     1s         0.7062   -0.7082   -0.0053   -0.0047   -0.0027    0.0000    0.0000    0.0000   -0.0000    0.0038
+        2 N1     2s         0.0009    0.0023    0.6464   -0.7131    0.2088   -0.0000    0.0000   -0.0000   -0.0000    0.4141
+        3 N1     *s        -0.0009   -0.0002   -0.0010   -0.0060    0.0089   -0.0000   -0.0000   -0.0000    0.0000   -0.0203
+        4 N1     *s        -0.0006   -0.0001   -0.0909   -0.0164    0.1219   -0.0000   -0.0000   -0.0000   -0.0000    2.0842
+        5 N1     2px        0.0000   -0.0000    0.0000   -0.0000   -0.0000   -0.2953   -0.5313   -0.1957   -0.6464   -0.0000
+        6 N1     *px       -0.0000    0.0000    0.0000   -0.0000    0.0000    0.0006    0.0010    0.0075    0.0248    0.0000
+        7 N1     *px       -0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0122   -0.0219   -0.0734   -0.2426   -0.0000
+        8 N1     2py        0.0000    0.0000   -0.0000   -0.0000    0.0000    0.5313   -0.2953   -0.6464    0.1957    0.0000
+        9 N1     *py       -0.0000    0.0000    0.0000   -0.0000    0.0000   -0.0010    0.0006    0.0248   -0.0075    0.0000
+       10 N1     *py        0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0219   -0.0122   -0.2426    0.0734   -0.0000
+       11 N1     2pz        0.0037   -0.0038    0.1956    0.2369   -0.6673    0.0000   -0.0000    0.0000   -0.0000    0.4181
+       12 N1     *pz       -0.0022    0.0044   -0.0003   -0.0107    0.0107   -0.0000    0.0000   -0.0000   -0.0000    0.0512
+       13 N1     *pz       -0.0009    0.0014   -0.0443   -0.0310    0.0485   -0.0000   -0.0000    0.0000   -0.0000    1.7304
+       14 N1     *d2-      -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000
+       15 N1     *d2-       0.0000   -0.0000   -0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000
+       16 N1     *d1-      -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0088   -0.0049    0.0061   -0.0018    0.0000
+       17 N1     *d1-       0.0000    0.0000    0.0000    0.0000    0.0000    0.0314   -0.0175    0.0089   -0.0027    0.0000
+       18 N1     *d0        0.0002   -0.0000    0.0100    0.0035   -0.0116    0.0000   -0.0000    0.0000   -0.0000   -0.0277
+       19 N1     *d0        0.0001    0.0010    0.0177    0.0046   -0.0228    0.0000    0.0000    0.0000   -0.0000    0.1348
+       20 N1     *d1+       0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0049   -0.0088    0.0018    0.0061   -0.0000
+       21 N1     *d1+      -0.0000   -0.0000    0.0000   -0.0000   -0.0000   -0.0175   -0.0314    0.0027    0.0089    0.0000
+       22 N1     *d2+      -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0000    0.0000    0.0000   -0.0000    0.0000
+       23 N1     *d2+       0.0000    0.0000   -0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0000   -0.0000   -0.0000
+       24 N1     *f3-      -0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0000   -0.0000    0.0000   -0.0000
+       25 N1     *f2-       0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000
+       26 N1     *f1-       0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0048   -0.0027    0.0020   -0.0006   -0.0000
+       27 N1     *f0       -0.0001    0.0002    0.0046   -0.0004   -0.0041    0.0000   -0.0000   -0.0000    0.0000    0.0147
+       28 N1     *f1+       0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0027   -0.0048    0.0006    0.0020   -0.0000
+       29 N1     *f2+      -0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000   -0.0000   -0.0000    0.0000   -0.0000
+       30 N1     *f3+      -0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0000
+       31 N2     1s         0.7091    0.7052   -0.0053    0.0047   -0.0027    0.0000   -0.0000    0.0000   -0.0000   -0.0038
+       32 N2     2s         0.0010   -0.0023    0.6464    0.7131    0.2089   -0.0000   -0.0000   -0.0000    0.0000   -0.4141
+       33 N2     *s        -0.0009    0.0002   -0.0011    0.0060    0.0089   -0.0000    0.0000   -0.0000    0.0000    0.0203
+       34 N2     *s        -0.0006    0.0001   -0.0909    0.0164    0.1219   -0.0000    0.0000   -0.0000    0.0000   -2.0841
+       35 N2     2px       -0.0000   -0.0000    0.0000   -0.0000   -0.0000   -0.2953   -0.5313    0.1957    0.6464    0.0000
+       36 N2     *px        0.0000    0.0000    0.0000    0.0000   -0.0000    0.0006    0.0010   -0.0075   -0.0248    0.0000
+       37 N2     *px        0.0000    0.0000   -0.0000    0.0000   -0.0000   -0.0122   -0.0219    0.0734    0.2426    0.0000
+       38 N2     2py       -0.0000    0.0000   -0.0000   -0.0000    0.0000    0.5313   -0.2953    0.6464   -0.1957    0.0000
+       39 N2     *py        0.0000    0.0000   -0.0000   -0.0000   -0.0000   -0.0010    0.0006   -0.0248    0.0075    0.0000
+       40 N2     *py       -0.0000   -0.0000    0.0000   -0.0000    0.0000    0.0219   -0.0122    0.2426   -0.0734   -0.0000
+       41 N2     2pz       -0.0037   -0.0038   -0.1956    0.2369    0.6673   -0.0000    0.0000   -0.0000    0.0000    0.4181
+       42 N2     *pz        0.0022    0.0044    0.0003   -0.0107   -0.0107   -0.0000    0.0000    0.0000   -0.0000    0.0511
+       43 N2     *pz        0.0009    0.0014    0.0443   -0.0310   -0.0485    0.0000   -0.0000   -0.0000   -0.0000    1.7306
+       44 N2     *d2-       0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000
+       45 N2     *d2-      -0.0000   -0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000
+       46 N2     *d1-      -0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0088    0.0049    0.0061   -0.0018   -0.0000
+       47 N2     *d1-       0.0000   -0.0000    0.0000    0.0000   -0.0000   -0.0314    0.0175    0.0089   -0.0027   -0.0000
+       48 N2     *d0        0.0002    0.0000    0.0100   -0.0035   -0.0116    0.0000   -0.0000    0.0000   -0.0000    0.0277
+       49 N2     *d0        0.0001   -0.0010    0.0177   -0.0046   -0.0228    0.0000   -0.0000    0.0000   -0.0000   -0.1348
+       50 N2     *d1+      -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0049    0.0088    0.0018    0.0061    0.0000
+       51 N2     *d1+      -0.0000    0.0000    0.0000    0.0000    0.0000    0.0175    0.0314    0.0027    0.0089   -0.0000
+       52 N2     *d2+      -0.0000    0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0000    0.0000   -0.0000   -0.0000
+       53 N2     *d2+       0.0000    0.0000    0.0000    0.0000    0.0000    0.0000   -0.0000    0.0000   -0.0000    0.0000
+       54 N2     *f3-      -0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000    0.0000   -0.0000    0.0000   -0.0000
+       55 N2     *f2-       0.0000    0.0000   -0.0000   -0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0000   -0.0000
+       56 N2     *f1-      -0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0048   -0.0027   -0.0020    0.0006   -0.0000
+       57 N2     *f0        0.0001    0.0002   -0.0046   -0.0004    0.0041   -0.0000   -0.0000    0.0000   -0.0000    0.0147
+       58 N2     *f1+      -0.0000    0.0000    0.0000    0.0000   -0.0000   -0.0027   -0.0048   -0.0006   -0.0020   -0.0000
+       59 N2     *f2+       0.0000    0.0000   -0.0000    0.0000   -0.0000    0.0000   -0.0000    0.0000   -0.0000   -0.0000
+       60 N2     *f3+      -0.0000   -0.0000   -0.0000    0.0000   -0.0000   -0.0000   -0.0000    0.0000    0.0000   -0.0000
+--
+
+
+++    Molecular charges:
+      ------------------
+
+      Mulliken charges per centre and basis function type
+      ---------------------------------------------------
+
+                N1      N2    
+      1s       2.0002  2.0002
+      2s       1.9146  1.9146
+      2px      0.9453  0.9453
+      2pz      1.2551  1.2551
+      2py      0.9453  0.9453
+      *s      -0.0591 -0.0593
+      *px      0.0342  0.0342
+      *pz     -0.1297 -0.1296
+      *py      0.0342  0.0342
+      *d2+     0.0000  0.0000
+      *d1+     0.0196  0.0196
+      *d0      0.0177  0.0177
+      *d1-     0.0196  0.0196
+      *d2-     0.0000  0.0000
+      *f3+     0.0000  0.0000
+      *f2+     0.0000  0.0000
+      *f1+     0.0009  0.0009
+      *f0      0.0012  0.0012
+      *f1-     0.0009  0.0009
+      *f2-     0.0000  0.0000
+      *f3-     0.0000  0.0000
+      Total    7.0000  7.0000
+
+      N-E      0.0000 -0.0000
+
+      Total electronic charge=   14.000000
+
+      Total            charge=   -0.000000
+--
+
+
+++    Molecular properties:
+      ---------------------
+
+      Charge (e):
+                      =   -0.0000
+      Dipole Moment (Debye):
+      Origin of the operator (Ang)=    0.0000    0.0000    0.0000
+                   X= -1.0444E-13               Y= -1.5925E-13               Z= -2.2270E-05           Total=  2.2270E-05
+      Quadrupole Moment (Debye*Ang):
+      Origin of the operator (Ang)=    0.0000    0.0000    0.7000
+                  XX= -1.1210E+01              XY=  3.1286E-15              XZ= -1.2244E-13              YY= -1.1210E+01
+                  YZ= -2.9456E-12              ZZ= -1.1497E+01
+      In traceless form (Debye*Ang)
+                  XX=  1.4337E-01              XY=  4.6930E-15              XZ= -1.8366E-13              YY=  1.4337E-01
+                  YZ= -4.4184E-12              ZZ= -2.8673E-01
+--
+
+
+      Input file to MOLDEN was generated!
+
+ ###############################################################################
+ ###############################################################################
+ ###                                                                         ###
+ ###                                                                         ###
+ ###    WARNING: RunFile label nBas                                          ###
+ ###    was used       74 times                                              ###
+ ###                                                                         ###
+ ###                                                                         ###
+ ###############################################################################
+ ###############################################################################
+--- Stop Module: scf at Tue Apr  9 00:41:58 2024 /rc=_RC_ALL_IS_WELL_ ---
+*** files: n2.GssOrb n2.guessorb.h5 n2.guessorb.molden n2.scf.molden n2.ScfOrb n2.scf.h5 xmldump
+    saved to directory /public/home/xzzeng/work/HQC/N2/cc-pvtz/NO/PES/entropy/1.4/results/work_dir/n2/initial
+--- Module scf spent 1 second ---
+
+.##################.
+.# Happy landing! #.
+.##################.
+
+    Timing: Wall=2.55 User=1.62 System=0.18

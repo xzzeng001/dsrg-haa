@@ -1,0 +1,750 @@
+ Entering Gaussian System, Link 0=g16
+ Initial command:
+ /public/home/zyli/senxu/soft/g16/l1.exe "/tmp/Gau-17944.inp" -scrdir="/tmp/"
+ Entering Link 1 = /public/home/zyli/senxu/soft/g16/l1.exe PID=     17945.
+  
+ Copyright (c) 1988-2019, Gaussian, Inc.  All Rights Reserved.
+  
+ This is part of the Gaussian(R) 16 program.  It is based on
+ the Gaussian(R) 09 system (copyright 2009, Gaussian, Inc.),
+ the Gaussian(R) 03 system (copyright 2003, Gaussian, Inc.),
+ the Gaussian(R) 98 system (copyright 1998, Gaussian, Inc.),
+ the Gaussian(R) 94 system (copyright 1995, Gaussian, Inc.),
+ the Gaussian 92(TM) system (copyright 1992, Gaussian, Inc.),
+ the Gaussian 90(TM) system (copyright 1990, Gaussian, Inc.),
+ the Gaussian 88(TM) system (copyright 1988, Gaussian, Inc.),
+ the Gaussian 86(TM) system (copyright 1986, Carnegie Mellon
+ University), and the Gaussian 82(TM) system (copyright 1983,
+ Carnegie Mellon University). Gaussian is a federally registered
+ trademark of Gaussian, Inc.
+  
+ This software contains proprietary and confidential information,
+ including trade secrets, belonging to Gaussian, Inc.
+  
+ This software is provided under written license and may be
+ used, copied, transmitted, or stored only in accord with that
+ written license.
+  
+ The following legend is applicable only to US Government
+ contracts under FAR:
+  
+                    RESTRICTED RIGHTS LEGEND
+  
+ Use, reproduction and disclosure by the US Government is
+ subject to restrictions as set forth in subparagraphs (a)
+ and (c) of the Commercial Computer Software - Restricted
+ Rights clause in FAR 52.227-19.
+  
+ Gaussian, Inc.
+ 340 Quinnipiac St., Bldg. 40, Wallingford CT 06492
+  
+  
+ ---------------------------------------------------------------
+ Warning -- This program may not be used in any manner that
+ competes with the business of Gaussian, Inc. or will provide
+ assistance to any competitor of Gaussian, Inc.  The licensee
+ of this program is prohibited from giving any competitor of
+ Gaussian, Inc. access to this program.  By using this program,
+ the user acknowledges that Gaussian, Inc. is engaged in the
+ business of creating and licensing software in the field of
+ computational chemistry and represents and warrants to the
+ licensee that it is not a competitor of Gaussian, Inc. and that
+ it will not use this program in any manner prohibited above.
+ ---------------------------------------------------------------
+  
+
+ Cite this work as:
+ Gaussian 16, Revision C.01,
+ M. J. Frisch, G. W. Trucks, H. B. Schlegel, G. E. Scuseria, 
+ M. A. Robb, J. R. Cheeseman, G. Scalmani, V. Barone, 
+ G. A. Petersson, H. Nakatsuji, X. Li, M. Caricato, A. V. Marenich, 
+ J. Bloino, B. G. Janesko, R. Gomperts, B. Mennucci, H. P. Hratchian, 
+ J. V. Ortiz, A. F. Izmaylov, J. L. Sonnenberg, D. Williams-Young, 
+ F. Ding, F. Lipparini, F. Egidi, J. Goings, B. Peng, A. Petrone, 
+ T. Henderson, D. Ranasinghe, V. G. Zakrzewski, J. Gao, N. Rega, 
+ G. Zheng, W. Liang, M. Hada, M. Ehara, K. Toyota, R. Fukuda, 
+ J. Hasegawa, M. Ishida, T. Nakajima, Y. Honda, O. Kitao, H. Nakai, 
+ T. Vreven, K. Throssell, J. A. Montgomery, Jr., J. E. Peralta, 
+ F. Ogliaro, M. J. Bearpark, J. J. Heyd, E. N. Brothers, K. N. Kudin, 
+ V. N. Staroverov, T. A. Keith, R. Kobayashi, J. Normand, 
+ K. Raghavachari, A. P. Rendell, J. C. Burant, S. S. Iyengar, 
+ J. Tomasi, M. Cossi, J. M. Millam, M. Klene, C. Adamo, R. Cammi, 
+ J. W. Ochterski, R. L. Martin, K. Morokuma, O. Farkas, 
+ J. B. Foresman, and D. J. Fox, Gaussian, Inc., Wallingford CT, 2019.
+ 
+ ******************************************
+ Gaussian 16:  ES64L-G16RevC.01  3-Jul-2019
+                 9-Feb-2023 
+ ******************************************
+ %oldchk=is_cc-pvdz_nlmo.chk
+ %chk=is_cc-pvdz_casscf.chk
+ %mem=16GB
+ %nprocshared=8
+ Will use up to    8 processors via shared memory.
+ Copying data from "is_cc-pvdz_nlmo.chk" to current chk file "is_cc-pvdz_casscf.chk"
+ IOpt=  2 FromEx=T IUOpen= 4 IOptOp= 5 NList=   0 IFRang= 0 IUIn= 4 IUOut= 2.
+ ----------------------------------------------------------------------
+ #p CASSCF(6,6)/cc-pvdz nosymm int=nobasistransform guess=read geom=all
+ check
+ ----------------------------------------------------------------------
+ 1/29=7,38=1,172=1/1;
+ 2/12=2,15=1,40=1/2;
+ 3/5=16,14=-4,25=1,60=-1,116=101/1,2,3;
+ 4/5=1,17=6,18=6,43=1/1,5;
+ 5/5=2,17=1000000,38=6/10;
+ 6/7=2,8=2,9=2,10=2,28=1/1;
+ 99/5=1,9=1/99;
+ Leave Link    1 at Thu Feb  9 10:44:00 2023, MaxMem=  2147483648 cpu:               0.5 elap:               0.1
+ (Enter /public/home/zyli/senxu/soft/g16/l101.exe)
+ Structure from the checkpoint file:  "is_cc-pvdz_casscf.chk"
+ -----
+ title
+ -----
+ Charge =  0 Multiplicity = 1
+ Z-Matrix found in chk file.
+ C,0,-0.554554,-0.484397,0.000006
+ C,0,-0.454419,-1.816934,0.001152
+ H,0,-1.338031,-2.443475,0.001487
+ H,0,0.515197,-2.299117,0.001943
+ C,0,0.554555,0.484401,0.000004
+ C,0,0.454425,1.816939,0.001151
+ H,0,1.33804,2.443475,0.001488
+ H,0,-0.515188,2.299127,0.001948
+ Cl,0,2.171991,-0.234285,-0.00061
+ Cl,0,-2.171994,0.234282,-0.00061
+ C,0,6.4697015,-20.7271411,-6.38187287
+ C,0,7.8053465,-20.7271401,-6.38121887
+ C,0,6.0055175,-22.1441931,-6.38168487
+ C,0,8.2695335,-22.1441921,-6.38136387
+ O,0,9.3832075,-22.5850581,-6.38209987
+ O,0,4.8918405,-22.5850581,-6.38172987
+ O,0,7.1375245,-22.9573741,-6.38102387
+ H,0,5.7767235,-19.8959401,-6.38208987
+ H,0,8.4983235,-19.8959381,-6.38073387
+ Recover connectivity data from disk.
+ ITRead=  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+ MicOpt= -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ NAtoms=     19 NQM=       19 NQMF=       0 NMMI=      0 NMMIF=      0
+                NMic=       0 NMicF=      0.
+                    Isotopes and Nuclear Properties:
+ (Nuclear quadrupole moments (NQMom) in fm**2, nuclear magnetic moments (NMagM)
+  in nuclear magnetons)
+
+  Atom         1           2           3           4           5           6           7           8           9          10
+ IAtWgt=          12          12           1           1          12          12           1           1          35          35
+ AtmWgt=  12.0000000  12.0000000   1.0078250   1.0078250  12.0000000  12.0000000   1.0078250   1.0078250  34.9688527  34.9688527
+ NucSpn=           0           0           1           1           0           0           1           1           3           3
+ AtZEff=   3.6000000   3.6000000   1.0000000   1.0000000   3.6000000   3.6000000   1.0000000   1.0000000  14.2400000  14.2400000
+ NQMom=    0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000  -8.1650000  -8.1650000
+ NMagM=    0.0000000   0.0000000   2.7928460   2.7928460   0.0000000   0.0000000   2.7928460   2.7928460   0.8218740   0.8218740
+ AtZNuc=   6.0000000   6.0000000   1.0000000   1.0000000   6.0000000   6.0000000   1.0000000   1.0000000  17.0000000  17.0000000
+
+  Atom        11          12          13          14          15          16          17          18          19
+ IAtWgt=          12          12          12          12          16          16          16           1           1
+ AtmWgt=  12.0000000  12.0000000  12.0000000  12.0000000  15.9949146  15.9949146  15.9949146   1.0078250   1.0078250
+ NucSpn=           0           0           0           0           0           0           0           1           1
+ AtZEff=   3.6000000   3.6000000   3.6000000   3.6000000   5.6000000   5.6000000   5.6000000   1.0000000   1.0000000
+ NQMom=    0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
+ NMagM=    0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   2.7928460   2.7928460
+ AtZNuc=   6.0000000   6.0000000   6.0000000   6.0000000   8.0000000   8.0000000   8.0000000   1.0000000   1.0000000
+ Leave Link  101 at Thu Feb  9 10:44:00 2023, MaxMem=  2147483648 cpu:               1.6 elap:               0.2
+ (Enter /public/home/zyli/senxu/soft/g16/l202.exe)
+                          Input orientation:                          
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1          6           0       -0.554554   -0.484397    0.000006
+      2          6           0       -0.454419   -1.816934    0.001152
+      3          1           0       -1.338031   -2.443475    0.001487
+      4          1           0        0.515197   -2.299117    0.001943
+      5          6           0        0.554555    0.484401    0.000004
+      6          6           0        0.454425    1.816939    0.001151
+      7          1           0        1.338040    2.443475    0.001488
+      8          1           0       -0.515188    2.299127    0.001948
+      9         17           0        2.171991   -0.234285   -0.000610
+     10         17           0       -2.171994    0.234282   -0.000610
+     11          6           0        6.469702  -20.727141   -6.381873
+     12          6           0        7.805346  -20.727140   -6.381219
+     13          6           0        6.005517  -22.144193   -6.381685
+     14          6           0        8.269533  -22.144192   -6.381364
+     15          8           0        9.383208  -22.585058   -6.382100
+     16          8           0        4.891841  -22.585058   -6.381730
+     17          8           0        7.137525  -22.957374   -6.381024
+     18          1           0        5.776723  -19.895940   -6.382090
+     19          1           0        8.498323  -19.895938   -6.380734
+ ---------------------------------------------------------------------
+                    Distance matrix (angstroms):
+                    1          2          3          4          5
+     1  C    0.000000
+     2  C    1.336295   0.000000
+     3  H    2.109935   1.083201   0.000000
+     4  H    2.106556   1.082893   1.858842   0.000000
+     5  C    1.472648   2.512802   3.486308   2.783797   0.000000
+     6  C    2.512805   3.745802   4.622124   4.116505   1.336295
+     7  H    3.486309   4.622120   5.571682   4.813445   2.109934
+     8  H    2.783803   4.116510   4.813455   4.712276   2.106557
+     9  Cl   2.737993   3.066400   4.147382   2.647358   1.769918
+    10  Cl   1.769919   2.675361   2.804618   3.693117   2.737997
+    11  C   22.357040  21.125397  20.880623  20.391206  22.926989
+    12  C   22.811765  21.599868  21.415711  20.820256  23.307155
+    13  C   23.513981  22.263622  21.972503  21.557397  24.134876
+    14  C   24.243208  23.022625  22.829024  22.241928  24.744615
+    15  O   25.058524  23.850362  23.693427  23.041637  25.512277
+    16  O   23.639564  22.374956  22.028167  21.712340  24.325676
+    17  O   24.595128  23.351402  23.095271  22.613294  25.170813
+    18  H   21.392153  20.159945  19.898702  19.444478  21.985460
+    19  H   22.348968  21.159642  21.025582  20.349865  22.785423
+                    6          7          8          9         10
+     6  C    0.000000
+     7  H    1.083200   0.000000
+     8  H    1.082892   1.858841   0.000000
+     9  Cl   2.675361   2.804617   3.693117   0.000000
+    10  Cl   3.066412   4.147394   2.647376   4.369183   0.000000
+    11  C   24.190124  24.575571  24.894796  21.889449  23.553783
+    12  C   24.556184  24.888600  25.301879  22.190177  24.075729
+    13  C   25.410452  25.827963  26.091115  23.139968  24.665481
+    14  C   25.999004  26.331346  26.746847  23.620713  25.505600
+    15  O   26.756803  27.053694  27.531018  24.336847  26.362253
+    16  O   25.610336  26.073021  26.252809  23.402421  24.725265
+    17  O   26.441682  26.824869  27.151375  24.118561  25.792048
+    18  H   23.249124  23.653783  23.936689  20.983281  22.563937
+    19  H   24.018364  24.311557  24.791187  21.617333  23.659827
+                   11         12         13         14         15
+    11  C    0.000000
+    12  C    1.335645   0.000000
+    13  C    1.491142   2.290726   0.000000
+    14  C    2.290727   1.491143   2.264016   0.000000
+    15  O    3.455484   2.437520   3.406340   1.197762   0.000000
+    16  O    2.437519   3.455485   1.197764   3.406343   4.491367
+    17  O    2.328074   2.328074   1.393809   1.393811   2.276338
+    18  H    1.082180   2.192306   2.259865   3.356894   4.498676
+    19  H    2.192306   1.082180   3.356893   2.259865   2.830969
+                   16         17         18         19
+    16  O    0.000000
+    17  O    2.276338   0.000000
+    18  H    2.830967   3.350248   0.000000
+    19  H    4.498676   3.350248   2.721600   0.000000
+ Symmetry turned off by external request.
+ Stoichiometry    C8H6Cl2O3
+ Framework group  C1[X(C8H6Cl2O3)]
+ Deg. of freedom    51
+ Full point group                 C1      NOp   1
+ Rotational constants (GHZ):           0.9530666           0.0160086           0.0157578
+ Leave Link  202 at Thu Feb  9 10:44:00 2023, MaxMem=  2147483648 cpu:               0.0 elap:               0.0
+ (Enter /public/home/zyli/senxu/soft/g16/l301.exe)
+ Standard basis: CC-pVDZ (5D, 7F)
+   220 basis functions,   597 primitive gaussians,   233 cartesian basis functions
+    56 alpha electrons       56 beta electrons
+       nuclear repulsion energy       663.5937371290 Hartrees.
+ IExCor=    0 DFT=F Ex=HF Corr=None ExCW=0 ScaHFX=  1.000000
+ ScaDFX=  1.000000  1.000000  1.000000  1.000000 ScalE2=  1.000000  1.000000
+ IRadAn=      5 IRanWt=     -1 IRanGd=            0 ICorTp=0 IEmpDi=  4
+ NAtoms=   19 NActive=   19 NUniq=   19 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Regular integral format.
+ Two-electron integral symmetry is turned off.
+ Leave Link  301 at Thu Feb  9 10:44:00 2023, MaxMem=  2147483648 cpu:               0.3 elap:               0.0
+ (Enter /public/home/zyli/senxu/soft/g16/l302.exe)
+ NPDir=0 NMtPBC=     1 NCelOv=     1 NCel=       1 NClECP=     1 NCelD=      1
+         NCelK=      1 NCelE2=     1 NClLst=     1 CellRange=     0.0.
+ One-electron integrals computed using PRISM.
+ NBasis=   220 RedAO= T EigKep=  1.02D-03  NBF=   220
+ NBsUse=   220 1.00D-06 EigRej= -1.00D+00 NBFU=   220
+ Leave Link  302 at Thu Feb  9 10:44:00 2023, MaxMem=  2147483648 cpu:               1.4 elap:               0.2
+ (Enter /public/home/zyli/senxu/soft/g16/l303.exe)
+ DipDrv:  MaxL=1.
+ Leave Link  303 at Thu Feb  9 10:44:01 2023, MaxMem=  2147483648 cpu:               0.5 elap:               0.1
+ (Enter /public/home/zyli/senxu/soft/g16/l401.exe)
+ Initial guess from the checkpoint file:  "is_cc-pvdz_casscf.chk"
+ B after Tr=     0.000000    0.000000    0.000000
+         Rot=    1.000000    0.000000    0.000000    0.000000 Ang=   0.00 deg.
+ Guess basis will be translated and rotated to current coordinates.
+ JPrj=2 DoOrth=T DoCkMO=T.
+ Leave Link  401 at Thu Feb  9 10:44:01 2023, MaxMem=  2147483648 cpu:               1.2 elap:               0.2
+ (Enter /public/home/zyli/senxu/soft/g16/l405.exe)
+          Truncation Level=               99999
+          a=  3          b=  0          c=  3
+          a=N/2 - s   b=2s   c=n- (a+b)
+          no. active orbitals (n)  6
+          no. active ELECTRONS (N)=  6
+                                                  IRREPS TO BE RETAINED = 1
+                                                  GROUP IRREP. MULT. TABLE
+                                                      1
+                                                  IRREP. LABELS FOR ORBITALS
+                                                   1 1 1 1 1 1
+          BOTTOM WEIGHT= 12     TOP WEIGHT= 30
+          Configuration         1 Symmetry 1 111000
+          Configuration         2 Symmetry 1 11ab00
+          Configuration         3 Symmetry 1 110100
+          Configuration         4 Symmetry 1 1a1b00
+          Configuration         5 Symmetry 1 11a0b0
+          Configuration         6 Symmetry 1 1ab100
+          Configuration         7 Symmetry 1 110ab0
+          Configuration         8 Symmetry 1 a11b00
+          Configuration         9 Symmetry 1 1a10b0
+          Configuration        10 Symmetry 1 11a00b
+          Configuration        11 Symmetry 1 101100
+          Configuration        12 Symmetry 1 a1b100
+          Configuration        13 Symmetry 1 1abab0
+          Configuration        14 Symmetry 1 110010
+          Configuration        15 Symmetry 1 110a0b
+          Configuration        16 Symmetry 1 a110b0
+          Configuration        17 Symmetry 1 1aabb0
+          Configuration        18 Symmetry 1 1a100b
+          Configuration        19 Symmetry 1 ab1100
+          Configuration        20 Symmetry 1 101ab0
+          Configuration        21 Symmetry 1 a1bab0
+          Configuration        22 Symmetry 1 1ab010
+          Configuration        23 Symmetry 1 1a01b0
+          Configuration        24 Symmetry 1 1aba0b
+          Configuration        25 Symmetry 1 1100ab
+          Configuration        26 Symmetry 1 a1abb0
+          Configuration        27 Symmetry 1 a1100b
+          Configuration        28 Symmetry 1 1aab0b
+          Configuration        29 Symmetry 1 011100
+          Configuration        30 Symmetry 1 ab1ab0
+          Configuration        31 Symmetry 1 101010
+          Configuration        32 Symmetry 1 10a1b0
+          Configuration        33 Symmetry 1 101a0b
+          Configuration        34 Symmetry 1 a1b010
+          Configuration        35 Symmetry 1 a101b0
+          Configuration        36 Symmetry 1 a1ba0b
+          Configuration        37 Symmetry 1 1a0b10
+          Configuration        38 Symmetry 1 1ab0ab
+          Configuration        39 Symmetry 1 1a010b
+          Configuration        40 Symmetry 1 110001
+          Configuration        41 Symmetry 1 aa1bb0
+          Configuration        42 Symmetry 1 a1ab0b
+          Configuration        43 Symmetry 1 1aa0bb
+          Configuration        44 Symmetry 1 011ab0
+          Configuration        45 Symmetry 1 ab1010
+          Configuration        46 Symmetry 1 aba1b0
+          Configuration        47 Symmetry 1 ab1a0b
+          Configuration        48 Symmetry 1 10ab10
+          Configuration        49 Symmetry 1 1010ab
+          Configuration        50 Symmetry 1 10a10b
+          Configuration        51 Symmetry 1 a10b10
+          Configuration        52 Symmetry 1 a1b0ab
+          Configuration        53 Symmetry 1 aab1b0
+          Configuration        54 Symmetry 1 a1010b
+          Configuration        55 Symmetry 1 1a0bab
+          Configuration        56 Symmetry 1 1ab001
+          Configuration        57 Symmetry 1 1a0abb
+          Configuration        58 Symmetry 1 aa1b0b
+          Configuration        59 Symmetry 1 a1a0bb
+          Configuration        60 Symmetry 1 011010
+          Configuration        61 Symmetry 1 01a1b0
+          Configuration        62 Symmetry 1 011a0b
+          Configuration        63 Symmetry 1 abab10
+          Configuration        64 Symmetry 1 ab10ab
+          Configuration        65 Symmetry 1 a011b0
+          Configuration        66 Symmetry 1 aba10b
+          Configuration        67 Symmetry 1 100110
+          Configuration        68 Symmetry 1 10abab
+          Configuration        69 Symmetry 1 101001
+          Configuration        70 Symmetry 1 10aabb
+          Configuration        71 Symmetry 1 aabb10
+          Configuration        72 Symmetry 1 a10bab
+          Configuration        73 Symmetry 1 a1b001
+          Configuration        74 Symmetry 1 aab10b
+          Configuration        75 Symmetry 1 a10abb
+          Configuration        76 Symmetry 1 1a0b01
+          Configuration        77 Symmetry 1 1a001b
+          Configuration        78 Symmetry 1 aa10bb
+          Configuration        79 Symmetry 1 01ab10
+          Configuration        80 Symmetry 1 0110ab
+          Configuration        81 Symmetry 1 0a11b0
+          Configuration        82 Symmetry 1 01a10b
+          Configuration        83 Symmetry 1 ab0110
+          Configuration        84 Symmetry 1 a01b10
+          Configuration        85 Symmetry 1 ababab
+          Configuration        86 Symmetry 1 ab1001
+          Configuration        87 Symmetry 1 a0110b
+          Configuration        88 Symmetry 1 abaabb
+          Configuration        89 Symmetry 1 1001ab
+          Configuration        90 Symmetry 1 10ab01
+          Configuration        91 Symmetry 1 10a01b
+          Configuration        92 Symmetry 1 aabbab
+          Configuration        93 Symmetry 1 a10b01
+          Configuration        94 Symmetry 1 a1001b
+          Configuration        95 Symmetry 1 aababb
+          Configuration        96 Symmetry 1 1a00b1
+          Configuration        97 Symmetry 1 aaabbb
+          Configuration        98 Symmetry 1 010110
+          Configuration        99 Symmetry 1 0a1b10
+          Configuration       100 Symmetry 1 01abab
+          Configuration       101 Symmetry 1 011001
+          Configuration       102 Symmetry 1 0a110b
+          Configuration       103 Symmetry 1 01aabb
+          Configuration       104 Symmetry 1 a0b110
+          Configuration       105 Symmetry 1 ab01ab
+          Configuration       106 Symmetry 1 a01bab
+          Configuration       107 Symmetry 1 abab01
+          Configuration       108 Symmetry 1 aba01b
+          Configuration       109 Symmetry 1 a01abb
+          Configuration       110 Symmetry 1 100101
+          Configuration       111 Symmetry 1 100a1b
+          Configuration       112 Symmetry 1 10a0b1
+          Configuration       113 Symmetry 1 aabb01
+          Configuration       114 Symmetry 1 aab01b
+          Configuration       115 Symmetry 1 a100b1
+          Configuration       116 Symmetry 1 aa01bb
+          Configuration       117 Symmetry 1 0ab110
+          Configuration       118 Symmetry 1 0101ab
+          Configuration       119 Symmetry 1 0a1bab
+          Configuration       120 Symmetry 1 01ab01
+          Configuration       121 Symmetry 1 01a01b
+          Configuration       122 Symmetry 1 0a1abb
+          Configuration       123 Symmetry 1 a0b1ab
+          Configuration       124 Symmetry 1 ab0101
+          Configuration       125 Symmetry 1 ab0a1b
+          Configuration       126 Symmetry 1 a01b01
+          Configuration       127 Symmetry 1 a0101b
+          Configuration       128 Symmetry 1 aba0b1
+          Configuration       129 Symmetry 1 a0a1bb
+          Configuration       130 Symmetry 1 100ab1
+          Configuration       131 Symmetry 1 aab0b1
+          Configuration       132 Symmetry 1 aa0b1b
+          Configuration       133 Symmetry 1 001110
+          Configuration       134 Symmetry 1 0ab1ab
+          Configuration       135 Symmetry 1 010101
+          Configuration       136 Symmetry 1 010a1b
+          Configuration       137 Symmetry 1 0a1b01
+          Configuration       138 Symmetry 1 0a101b
+          Configuration       139 Symmetry 1 01a0b1
+          Configuration       140 Symmetry 1 0aa1bb
+          Configuration       141 Symmetry 1 a0b101
+          Configuration       142 Symmetry 1 a0ba1b
+          Configuration       143 Symmetry 1 ab0ab1
+          Configuration       144 Symmetry 1 a010b1
+          Configuration       145 Symmetry 1 a0ab1b
+          Configuration       146 Symmetry 1 100011
+          Configuration       147 Symmetry 1 aa0bb1
+          Configuration       148 Symmetry 1 0011ab
+          Configuration       149 Symmetry 1 0ab101
+          Configuration       150 Symmetry 1 0aba1b
+          Configuration       151 Symmetry 1 010ab1
+          Configuration       152 Symmetry 1 0a10b1
+          Configuration       153 Symmetry 1 0aab1b
+          Configuration       154 Symmetry 1 a0bab1
+          Configuration       155 Symmetry 1 a0011b
+          Configuration       156 Symmetry 1 ab0011
+          Configuration       157 Symmetry 1 a0abb1
+          Configuration       158 Symmetry 1 001101
+          Configuration       159 Symmetry 1 001a1b
+          Configuration       160 Symmetry 1 0abab1
+          Configuration       161 Symmetry 1 0a011b
+          Configuration       162 Symmetry 1 010011
+          Configuration       163 Symmetry 1 0aabb1
+          Configuration       164 Symmetry 1 a0b011
+          Configuration       165 Symmetry 1 a001b1
+          Configuration       166 Symmetry 1 001ab1
+          Configuration       167 Symmetry 1 00a11b
+          Configuration       168 Symmetry 1 0ab011
+          Configuration       169 Symmetry 1 0a01b1
+          Configuration       170 Symmetry 1 a00b11
+          Configuration       171 Symmetry 1 001011
+          Configuration       172 Symmetry 1 00a1b1
+          Configuration       173 Symmetry 1 0a0b11
+          Configuration       174 Symmetry 1 00ab11
+          Configuration       175 Symmetry 1 000111
+          NO OF BASIS FUNCTIONS =       175 NO TO BE DELETED =    0
+ CI Matrix Elements calculated here
+          NO. OF CONFIGURATIONS IN REFERENCE SPACE =    1
+                                   SECONDARY SPACE =  175
+                                   TERTIARY SPACE =  175
+          NO. OF ORBITALS =    6
+          NO. OF ELECTRONS =    6
+          NO. OF WEIGHTS =   19
+          REFERENCE STATE CONFIGURATIONS ARE:     0
+          NO. OF CORE ORBITALS =    0
+          OPTION:  NON-DIAGONAL HOLE LINE INTERACTIONS INCLUDED
+ Len28=       94025 LenMCI=       51992.
+ Leave Link  405 at Thu Feb  9 10:44:04 2023, MaxMem=  2147483648 cpu:              25.5 elap:               3.2
+ (Enter /public/home/zyli/senxu/soft/g16/l510.exe)
+ Enter MCSCF program.
+ NBasis=  220 NCore=   53 NVal=    6 NVirt=  161 IFrame=0 Acc=  1.00D-08.
+  Memory needed for Incore Integrals:                405582051
+  Integrals KEPT IN MEMORY
+ IBUJAK length=                  1199484
+ Integral file not found: evaluate integrals 
+ FoFCou: FMM=F IPFlag=           0 FMFlag=           0 FMFlg1=           0
+         NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
+         wScrn=  0.000000 ICntrl=       600 IOpCl=  0 I1Cent=           0 NGrid=           0
+         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
+ Symmetry not used in FoFCou.
+ Defining IBUGAM
+ 2ND ORD PT ENERGY     CV   -0.000307   CU   -0.000012   UV   -0.003148
+ TOTAL                   -1450.053511
+ ITN=  1 MaxIt= 64 E=  -1450.0500441014 DE=-1.45D+03 Acc= 1.00D-08 Lan=  0
+ ITN=  2 MaxIt= 64 E=  -1450.0501401174 DE=-9.60D-05 Acc= 1.00D-08 Lan=  0
+ ITN=  3 MaxIt= 64 E=  -1450.0502241965 DE=-8.41D-05 Acc= 1.00D-08 Lan=  0
+ ITN=  4 MaxIt= 64 E=  -1450.0504467520 DE=-2.23D-04 Acc= 1.00D-08 Lan=  0
+ ITN=  5 MaxIt= 64 E=  -1450.0513708020 DE=-9.24D-04 Acc= 1.00D-08 Lan=  0
+ ITN=  6 MaxIt= 64 E=  -1450.0516607584 DE=-2.90D-04 Acc= 1.00D-08 Lan=  0
+ ITN=  7 MaxIt= 64 E=  -1450.0518920773 DE=-2.31D-04 Acc= 1.00D-08 Lan=  0
+ ITN=  8 MaxIt= 64 E=  -1450.0519303039 DE=-3.82D-05 Acc= 1.00D-08 Lan=  0
+ ITN=  9 MaxIt= 64 E=  -1450.0519684752 DE=-3.82D-05 Acc= 1.00D-08 Lan=  0
+ ITN= 10 MaxIt= 64 E=  -1450.0520445121 DE=-7.60D-05 Acc= 1.00D-08 Lan=  0
+ ITN= 11 MaxIt= 64 E=  -1450.0520964672 DE=-5.20D-05 Acc= 1.00D-08 Lan=  0
+ ITN= 12 MaxIt= 64 E=  -1450.0521161681 DE=-1.97D-05 Acc= 1.00D-08 Lan=  0
+ ITN= 13 MaxIt= 64 E=  -1450.0521429822 DE=-2.68D-05 Acc= 1.00D-08 Lan=  0
+ ITN= 14 MaxIt= 64 E=  -1450.0521601660 DE=-1.72D-05 Acc= 1.00D-08 Lan=  0
+ ITN= 15 MaxIt= 64 E=  -1450.0521695141 DE=-9.35D-06 Acc= 1.00D-08 Lan=  0
+ ITN= 16 MaxIt= 64 E=  -1450.0521722495 DE=-2.74D-06 Acc= 1.00D-08 Lan=  0
+ ITN= 17 MaxIt= 64 E=  -1450.0521741499 DE=-1.90D-06 Acc= 1.00D-08 Lan=  0
+ ITN= 18 MaxIt= 64 E=  -1450.0521747955 DE=-6.46D-07 Acc= 1.00D-08 Lan=  0
+ ITN= 19 MaxIt= 64 E=  -1450.0521750107 DE=-2.15D-07 Acc= 1.00D-08 Lan=  0
+ ITN= 20 MaxIt= 64 E=  -1450.0521751569 DE=-1.46D-07 Acc= 1.00D-08 Lan=  0
+ ITN= 21 MaxIt= 64 E=  -1450.0521751972 DE=-4.02D-08 Acc= 1.00D-08 Lan=  0
+ ITN= 22 MaxIt= 64 E=  -1450.0521752103 DE=-1.32D-08 Acc= 1.00D-08 Lan=  0
+ ITN= 23 MaxIt= 64 E=  -1450.0521752161 DE=-5.77D-09 Acc= 1.00D-08 Lan=  0
+ ... Do an extra-iteration for final printing.
+
+
+                    EIGENVALUES AND  EIGENVECTORS OF CI MATRIX
+
+
+
+   ( 1)     EIGENVALUE   -1450.052175    
+ (    1) 0.9784734 (   29)-0.2059525 (   60)-0.0080803 (  101)-0.0080799 (   80)-0.0065489 (   16) 0.0000021 (   27) 0.0000015
+ (   44) 0.0000006 (   62)-0.0000002 (    8)-0.0000001 (    4) 0.0000000 (   26) 0.0000000 (   41) 0.0000000 (   42) 0.0000000
+ (   58) 0.0000000 (   19) 0.0000000 (   21) 0.0000000 (   36) 0.0000000 (   30) 0.0000000 (   47) 0.0000000 (    2)-0.0000000
+ (    9)-0.0000000 (   18) 0.0000000 (   10)-0.0000000 (    5) 0.0000000 (   61) 0.0000000 (   82)-0.0000000 (   59)-0.0000000
+ (   78)-0.0000000 (   11)-0.0000000 (   99)-0.0000000 (    3)-0.0000000 (  137)-0.0000000 (   79)-0.0000000 (  102)-0.0000000
+ (  120)-0.0000000 (   81) 0.0000000 (  119)-0.0000000 (  100)-0.0000000 (   86) 0.0000000 (    6)-0.0000000 (  152) 0.0000000
+ (  138) 0.0000000 (  139) 0.0000000 (   73) 0.0000000 (   45) 0.0000000 (   52)-0.0000000 (  121) 0.0000000 (   20) 0.0000000
+ (    7) 0.0000000 (
+ Final one electron symbolic density matrix:
+                1             2             3             4             5 
+      1  0.191482D+01
+      2 -0.376961D-10  0.200000D+01
+      3  0.234791D-12  0.148015D-19  0.200000D+01
+      4 -0.319194D-06 -0.770713D-09 -0.947830D-10  0.848329D-01
+      5  0.578767D-05  0.785345D-10  0.714175D-10 -0.369702D-06  0.173470D-03
+      6  0.421406D-05 -0.761204D-10 -0.764680D-10  0.109182D-06  0.299336D-03
+                6 
+      6  0.173458D-03
+ MCSCF converged.
+ Leave Link  510 at Thu Feb  9 10:57:44 2023, MaxMem=  2147483648 cpu:            6546.0 elap:             818.3
+ (Enter /public/home/zyli/senxu/soft/g16/l601.exe)
+ Copying SCF densities to generalized density rwf, IOpCl= 0 IROHF=3.
+
+ **********************************************************************
+
+            Population analysis using the SCF Density.
+
+ **********************************************************************
+
+ Alpha  occ. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha  occ. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha  occ. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha  occ. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha  occ. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha  occ. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha  occ. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha  occ. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha  occ. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha  occ. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha  occ. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha  occ. eigenvalues --    0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000   0.00000
+ Alpha virt. eigenvalues --    0.00000   0.00000   0.00000   0.00000
+          Condensed to atoms (all electrons):
+               1          2          3          4          5          6
+     1  C    5.031199   0.702980  -0.013038  -0.007433   0.304211  -0.068951
+     2  C    0.702980   4.553623   0.401335   0.404876  -0.069018   0.002061
+     3  H   -0.013038   0.401335   0.563830  -0.028869   0.005823  -0.000137
+     4  H   -0.007433   0.404876  -0.028869   0.554742  -0.015076   0.000369
+     5  C    0.304211  -0.069018   0.005823  -0.015076   5.031616   0.702948
+     6  C   -0.068951   0.002061  -0.000137   0.000369   0.702948   4.553177
+     7  H    0.005822  -0.000137   0.000004   0.000009  -0.013081   0.401365
+     8  H   -0.015071   0.000368   0.000009  -0.000043  -0.007431   0.404921
+     9  Cl  -0.077700  -0.008437   0.000285   0.004224   0.294333  -0.084568
+    10  Cl   0.294482  -0.084592  -0.004315   0.003443  -0.077696  -0.008422
+    11  C    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+    12  C    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+    13  C    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+    14  C    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+    15  O    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+    16  O    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+    17  O    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+    18  H    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+    19  H    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+               7          8          9         10         11         12
+     1  C    0.005822  -0.015071  -0.077700   0.294482   0.000000   0.000000
+     2  C   -0.000137   0.000368  -0.008437  -0.084592   0.000000   0.000000
+     3  H    0.000004   0.000009   0.000285  -0.004315   0.000000   0.000000
+     4  H    0.000009  -0.000043   0.004224   0.003443   0.000000   0.000000
+     5  C   -0.013081  -0.007431   0.294333  -0.077696   0.000000   0.000000
+     6  C    0.401365   0.404921  -0.084568  -0.008422   0.000000   0.000000
+     7  H    0.563695  -0.028822  -0.004323   0.000286   0.000000   0.000000
+     8  H   -0.028822   0.554353   0.003440   0.004201   0.000000   0.000000
+     9  Cl  -0.004323   0.003440  16.970295   0.002227   0.000000   0.000000
+    10  Cl   0.000286   0.004201   0.002227  16.969749   0.000000   0.000000
+    11  C    0.000000   0.000000   0.000000   0.000000   5.038748   0.447422
+    12  C    0.000000   0.000000   0.000000   0.000000   0.447422   5.038733
+    13  C    0.000000   0.000000   0.000000   0.000000   0.358844  -0.058935
+    14  C    0.000000   0.000000   0.000000   0.000000  -0.058936   0.358848
+    15  O    0.000000   0.000000   0.000000   0.000000   0.004451  -0.061612
+    16  O    0.000000   0.000000   0.000000   0.000000  -0.061611   0.004451
+    17  O    0.000000   0.000000   0.000000   0.000000  -0.079072  -0.079071
+    18  H    0.000000   0.000000   0.000000   0.000000   0.420271  -0.024112
+    19  H    0.000000   0.000000   0.000000   0.000000  -0.024110   0.420272
+              13         14         15         16         17         18
+     1  C    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+     2  C    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+     3  H    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+     4  H    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+     5  C    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+     6  C    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+     7  H    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+     8  H    0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+     9  Cl   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+    10  Cl   0.000000   0.000000   0.000000   0.000000   0.000000   0.000000
+    11  C    0.358844  -0.058936   0.004451  -0.061611  -0.079072   0.420271
+    12  C   -0.058935   0.358848  -0.061612   0.004451  -0.079071  -0.024112
+    13  C    4.233780  -0.084316  -0.001226   0.763370   0.346528  -0.020080
+    14  C   -0.084316   4.233766   0.763376  -0.001226   0.346525   0.004104
+    15  O   -0.001226   0.763376   7.632658  -0.000007  -0.045754  -0.000040
+    16  O    0.763370  -0.001226  -0.000007   7.632694  -0.045755   0.001259
+    17  O    0.346528   0.346525  -0.045754  -0.045755   7.946203   0.002146
+    18  H   -0.020080   0.004104  -0.000040   0.001259   0.002146   0.541460
+    19  H    0.004104  -0.020077   0.001259  -0.000040   0.002146  -0.003130
+              19
+     1  C    0.000000
+     2  C    0.000000
+     3  H    0.000000
+     4  H    0.000000
+     5  C    0.000000
+     6  C    0.000000
+     7  H    0.000000
+     8  H    0.000000
+     9  Cl   0.000000
+    10  Cl   0.000000
+    11  C   -0.024110
+    12  C    0.420272
+    13  C    0.004104
+    14  C   -0.020077
+    15  O    0.001259
+    16  O   -0.000040
+    17  O    0.002146
+    18  H   -0.003130
+    19  H    0.541421
+ Mulliken charges:
+               1
+     1  C   -0.156503
+     2  C    0.096940
+     3  H    0.075075
+     4  H    0.083758
+     5  C   -0.156629
+     6  C    0.097238
+     7  H    0.075183
+     8  H    0.084076
+     9  Cl  -0.099777
+    10  Cl  -0.099362
+    11  C   -0.046008
+    12  C   -0.045996
+    13  C    0.457931
+    14  C    0.457935
+    15  O   -0.293105
+    16  O   -0.293136
+    17  O   -0.393897
+    18  H    0.078122
+    19  H    0.078155
+ Sum of Mulliken charges =  -0.00000
+ Mulliken charges with hydrogens summed into heavy atoms:
+               1
+     1  C   -0.156503
+     2  C    0.255773
+     5  C   -0.156629
+     6  C    0.256497
+     9  Cl  -0.099777
+    10  Cl  -0.099362
+    11  C    0.032113
+    12  C    0.032159
+    13  C    0.457931
+    14  C    0.457935
+    15  O   -0.293105
+    16  O   -0.293136
+    17  O   -0.393897
+ Electronic spatial extent (au):  <R**2>=         104399.4644
+ Charge=             -0.0000 electrons
+ Dipole moment (field-independent basis, Debye):
+    X=             -0.0032    Y=              4.7545    Z=              0.0051  Tot=              4.7545
+ Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=           -101.8132   YY=           -287.0570   ZZ=            -89.7502
+   XY=             35.0191   XZ=              0.0081   YZ=            -30.3116
+ Traceless Quadrupole moment (field-independent basis, Debye-Ang):
+   XX=             57.7269   YY=           -127.5169   ZZ=             69.7899
+   XY=             35.0191   XZ=              0.0081   YZ=            -30.3116
+ Octapole moment (field-independent basis, Debye-Ang**2):
+  XXX=          -1059.6808  YYY=           9286.3280  ZZZ=            714.1791  XYY=          -1748.9389
+  XXY=           1343.1626  XXZ=            315.9073  XZZ=           -266.3426  YZZ=           1009.2406
+  YYZ=           1564.3568  XYZ=           -216.3711
+ Hexadecapole moment (field-independent basis, Debye-Ang**3):
+ XXXX=         -16492.2610 YYYY=        -308218.5858 ZZZZ=          -9205.9488 XXXY=          25297.1918
+ XXXZ=           6763.4189 YYYX=          66282.3383 YYYZ=         -59270.0806 ZZZX=           5097.9158
+ ZZZY=         -16851.8684 XXYY=         -37285.0114 XXZZ=          -4150.5032 YYZZ=         -27945.8715
+ XXYZ=          -8573.9475 YYXZ=          11166.0168 ZZXY=           7201.3252
+ N-N= 6.635937371290D+02 E-N=-4.760830772658D+03  KE= 1.449497794930D+03
+ No NMR shielding tensors so no spin-rotation constants.
+ Leave Link  601 at Thu Feb  9 10:57:46 2023, MaxMem=  2147483648 cpu:               1.0 elap:               0.1
+ (Enter /public/home/zyli/senxu/soft/g16/l9999.exe)
+ Unable to Open any file for archive entry.
+ 1\1\GINC-NODE100\SP\CASSCF\CC-pVDZ\C8H6Cl2O3\XZZENG\09-Feb-2023\0\\#p 
+ CASSCF(6,6)/cc-pvdz nosymm int=nobasistransform guess=read geom=allche
+ ck\\title\\0,1\C,0,-0.554554,-0.484397,0.000006\C,0,-0.454419,-1.81693
+ 4,0.001152\H,0,-1.338031,-2.443475,0.001487\H,0,0.515197,-2.299117,0.0
+ 01943\C,0,0.554555,0.484401,0.000004\C,0,0.454425,1.816939,0.001151\H,
+ 0,1.33804,2.443475,0.001488\H,0,-0.515188,2.299127,0.001948\Cl,0,2.171
+ 991,-0.234285,-0.00061\Cl,0,-2.171994,0.234282,-0.00061\C,0,6.4697015,
+ -20.7271411,-6.38187287\C,0,7.8053465,-20.7271401,-6.38121887\C,0,6.00
+ 55175,-22.1441931,-6.38168487\C,0,8.2695335,-22.1441921,-6.38136387\O,
+ 0,9.3832075,-22.5850581,-6.38209987\O,0,4.8918405,-22.5850581,-6.38172
+ 987\O,0,7.1375245,-22.9573741,-6.38102387\H,0,5.7767235,-19.8959401,-6
+ .38208987\H,0,8.4983235,-19.8959381,-6.38073387\\Version=ES64L-G16RevC
+ .01\HF=-1450.0521752\RMSD=0.000e+00\Dipole=-0.0012709,1.8705487,0.0020
+ 005\Quadrupole=42.9185652,-94.8056734,51.8871081,26.0358319,0.0060046,
+ -22.5359468\PG=C01 [X(C8H6Cl2O3)]\\@
+ The archive entry for this job was punched.
+
+
+ The best way to pay for a lovely moment is to enjoy it.
+ -- Richard Bach
+ Job cpu time:       0 days  1 hours 49 minutes 41.5 seconds.
+ Elapsed time:       0 days  0 hours 13 minutes 42.4 seconds.
+ File lengths (MBytes):  RWF=     30 Int=      0 D2E=      0 Chk=     67 Scr=      1
+ Normal termination of Gaussian 16 at Thu Feb  9 10:57:47 2023.
