@@ -31,7 +31,7 @@ else:
 network=[n_qubits,1]
 
 n_qubits_tot=sum(network)
-ncycle=2
+ncycle=3
 
 n_tot_params=2*3*network[0]
 for icycle in range(ncycle):

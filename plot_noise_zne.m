@@ -24,7 +24,9 @@ h4=plot(1-x1,yy2,'o','linewidth',2,'Markersize',12);
 col4=get(h4,'color');
 set(h4,'MarkerFaceColor',col4);
 
-legend('HAA','HEA','HAA-ZNE','HEA-ZNE')
+plot([1e-3 0.1],[y_fci1,y_fci1],'g--','linewidth',2,'Markersize',12);
+
+legend('IS-HAA','IS-HEA','IS-HAA-ZNE','IS-HEA-ZNE','ED')
 legend('boxoff')
 
 xlabel('Depolarizing error','interpreter','latex')
@@ -68,6 +70,11 @@ set(h11,'MarkerFaceColor',col3);
 
 h12=plot(1-x4,yy4,'o','Color',col4,'linewidth',2,'Markersize',12);
 set(h12,'MarkerFaceColor',col4);
+
+plot([1e-3 0.1],[y_fci2,y_fci2],'g--','linewidth',2,'Markersize',12);
+
+legend('TS-HAA','TS-HEA','TS-HAA-ZNE','TS-HEA-ZNE','ED')
+legend('boxoff')
 
 set(gca,'fontsize',20)
 set(gca,'linewidth',2)
