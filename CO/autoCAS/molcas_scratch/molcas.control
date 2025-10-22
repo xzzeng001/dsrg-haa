@@ -1,0 +1,10 @@
+# Molcas control file: change # to ! to activate.
+#RASSCF_started_OK:(-:-):=
+#Cho_ALGO= 1
+#Chotime= F
+#dmpK= 1.0000E-01
+#nScreen=  10
+#MaxIter= 200
+#ThrE= 1.0000E-08
+#ThrSX= 1.0000E-04
+#ThrTE= 1.0000E-01

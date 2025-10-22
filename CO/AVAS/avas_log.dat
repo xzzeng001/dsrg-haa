@@ -1,0 +1,153 @@
+#INFO: **** input file is /public/home/xzzeng/work/HQC/CO/AVAS/main_avas.py ****
+# ===== PySCF AVAS demos for three systems =====
+import numpy as np
+from pyscf import gto, scf, mcscf
+from pyscf.mcscf import avas
+
+def run_avas(mol, mf, aolabels, ncas_hint=None, nelecas_hint=None, thresh=0.3):
+    """
+    AVAS wrapper that works across common PySCF APIs.
+    Returns: ncore, ncas, nelecas, mo_coeff_av, idx_active (list of MO indices), overlaps (array)
+    """
+    from pyscf.mcscf import avas
+    # API variant 1: avas.AVAS(mf, aolabels, ncas, thresh)
+    if ncas_hint is not None and nelecas_hint is not None:
+        mycas = mcscf.CASCI(mf, ncas_hint, nelecas_hint)
+    else:
+        # If not specified, AVAS can suggest ncas from overlap spectrum
+        # set a generous upper bound and let threshold prune
+        ncas_hint = 8
+        nelecas_hint = min(mol.nelectron, 2*ncas_hint)
+        mycas = mcscf.CASCI(mf, ncas_hint, nelecas_hint)
+
+    av = avas.AVAS(mycas, aolabels, threshold=thresh)
+    ncore, ncas, mo_coeff = av.kernel()
+    # Extract active MO indices via overlap spectrum
+    ovlp = av.mo_occ     if hasattr(av, 'mo_occ') else None
+    idx_active = av.cas_list if hasattr(av, 'cas_list') else list(range(ncore, ncore+ncas))
+    return ncore, ncas, mycas.nelecas, mo_coeff, idx_active, ovlp
+
+# ---------- CO, compact σ/π manifold ----------
+mol = gto.Mole()
+mol.build(atom='co.xyz', basis='def2-svp', charge=0, spin=0,verbose = 4)
+
+mf = scf.RHF(mol).run()
+
+n_elec=sum(mol.nelec)
+n_orb=mol.nao_nr()
+print('n_elec: ',n_elec)
+print('n_orb: ',n_orb)
+
+import time
+
+start_time=time.time()
+
+# Include 2p on both atoms (and optionally C 2s to allow σ polarization)
+aolabels_co = ['C 2p', 'O 2p', 'C 2s']
+ncore, ncas, nelecas, moC, idx_act, weights = run_avas(mol, mf, aolabels_co, ncas_hint=4, nelecas_hint=6, thresh=0.25)
+end_time=time.time()
+
+print('[CO] ncore, ncas, nelecas =', ncore, ncas, nelecas)
+print('[CO] active MO idx =', idx_act)
+print('Total time (s): ',end_time-start_time)
+
+#INFO: ******************** input file end ********************
+
+
+System: uname_result(system='Linux', node='mgt', release='4.19.113-15.nfs4.x86_64', version='#1 SMP Fri Oct 29 09:35:29 CST 2021', machine='x86_64', processor='x86_64')  Threads 64
+Python 3.8.8 (default, Apr 13 2021, 19:58:26) 
+[GCC 7.3.0]
+numpy 1.23.0  scipy 1.9.3  h5py 3.1.0
+Date: Thu Oct  9 11:17:37 2025
+PySCF version 2.10.0
+PySCF path  /public/home/xzzeng/anaconda3/envs/quantum/lib/python3.8/site-packages/pyscf
+
+[ENV] PYSCF_EXT_PATH /public/home/xzzeng/soft/dmrgscf:
+[CONFIG] conf_file None
+[INPUT] verbose = 4
+[INPUT] num. atoms = 2
+[INPUT] num. electrons = 14
+[INPUT] charge = 0
+[INPUT] spin (= nelec alpha-beta = 2S) = 0
+[INPUT] symmetry False subgroup None
+[INPUT] Mole.unit = angstrom
+[INPUT] Symbol           X                Y                Z      unit          X                Y                Z       unit  Magmom
+[INPUT]  1 C      0.000000000000   0.000000000000   0.000000000000 AA    0.000000000000   0.000000000000   0.000000000000 Bohr   0.0
+[INPUT]  2 O      0.000000000000   0.000000000000   1.128300000000 AA    0.000000000000   0.000000000000   2.132177986347 Bohr   0.0
+
+nuclear repulsion = 22.5121919030045
+number of shells = 12
+number of NR pGTOs = 48
+number of NR cGTOs = 28
+basis = def2-svp
+ecp = {}
+CPU time:         2.92
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmpidabaet_
+max_memory 4000 MB (current use 83 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -112.695181672486
+  HOMO = -0.358443452830152  LUMO = 0.0591000491877548
+cycle= 1 E= -112.587863113784  delta_E= 0.107  |g|= 0.512  |ddm|= 1.61
+  HOMO = -0.593968497769752  LUMO = 0.119581869498139
+cycle= 2 E= -112.612113175376  delta_E= -0.0243  |g|= 0.427  |ddm|= 0.608
+  HOMO = -0.556581972298255  LUMO = 0.137467140396409
+cycle= 3 E= -112.645577302766  delta_E= -0.0335  |g|= 0.0347  |ddm|= 0.268
+  HOMO = -0.548417710469871  LUMO = 0.14939911559451
+cycle= 4 E= -112.645895116611  delta_E= -0.000318  |g|= 0.00721  |ddm|= 0.0415
+  HOMO = -0.551049243792871  LUMO = 0.14748924336859
+cycle= 5 E= -112.645912220039  delta_E= -1.71e-05  |g|= 0.000611  |ddm|= 0.0122
+  HOMO = -0.550986657760837  LUMO = 0.147390678801879
+cycle= 6 E= -112.645912337306  delta_E= -1.17e-07  |g|= 0.000113  |ddm|= 0.000962
+  HOMO = -0.550991018024282  LUMO = 0.147403014444168
+cycle= 7 E= -112.645912341781  delta_E= -4.48e-09  |g|= 3.47e-05  |ddm|= 0.000129
+  HOMO = -0.550982748949761  LUMO = 0.147407304891813
+cycle= 8 E= -112.645912342187  delta_E= -4.06e-10  |g|= 6.52e-06  |ddm|= 5.09e-05
+  HOMO = -0.550983103156845  LUMO = 0.147406537820012
+Extra cycle  E= -112.645912342198  delta_E= -1.17e-11  |g|= 2.64e-06  |ddm|= 8.8e-06
+converged SCF energy = -112.645912342198
+n_elec:  14
+n_orb:  28
+
+******** AVAS flags ********
+aolabels = ['C 2p', 'O 2p', 'C 2s']
+ncore = 0
+minao = minao
+threshold = 0.25
+with_iao = False
+openshell_option = 2
+canonicalize = True
+
+** AVAS **
+  Total number of HF MOs  is equal to    28
+  Number of occupied HF MOs is equal to  1
+reference AO indices for minao ['C 2p', 'O 2p', 'C 2s']:
+ [1 2 3 4 7 8 9]
+Option 2: threshold 0.25
+Active from occupied = 0 , eig []
+Inactive from occupied = 1
+Active from unoccupied = 7 , eig [0.98666949 0.99932389 0.99932389 0.99936311 0.99942565 0.99942565
+ 0.99946965]
+Inactive from unoccupied = 20
+Dimensions of active 7
+# of alpha electrons 6
+# of beta electrons 6
+[CO] ncore, ncas, nelecas = 7 12 (3, 3)
+[CO] active MO idx = [7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Total time (s):  0.0734400749206543

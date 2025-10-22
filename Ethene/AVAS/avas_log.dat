@@ -1,0 +1,155 @@
+#INFO: **** input file is /public/home/xzzeng/work/HQC/Ethene/main_avas.py ****
+# ===== PySCF AVAS demos for three systems =====
+import numpy as np
+from pyscf import gto, scf, mcscf
+from pyscf.mcscf import avas
+
+def run_avas(mol, mf, aolabels, ncas_hint=None, nelecas_hint=None, thresh=0.3):
+    """
+    AVAS wrapper that works across common PySCF APIs.
+    Returns: ncore, ncas, nelecas, mo_coeff_av, idx_active (list of MO indices), overlaps (array)
+    """
+    from pyscf.mcscf import avas
+    # API variant 1: avas.AVAS(mf, aolabels, ncas, thresh)
+    if ncas_hint is not None and nelecas_hint is not None:
+        mycas = mcscf.CASCI(mf, ncas_hint, nelecas_hint)
+    else:
+        # If not specified, AVAS can suggest ncas from overlap spectrum
+        # set a generous upper bound and let threshold prune
+        ncas_hint = 8
+        nelecas_hint = min(mol.nelectron, 2*ncas_hint)
+        mycas = mcscf.CASCI(mf, ncas_hint, nelecas_hint)
+
+    av = avas.AVAS(mycas, aolabels, threshold=thresh)
+    ncore, ncas, mo_coeff = av.kernel()
+    # Extract active MO indices via overlap spectrum
+    ovlp = av.mo_occ     if hasattr(av, 'mo_occ') else None
+    idx_active = av.cas_list if hasattr(av, 'cas_list') else list(range(ncore, ncore+ncas))
+    return ncore, ncas, mycas.nelecas, mo_coeff, idx_active, ovlp
+
+# ---------- 1) Ethene (C2H4), π/π* AVAS ----------
+mol = gto.Mole()
+mol.build(atom='c2h4.xyz', basis='def2-svp', charge=0, spin=0,verbose = 4)
+
+mf = scf.RHF(mol).run()
+
+n_elec=sum(mol.nelec)
+n_orb=mol.nao_nr()
+print('n_elec: ',n_elec)
+print('n_orb: ',n_orb)
+
+import time
+
+start_time=time.time()
+# Seed AVAS with carbon 2p-like functions for π space
+aolabels_ethene = ['C 2p']  # PySCF will match AO labels containing these tokens
+ncore, ncas, nelecas, moC, idx_act, weights = run_avas(mol, mf, aolabels_ethene, ncas_hint=2, nelecas_hint=2, thresh=0.2)
+end_time=time.time()
+
+print('[Ethene] ncore, ncas, nelecas =', ncore, ncas, nelecas)
+print('[Ethene] active MO idx =', idx_act)
+print('Total time (s): ',end_time-start_time)
+
+#INFO: ******************** input file end ********************
+
+
+System: uname_result(system='Linux', node='mgt', release='4.19.113-15.nfs4.x86_64', version='#1 SMP Fri Oct 29 09:35:29 CST 2021', machine='x86_64', processor='x86_64')  Threads 64
+Python 3.8.8 (default, Apr 13 2021, 19:58:26) 
+[GCC 7.3.0]
+numpy 1.23.0  scipy 1.9.3  h5py 3.1.0
+Date: Thu Oct  9 10:55:21 2025
+PySCF version 2.10.0
+PySCF path  /public/home/xzzeng/anaconda3/envs/quantum/lib/python3.8/site-packages/pyscf
+
+[ENV] PYSCF_EXT_PATH /public/home/xzzeng/soft/dmrgscf:
+[CONFIG] conf_file None
+[INPUT] verbose = 4
+[INPUT] num. atoms = 6
+[INPUT] num. electrons = 16
+[INPUT] charge = 0
+[INPUT] spin (= nelec alpha-beta = 2S) = 0
+[INPUT] symmetry False subgroup None
+[INPUT] Mole.unit = angstrom
+[INPUT] Symbol           X                Y                Z      unit          X                Y                Z       unit  Magmom
+[INPUT]  1 C      0.000000000000   0.000000000000   0.669500000000 AA    0.000000000000   0.000000000000   1.265171640396 Bohr   0.0
+[INPUT]  2 C      0.000000000000   0.000000000000  -0.669500000000 AA    0.000000000000   0.000000000000  -1.265171640396 Bohr   0.0
+[INPUT]  3 H      0.000000000000   0.923600000000   1.232100000000 AA    0.000000000000   1.745351048648   2.328331558077 Bohr   0.0
+[INPUT]  4 H      0.000000000000  -0.923600000000   1.232100000000 AA    0.000000000000  -1.745351048648   2.328331558077 Bohr   0.0
+[INPUT]  5 H      0.000000000000   0.923600000000  -1.232100000000 AA    0.000000000000   1.745351048648  -2.328331558077 Bohr   0.0
+[INPUT]  6 H      0.000000000000  -0.923600000000  -1.232100000000 AA    0.000000000000  -1.745351048648  -2.328331558077 Bohr   0.0
+
+nuclear repulsion = 33.3246418640359
+number of shells = 24
+number of NR pGTOs = 76
+number of NR cGTOs = 48
+basis = def2-svp
+ecp = {}
+CPU time:         2.56
+
+
+******** <class 'pyscf.scf.hf.RHF'> ********
+method = RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+diis_damp = 0
+SCF conv_tol = 1e-09
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = True
+direct_scf_tol = 1e-13
+chkfile to save SCF result = /tmp/tmp4lm0dwuj
+max_memory 4000 MB (current use 82 MB)
+Set gradient conv threshold to 3.16228e-05
+Initial guess from minao.
+init E= -78.0514770966121
+  HOMO = -0.284868131051343  LUMO = 0.0463134891473784
+cycle= 1 E= -77.9564097134526  delta_E= 0.0951  |g|= 0.234  |ddm|= 2.13
+  HOMO = -0.390429399818457  LUMO = 0.148086235850546
+cycle= 2 E= -77.9761080269902  delta_E= -0.0197  |g|= 0.0584  |ddm|= 0.255
+  HOMO = -0.370878900084224  LUMO = 0.167773044217806
+cycle= 3 E= -77.9774794652845  delta_E= -0.00137  |g|= 0.0115  |ddm|= 0.0878
+  HOMO = -0.376263556566568  LUMO = 0.163212751677773
+cycle= 4 E= -77.977522718245  delta_E= -4.33e-05  |g|= 0.00212  |ddm|= 0.0129
+  HOMO = -0.375434719728695  LUMO = 0.163639079688963
+cycle= 5 E= -77.9775248431202  delta_E= -2.12e-06  |g|= 0.000434  |ddm|= 0.00293
+  HOMO = -0.375374452057155  LUMO = 0.163650227606649
+cycle= 6 E= -77.9775249596122  delta_E= -1.16e-07  |g|= 7.06e-05  |ddm|= 0.000798
+  HOMO = -0.375349533133044  LUMO = 0.163659710912774
+cycle= 7 E= -77.9775249626949  delta_E= -3.08e-09  |g|= 4.94e-06  |ddm|= 0.000145
+  HOMO = -0.375349024382854  LUMO = 0.163659818401182
+cycle= 8 E= -77.9775249627086  delta_E= -1.38e-11  |g|= 5.22e-07  |ddm|= 1.15e-05
+  HOMO = -0.375348922792954  LUMO = 0.163659932670256
+Extra cycle  E= -77.9775249627086  delta_E=    0  |g|= 1.63e-07  |ddm|= 9.7e-07
+converged SCF energy = -77.9775249627086
+n_elec:  16
+n_orb:  48
+
+******** AVAS flags ********
+aolabels = ['C 2p']
+ncore = 0
+minao = minao
+threshold = 0.2
+with_iao = False
+openshell_option = 2
+canonicalize = True
+
+** AVAS **
+  Total number of HF MOs  is equal to    48
+  Number of occupied HF MOs is equal to  1
+reference AO indices for minao ['C 2p']:
+ [2 3 4 7 8 9]
+Option 2: threshold 0.2
+Active from occupied = 0 , eig []
+Inactive from occupied = 1
+Active from unoccupied = 6 , eig [0.99199264 0.99937693 0.9995411  0.99959005 0.99961882 0.99962961]
+Inactive from unoccupied = 41
+Dimensions of active 6
+# of alpha electrons 7
+# of beta electrons 7
+[Ethene] ncore, ncas, nelecas = 6 14 (1, 1)
+[Ethene] active MO idx = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+Total time (s):  0.06960368156433105

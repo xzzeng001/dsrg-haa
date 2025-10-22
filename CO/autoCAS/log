@@ -1,0 +1,160 @@
+                                  _            _____             _____                     
+                                 | |          / ____|    /\     / ____|                    
+                     __ _  _   _ | |_   ___  | |        /  \   | (___                      
+                    / _` || | | || __| / _ \ | |       / /\ \   \___ \                     
+                   | (_| || |_| || |_ | (_) || |____  / ____ \  ____) |                    
+                    \__,_| \__,_| \__| \___/  \_____|/_/    \_\|_____/                     
+                                                                                           
+*******************************************************************************************
+*                                                                                         *
+*                                      Settings                                           *
+*                                                                                         *
+*******************************************************************************************
+large_cas: False
+----------
+
+entanglement_diagram: /public/home/xzzeng/work/HQC/CO/autoCAS/entanglement_diagram.pdf
+---------------------
+
+threshold_diagram: /public/home/xzzeng/work/HQC/CO/autoCAS/threshold_diagram.pdf
+------------------
+
+full_entanglement_diagram: /public/home/xzzeng/work/HQC/CO/autoCAS/full_entanglement_diagram.pdf
+--------------------------
+
+molecule:
+---------
+charge: 0
+double_d_shell: true
+spin_multiplicity: 1
+xyz_file: /public/home/xzzeng/work/HQC/CO/autoCAS/co.xyz
+
+autocas:
+--------
+diagnostics:
+  single_reference_threshold: 0.14
+  weak_correlation_threshold: 0.02
+large_spaces:
+  max_orbitals: 100
+plateau_values: 10
+threshold_step: 0.01
+
+interface:
+----------
+dump: true
+environment:
+  molcas_scratch_dir: /public/home/xzzeng/work/HQC/CO/autoCAS/molcas_scratch
+interface: molcas
+project_name: autocas_project
+settings:
+  basis_set: def2-svp
+  cholesky: true
+  dmrg_bond_dimension: 500
+  dmrg_sweeps: 10
+  fiedler: true
+  ipea: 0.0
+  method: dmrg-scf
+  n_excited_states: 0
+  point_group: C1
+  post_cas_method: caspt2
+  uhf: false
+  work_dir: /public/home/xzzeng/work/HQC/CO/autoCAS/autocas_project
+  xyz_file: /public/home/xzzeng/work/HQC/CO/autoCAS/co.xyz
+
+
+*******************************************************************************************
+*                                                                                         *
+*                                  Initial HF Calculation                                 *
+*                                                                                         *
+*******************************************************************************************
+Calculating only mean field.
+Starting initial orbital calculation.
+
+Starting MOLCAS:
+/public/home/xzzeng/soft/OpenMolcas/build/pymolcas -b 1 -f
+MOLCAS environment:
+MOLCAS_PROJECT:  autocas_project
+MOLCAS_MEM:      12000
+WorkDir:         /public/home/xzzeng/work/HQC/CO/autoCAS/molcas_scratch
+MOLCAS_NPROCS:   1
+OMP_NUM_THREADS: 1
+QCMaquis_CPU:    1
+Initial orbitals finished.
+
+*******************************************************************************************
+*                                                                                         *
+*                                    DMRG Calculation                                     *
+*                                                                                         *
+*******************************************************************************************
+Settings for autoCAS DMRG calculation:
+method:              'dmrg_ci'
+dmrg_sweeps:           5
+dmrg_bond_dimension: 250
+Switching back to original settings for the final calculation.
+
+Initial active space CAS(e, o): (10, 8)
+Orbital indices:     [2, 3, 4, 5, 6, 7, 8, 9]
+Orbital occupations: [2, 2, 2, 2, 2, 0, 0, 0]
+
+Starting calculation.
+
+Starting MOLCAS:
+/public/home/xzzeng/soft/OpenMolcas/build/pymolcas -b 1 -f
+MOLCAS environment:
+MOLCAS_PROJECT:  autocas_project
+MOLCAS_MEM:      12000
+WorkDir:         /public/home/xzzeng/work/HQC/CO/autoCAS/molcas_scratch
+MOLCAS_NPROCS:   1
+OMP_NUM_THREADS: 1
+QCMaquis_CPU:    1
+Calculation finished.
+
+*******************************************************************************************
+*                                                                                         *
+*                                 Active space search                                     *
+*                                                                                         *
+*******************************************************************************************
+Start active space search for provided set of 8 orbitals and 10 electrons.
+Maximal single orbital entropy: 0.17963002718629542
+Found plateau, including 7 orbitals.
+Found smaller active space.
+Selected active space CAS(e, o): (8, 7)
+Orbital indices:     [3, 4, 5, 6, 7, 8, 9]
+Orbital occupations: [2, 2, 2, 2, 0, 0, 0]
+Creating entanglement diagram.
+Creating threshold diagram.
+
+*******************************************************************************************
+*                                                                                         *
+*                                    Final Calculation                                    *
+*                                                                                         *
+*******************************************************************************************
+Starting final calculation with optimized CAS.
+Final active space CAS(e, o): (8, 7)
+Final orbital indices:    [3, 4, 5, 6, 7, 8, 9]
+Final orbital occupation: [2, 2, 2, 2, 0, 0, 0]
+
+Starting calculation.
+
+Starting MOLCAS:
+/public/home/xzzeng/soft/OpenMolcas/build/pymolcas -b 1 -f
+MOLCAS environment:
+MOLCAS_PROJECT:  autocas_project
+MOLCAS_MEM:      12000
+WorkDir:         /public/home/xzzeng/work/HQC/CO/autoCAS/molcas_scratch
+MOLCAS_NPROCS:   1
+OMP_NUM_THREADS: 1
+QCMaquis_CPU:    1
+Calculation finished.
+Final energy: -112.7734820636996
+Creating full entanglement diagram.
+开始时间: 2025-10-09 14:57:13
+==================================================
+==================================================
+结束时间: 2025-10-09 14:57:53
+
+时间统计:
+墙钟时间: 39.94 秒
+CPU时间: 39.94 秒
+进程时间: 0.00 秒
+总运行时间: 00:00:39.938

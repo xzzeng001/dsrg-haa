@@ -1,0 +1,14 @@
+&DMRGSCF
+  FIEDLER=ON
+ActiveSpaceOptimizer = QCMaquis
+DMRGSettings
+  nsweeps = 5
+  max_bond_dimension = 250
+EndDMRGSettings
+OOptimizationSettings
+  SPIN    = 1
+  NACTEL  = 10
+  FILEORB = /public/home/xzzeng/work/HQC/CO/autoCAS/autocas_project/dmrg/autocas_project.scf.h5_sel
+  TYPEINDEX
+  CIONLY
+EndOOptimizationSettings
